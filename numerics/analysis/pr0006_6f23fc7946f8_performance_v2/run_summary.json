@@ -1,0 +1,11 @@
+{
+  "code_only_technical_preflight_excluded": true,
+  "decision_count": 195000000,
+  "policy_evaluation_records": 16250000,
+  "raw_not_present_this_runtime": [],
+  "replicates": 25,
+  "statement": "Prior raw absent here is archive-certified, not revalidated here. Keep all data shards.",
+  "status": "COMPLETE",
+  "unique_evaluation_records": 9250000,
+  "unique_records": 13749700
+}

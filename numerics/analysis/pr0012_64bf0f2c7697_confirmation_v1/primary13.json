@@ -1,0 +1,267 @@
+[
+  {
+    "id": "M01",
+    "kind": "paired_gate",
+    "group": "B_L",
+    "contrast": "BAL800-GM800 G-M",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -1.0,
+      "lower": -1.0,
+      "upper": -0.7405613231558119,
+      "n10": 0,
+      "n01": 50,
+      "status": "evaluated",
+      "inference": "conservative paired CP"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "M02",
+    "kind": "paired_gate",
+    "group": "B_L",
+    "contrast": "BAL800-GP800 G-M",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -1.0,
+      "lower": -1.0,
+      "upper": -0.7405613231558119,
+      "n10": 0,
+      "n01": 50,
+      "status": "evaluated",
+      "inference": "conservative paired CP"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "M03",
+    "kind": "paired_gate",
+    "group": "B_L",
+    "contrast": "BAL800 G-MC-G-M",
+    "expected": 1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": 1.0,
+      "lower": 0.7405613231558119,
+      "upper": 1.0,
+      "n10": 50,
+      "n01": 0,
+      "status": "evaluated",
+      "inference": "conservative paired CP"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "M04",
+    "kind": "paired_gate",
+    "group": "K200_L",
+    "contrast": "TRI800-BAL400 G-MC",
+    "expected": 1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": 0.96,
+      "lower": 0.6646251454577523,
+      "upper": 0.9991012239991718,
+      "n10": 48,
+      "n01": 0,
+      "status": "evaluated",
+      "inference": "conservative paired CP"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "M05",
+    "kind": "paired_rate",
+    "group": "K200_L",
+    "contrast": "U TRI800-BAL400",
+    "evaluation": "normal",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -0.00458,
+      "sd": 0.0006993437156742464,
+      "lower": -0.0048801458769499595,
+      "upper": -0.00427985412305004,
+      "status": "evaluated",
+      "inference": "paired outer t approximation"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "M06",
+    "kind": "paired_rate",
+    "group": "K200_L",
+    "contrast": "U TRI800-BAL400",
+    "evaluation": "GM05",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -0.01318,
+      "sd": 0.002221325215785774,
+      "lower": -0.014133353250969427,
+      "upper": -0.012226646749030574,
+      "status": "evaluated",
+      "inference": "paired outer t approximation"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "M07",
+    "kind": "paired_rate",
+    "group": "K200_L",
+    "contrast": "U TRI800-BAL400",
+    "evaluation": "GP05",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -0.018012,
+      "sd": 0.0027904823663185358,
+      "lower": -0.019209625371016,
+      "upper": -0.016814374628984,
+      "status": "evaluated",
+      "inference": "paired outer t approximation"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "M08",
+    "kind": "paired_rate",
+    "group": "K200_L",
+    "contrast": "U TRI800-BAL400",
+    "evaluation": "P02",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -0.41718000000000005,
+      "sd": 0.022938115503614128,
+      "lower": -0.42702463095771737,
+      "upper": -0.40733536904228274,
+      "status": "evaluated",
+      "inference": "paired outer t approximation"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "R01",
+    "kind": "recovery_probability",
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "policy": "P2",
+    "threshold": 0.5,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": 0.9,
+      "lower": 0.720564076906965,
+      "upper": 0.9822474641981365,
+      "k": 45,
+      "n": 50,
+      "status": "evaluated",
+      "inference": "CP recovery probability"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "R02",
+    "kind": "paired_rate",
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "contrast": "P2-P0",
+    "evaluation": "normal",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -0.028713,
+      "sd": 0.003831233216496181,
+      "lower": -0.030357297114268628,
+      "upper": -0.02706870288573137,
+      "status": "evaluated",
+      "inference": "paired outer t approximation"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "R03",
+    "kind": "paired_rate",
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "contrast": "P2-P0",
+    "evaluation": "GM05",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -0.18026799999999998,
+      "sd": 0.07919507931529018,
+      "lower": -0.2142571186528964,
+      "upper": -0.14627888134710357,
+      "status": "evaluated",
+      "inference": "paired outer t approximation"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "R04",
+    "kind": "paired_rate",
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "contrast": "P2-P0",
+    "evaluation": "GP05",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -0.16577600000000003,
+      "sd": 0.11641172281245248,
+      "lower": -0.21573783971870347,
+      "upper": -0.11581416028129658,
+      "status": "evaluated",
+      "inference": "paired outer t approximation"
+    },
+    "classification": "SUPPORTED"
+  },
+  {
+    "id": "R05",
+    "kind": "paired_rate",
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "contrast": "P2-P0",
+    "evaluation": "P02",
+    "expected": -1,
+    "method": "W0",
+    "alpha": 0.01,
+    "family": 13,
+    "interval": {
+      "mean": -0.099968,
+      "sd": 0.2928657848481005,
+      "lower": -0.2256607828930636,
+      "upper": 0.025724782893063597,
+      "status": "evaluated",
+      "inference": "paired outer t approximation"
+    },
+    "classification": "UNRESOLVED"
+  }
+]

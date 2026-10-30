@@ -1,0 +1,36 @@
+{
+  "cell_id": "51187a0316767e6a",
+  "payload_sha256": "92810c7853eab2d733bf49c9f3c3e753c6c42f65990e8b52dac4a8617c56d16f",
+  "sources": {
+    "numerics/scripts/probe_check_io.py": "9798cfbdf0b6154310f12d7bd48f99a1b6cfb5c086b15cfca1200a6f23f67c84",
+    "numerics/scripts/probe_check_launcher.py": "5453feb894de0ccc56082948acbfadc9a808f16e16a4db4ef1902ebf1119f4f1",
+    "numerics/scripts/probe_backend_check_v1.py": "aecd24fffdb04da40b9bcd630ae3cdcf68b41e9a598ad662d4f893447cf02adf",
+    "numerics/scripts/pr0004_spec.py": "6cc8f085df1962ee3e13707ed4359fe8e931de8e93e3f937d67dac1b801f98db",
+    "numerics/scripts/pr0004_methods.py": "4f1563c2b17d79783799f10a5294eca2543b181defd4a5839d6ce6d5078427bf",
+    "numerics/scripts/pr0006_spec.py": "6b01024b016b39877f8a41d20ce9ffc855a10bdefc9ad6c47e8c4387e734a06c",
+    "numerics/scripts/pr0006_methods.py": "157d7667d2d4ef904b8cbe989f21667dc1b004c1fb62309480bed27cebf165ab",
+    "numerics/scripts/pr0006_io.py": "025d0ddd871c05253bc8aa9c7fdf23446c394fd62f101d4c278df40ade6ced89",
+    "numerics/scripts/pr0006_runner.py": "779599b715da324ee80f846ca51827f23adc29b51f3ecf5fe62c2206607bc17b",
+    "numerics/scripts/pr0007_spec.py": "e828d4c08160c389da0d8be607b275895ad18dfa48dde128a3a0b2d891da72a1",
+    "numerics/scripts/pr0008_shadow_methods.py": "3adc0fe83fd195e70677355fbf8d82f1af19071104759b78e2155cc291f34f9e",
+    "numerics/scripts/pr0009_spec.py": "f8930bd5c30e3ad7b7316eb630150217f8103ae35b16548199cc18e3d01ce193",
+    "numerics/scripts/pr0009_input.py": "49589414f287728e0109f16883afe692367928a73a1b678dfcfc2d5db51decd7",
+    "numerics/scripts/pr0009_methods.py": "7e981781939c2e3f7623b8d754dd9b5460539598fd26844e4383c501f73c7c6c",
+    "numerics/scripts/pr0009_storage.py": "28515e51731d6a3fd90ecb7e7c8fec5a477b1616d7797ce2cafdd4b59aa0131d",
+    "numerics/scripts/pr0009_io.py": "6a9ef4739b9c586e4fce978f06a256b06a8486f3368faeafd3874e79a80aa3c8",
+    "numerics/scripts/pr0009_runner.py": "586a4271bf4e4539cd0c847b66c130c64d0294d0854a627c7a09c3a210d1dce0",
+    "numerics/scripts/pr0009_download.py": "4c8fd376be1089d3ef7689edb98f4fb3c5862df09febd50128427f3d10063c66",
+    "numerics/scripts/pr0009_launcher.py": "6f3348278d42d769859e7e79c1d2c1ef807251d97b3fd0efa90e38f4efc0f853",
+    "audits/prereg/PR-0009_two_axis_independent_confirmation.md": "bfe645d75be346a727de63f6fe4564360c2693be35fbd8e626179987e5c1ba23",
+    "audits/verification/2026-10-18_PR-0009_development.json": "a150856354e4c1a86cc9bfc2a22496c8a2a9da92411b4405141cbe8e42fd6007",
+    "audits/verification/2026-10-18_PR-0009_design_freeze.json": "f077c3bc3c5f78c31cde8b05868e949b5c5a384e13622539a9cd6a5d9d5e3742",
+    "numerics/design/POST_PR0008_TWO_AXIS_INDEPENDENT_CONFIRMATION_DESIGN_v1_JA.md": "cee23146416a66736be54802250aa6b1fafce1f9e0987e8a6b4a7421706903d9",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "LICENSE-CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "numerics/PR0009_THIRD_PARTY_NOTICE.txt": "f6c0370c7b98d1576813bc9974df0898eca96535d3be4f3c663393d5603234e9"
+  },
+  "artifacts": {
+    "numerics/colab/pr0009_two_axis_a50_one_cell.py": "99012a20f9786968b8b56e43826cac975eaef0183ce7343a145934fb6873daec",
+    "numerics/colab/pr0009_two_axis_a50_one_cell.ipynb": "27f18cb5529a0a5b0d0b5e1839d6a0539da433406a29bc983c8e4813e1b27eac"
+  }
+}

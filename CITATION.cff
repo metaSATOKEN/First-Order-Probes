@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and specify the manuscript/code version and experiment IDs used."
+type: software
+title: "Readout and Calibration-Update Audits for First-Order Probes: Research Code and Evidence"
+authors:
+  - family-names: Sato
+    given-names: Kentaro
+version: "local-package-2026-10-27"
+license: Apache-2.0
+preferred-citation:
+  type: unpublished
+  title: "Readout and Calibration-Update Audits for First-Order Probes: False Alarms, Detection Sensitivity, and Decision Coverage under Source Shifts and Calibration Contamination"
+  authors:
+    - family-names: Sato
+      given-names: Kentaro
+  year: 2026
+  version: "English v2 / Japanese v5"
+  notes: "Unpublished manuscript dated 19 October 2026. No DOI or journal acceptance is assigned."

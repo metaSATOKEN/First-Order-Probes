@@ -1,0 +1,24 @@
+{
+  "status": "PASS_EXPLORATORY_IDENTITIES",
+  "errors": {
+    "mean_closure": 1.6653345369377348e-16,
+    "variance_closure": 5.551115123125783e-17
+  },
+  "rows": {
+    "decomposition": 192,
+    "transfer": 48,
+    "branches": 96,
+    "passrisk": 192
+  },
+  "all_inputs_hashed": true,
+  "independent_reviewer": false,
+  "primary_classification_unchanged": {
+    "SUPPORTED": 12,
+    "UNRESOLVED": 1,
+    "OPPOSITE": 0,
+    "TECHNICAL_UNESTABLISHED": 0
+  },
+  "generator_calls": 0,
+  "refits": 0,
+  "policy_changes": 0
+}

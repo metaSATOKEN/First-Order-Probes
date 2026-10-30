@@ -1,0 +1,515 @@
+{
+  "groups": [
+    "B_M",
+    "B_L",
+    "K2_M",
+    "K200_L",
+    "V05_L",
+    "V15_L"
+  ],
+  "evaluations": [
+    "normal",
+    "GM05",
+    "GP05",
+    "P02"
+  ],
+  "alphas": [
+    0.01,
+    0.001
+  ],
+  "gates": [
+    "G-old",
+    "G-M",
+    "G-MC"
+  ],
+  "policies": [
+    "P0",
+    "P1",
+    "P2"
+  ],
+  "labels": [
+    "SUPPORTED",
+    "EXCEEDED",
+    "UNRESOLVED",
+    "UNAVAILABLE"
+  ],
+  "actions": [
+    "U",
+    "F",
+    "C0",
+    "DEFER",
+    "INVALID"
+  ],
+  "statuses": [
+    "ALARM",
+    "NO-ALARM",
+    "DEFER",
+    "INVALID"
+  ],
+  "pairs": [
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "candidates": [
+    {
+      "id": "clean",
+      "n": 0,
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "b525f810c446206769ba0487f0c80c32eeb4e232548bb8dd8f4bab48c16fb14d"
+    },
+    {
+      "id": "GM_n80",
+      "n": 80,
+      "counts": [
+        80,
+        0,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "64034ee9401c5e3875b063a53bbba89ad1007019c26ba5e98a7eda4beab91137"
+    },
+    {
+      "id": "GP_n80",
+      "n": 80,
+      "counts": [
+        0,
+        80,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "8e5baf7e54037a411bab28cbb905c3d0ae9b3e96d2f520108630378cc3472898"
+    },
+    {
+      "id": "P_n80",
+      "n": 80,
+      "counts": [
+        0,
+        0,
+        80
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "aa5cc3d2cf51c23d0dc104f648d22095203f6b19d45f1aa1e4306f6da08c73d1"
+    },
+    {
+      "id": "GMGP31_n80",
+      "n": 80,
+      "counts": [
+        60,
+        20,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "ca26866b63aaf6eb1869c5394bf065ec62109115739694e500b122e0a61b188a"
+    },
+    {
+      "id": "GMGP11_n80",
+      "n": 80,
+      "counts": [
+        40,
+        40,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "e213423f49bfecc5fb17eabd1895bed40ddf5f277390007169af40f28fb2ec59"
+    },
+    {
+      "id": "GMGP13_n80",
+      "n": 80,
+      "counts": [
+        20,
+        60,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "6be43f1a2c23a5c508fc7e3c8adbdce92bbd7ca8e7c9f400b4a82deca4d69bbe"
+    },
+    {
+      "id": "GMP11_n80",
+      "n": 80,
+      "counts": [
+        40,
+        0,
+        40
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "d7f2e35774df62da87b42178316cb4de65e552d69b389583855272087c13bbbd"
+    },
+    {
+      "id": "GPP11_n80",
+      "n": 80,
+      "counts": [
+        0,
+        40,
+        40
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "573e13d180f9420138c4dfa7c0fde984e6704c6a2e53d690e3d75e0bc23eaa3c"
+    },
+    {
+      "id": "GMGPP112_n80",
+      "n": 80,
+      "counts": [
+        20,
+        20,
+        40
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "476b9be0613e31f9f5c4f910ddf268a6ad2d31a5f5616e31c10d6ed08bbde8fe"
+    },
+    {
+      "id": "GM_n160",
+      "n": 160,
+      "counts": [
+        160,
+        0,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "6859216032ecf1f4448295434aa0b5dce225cce95e9177a1b077ffe0c162dd61"
+    },
+    {
+      "id": "GP_n160",
+      "n": 160,
+      "counts": [
+        0,
+        160,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "3934ebc74a7dd643184e2935ee737b88bfc907b79bc82c3370dc902157be438a"
+    },
+    {
+      "id": "P_n160",
+      "n": 160,
+      "counts": [
+        0,
+        0,
+        160
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "94972b3dc01bfc3542a6584974cf384c52bfed221336c5da1b4ec406870d3fd6"
+    },
+    {
+      "id": "GMGP31_n160",
+      "n": 160,
+      "counts": [
+        120,
+        40,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "375bc55572d6099d9766836fa67827660ef155a7f17ff8b588436add4062afee"
+    },
+    {
+      "id": "GMGP11_n160",
+      "n": 160,
+      "counts": [
+        80,
+        80,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "9b1d527c1edfaae78d094cefe0a906a9d00a4cbdd0935ec7adb55f10e2aac8b8"
+    },
+    {
+      "id": "GMGP13_n160",
+      "n": 160,
+      "counts": [
+        40,
+        120,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "e8fe0ee58d888fd80d9a82b565989e3b558ceac210cacabb2306c57053aeaf37"
+    },
+    {
+      "id": "GMP11_n160",
+      "n": 160,
+      "counts": [
+        80,
+        0,
+        80
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "98565815ad1dc413f3e24487eba9471c5d82e166f7a05e5957c1b2a6179afd46"
+    },
+    {
+      "id": "GPP11_n160",
+      "n": 160,
+      "counts": [
+        0,
+        80,
+        80
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "31f136468b2615ad5ed232bff3f42ff8aa16b9138a67c8c45f58f85fe1924252"
+    },
+    {
+      "id": "GMGPP112_n160",
+      "n": 160,
+      "counts": [
+        40,
+        40,
+        80
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "32fd20f3d2938253014a32f004b732dff775b25f988b122c57038d3086a4f3d5"
+    },
+    {
+      "id": "GM_n400",
+      "n": 400,
+      "counts": [
+        400,
+        0,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "78cf9635979dbfd784557bd0d227fd65631aff7e65a03122878cf0cee681601f"
+    },
+    {
+      "id": "GP_n400",
+      "n": 400,
+      "counts": [
+        0,
+        400,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "608a922e47fdcb6548c22580912501c6a848b0e84297672c1d1407ff725973bc"
+    },
+    {
+      "id": "P_n400",
+      "n": 400,
+      "counts": [
+        0,
+        0,
+        400
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "7e2718e9fc2ae6237256b3716e7ffff72fcb9f511a2b207d7e7f0296e80a8e57"
+    },
+    {
+      "id": "GMGP31_n400",
+      "n": 400,
+      "counts": [
+        300,
+        100,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "6e516caeb65cd22ba745b5cc6b4ed8bfb308965dcd17d36357ff995953f46bdc"
+    },
+    {
+      "id": "GMGP11_n400",
+      "n": 400,
+      "counts": [
+        200,
+        200,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "768c79b69bdc5002817d9fec7a05c0948254c36dce7636f1e7906907fb7bd851"
+    },
+    {
+      "id": "GMGP13_n400",
+      "n": 400,
+      "counts": [
+        100,
+        300,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "a24708667828e3f48e46999969b96cd1d77d5d57fcf64e9fc0b89bb0dc814f7a"
+    },
+    {
+      "id": "GMP11_n400",
+      "n": 400,
+      "counts": [
+        200,
+        0,
+        200
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "fbe03ff64407b736e9a873e01c05569dd578db4a2b6e5ada712e6fbd1838135f"
+    },
+    {
+      "id": "GPP11_n400",
+      "n": 400,
+      "counts": [
+        0,
+        200,
+        200
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "5e8f1bac46ea4ce7ef14275a6dce39d28c0c2e7f91c056646df5288cc73b46d3"
+    },
+    {
+      "id": "GMGPP112_n400",
+      "n": 400,
+      "counts": [
+        100,
+        100,
+        200
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "a645df8b62b76b591a50ff27bc3d1a03f9e604537b85c6583742b9846ce33322"
+    },
+    {
+      "id": "GM_n800",
+      "n": 800,
+      "counts": [
+        800,
+        0,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "8d1ee703362b6badb7cd60f489dc9af876a5b9ec8b338da1bd6b03f3b9ca759f"
+    },
+    {
+      "id": "GP_n800",
+      "n": 800,
+      "counts": [
+        0,
+        800,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "9bb6783dfb67942970bd85cb4094b9afef70cd6fc81ac61a80ac074b3516d56f"
+    },
+    {
+      "id": "P_n800",
+      "n": 800,
+      "counts": [
+        0,
+        0,
+        800
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "1bb70c397e546381ad97eb7b48c39689583160aa8db10afd412a4cf27438feb0"
+    },
+    {
+      "id": "GMGP31_n800",
+      "n": 800,
+      "counts": [
+        600,
+        200,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "820d2b4310ffa5937c595efdf3ba17e825e08491ecccddb72f23edb3a7a41850"
+    },
+    {
+      "id": "GMGP11_n800",
+      "n": 800,
+      "counts": [
+        400,
+        400,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "a144262523b82c593596d0b67dec8e999f1c4fab826e5018979718e3fb24bc97"
+    },
+    {
+      "id": "GMGP13_n800",
+      "n": 800,
+      "counts": [
+        200,
+        600,
+        0
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "54d2bb2f58f87580deae0efa92a58595a1d2461419652083646df0edfbaa089d"
+    },
+    {
+      "id": "GMP11_n800",
+      "n": 800,
+      "counts": [
+        400,
+        0,
+        400
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "bcfb3db4ca2cc469bfaf4252adea89fcc9e9c52821a360b03186d86241b6ee3e"
+    },
+    {
+      "id": "GPP11_n800",
+      "n": 800,
+      "counts": [
+        0,
+        400,
+        400
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "143f872e1e91668d32809277fc9e6c60c7b39a19fae143a17b93c14a8c140a7c"
+    },
+    {
+      "id": "GMGPP112_n800",
+      "n": 800,
+      "counts": [
+        200,
+        200,
+        400
+      ],
+      "parent": null,
+      "keep": null,
+      "layout_sha256": "cc520d01c3cb26de57d83c4fcfe01ccbd163c548fa7c092891c4e6e67843b21e"
+    }
+  ],
+  "base_order": [
+    "U",
+    "F",
+    "C0"
+  ],
+  "eta": 0.00625
+}

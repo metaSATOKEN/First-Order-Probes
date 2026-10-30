@@ -1,0 +1,1874 @@
+[
+  {
+    "group": "B_L",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 0,
+      "DEFER": 17,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 8,
+      "DEFER": 9,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 0,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 5,
+      "DEFER": 36,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 0,
+      "DEFER": 17,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 8,
+      "DEFER": 9,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 0,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 5,
+      "DEFER": 36,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 0,
+      "DEFER": 17,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 8,
+      "DEFER": 9,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 0,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 5,
+      "DEFER": 36,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 0,
+      "DEFER": 17,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 8,
+      "DEFER": 9,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 0,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 5,
+      "DEFER": 36,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 0,
+      "DEFER": 17,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 33,
+      "U": 0,
+      "C": 8,
+      "DEFER": 9,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 0,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "B_L",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 9,
+      "U": 0,
+      "C": 5,
+      "DEFER": 36,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 3,
+      "U": 47,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 47,
+      "C": 0,
+      "DEFER": 3,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 47,
+      "C": 3,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 3,
+      "U": 47,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 47,
+      "C": 0,
+      "DEFER": 3,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 47,
+      "C": 1,
+      "DEFER": 2,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 45,
+      "DEFER": 5,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 9,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 45,
+      "DEFER": 5,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 9,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 45,
+      "DEFER": 5,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 9,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 45,
+      "DEFER": 5,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 9,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 45,
+      "DEFER": 5,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 0,
+      "DEFER": 50,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K2_M",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 0,
+      "C": 9,
+      "DEFER": 41,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 1,
+      "U": 49,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 1,
+      "U": 49,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 1,
+      "U": 49,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 1,
+      "U": 49,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 1,
+      "U": 49,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 1,
+      "U": 49,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 33,
+      "U": 17,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 33,
+      "U": 17,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 33,
+      "U": 17,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 33,
+      "U": 17,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 26,
+      "U": 17,
+      "C": 0,
+      "DEFER": 7,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 26,
+      "U": 17,
+      "C": 0,
+      "DEFER": 7,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 16,
+      "U": 34,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 16,
+      "U": 34,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 16,
+      "U": 34,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 16,
+      "U": 34,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 15,
+      "U": 34,
+      "C": 0,
+      "DEFER": 1,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 15,
+      "U": 34,
+      "C": 0,
+      "DEFER": 1,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 10,
+      "U": 40,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 10,
+      "U": 40,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 10,
+      "U": 40,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 10,
+      "U": 40,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 8,
+      "U": 40,
+      "C": 0,
+      "DEFER": 2,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 8,
+      "U": 40,
+      "C": 0,
+      "DEFER": 2,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 2,
+      "U": 48,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 2,
+      "U": 48,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 2,
+      "U": 48,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 2,
+      "U": 48,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 2,
+      "U": 48,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 2,
+      "U": 48,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 41,
+      "U": 0,
+      "C": 0,
+      "DEFER": 9,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "K200_L",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 41,
+      "U": 0,
+      "C": 0,
+      "DEFER": 9,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "clean",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "clean",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 0,
+      "U": 50,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 40,
+      "U": 0,
+      "C": 0,
+      "DEFER": 10,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 40,
+      "U": 0,
+      "C": 0,
+      "DEFER": 10,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 40,
+      "U": 0,
+      "C": 0,
+      "DEFER": 10,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 40,
+      "U": 0,
+      "C": 0,
+      "DEFER": 10,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 40,
+      "U": 0,
+      "C": 0,
+      "DEFER": 10,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 40,
+      "U": 0,
+      "C": 0,
+      "DEFER": 10,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 29,
+      "U": 21,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 29,
+      "U": 21,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL400",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 29,
+      "U": 21,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 29,
+      "U": 21,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 23,
+      "U": 21,
+      "C": 0,
+      "DEFER": 6,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "BAL400",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 23,
+      "U": 21,
+      "C": 0,
+      "DEFER": 6,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P1",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "TRI800",
+    "alpha": 0.01,
+    "policy": "P2",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P0",
+    "counts": {
+      "F": 50,
+      "U": 0,
+      "C": 0,
+      "DEFER": 0,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P1",
+    "counts": {
+      "F": 40,
+      "U": 0,
+      "C": 0,
+      "DEFER": 10,
+      "INVALID": 0
+    }
+  },
+  {
+    "group": "V05_L",
+    "candidate": "TRI800",
+    "alpha": 0.001,
+    "policy": "P2",
+    "counts": {
+      "F": 40,
+      "U": 0,
+      "C": 0,
+      "DEFER": 10,
+      "INVALID": 0
+    }
+  }
+]

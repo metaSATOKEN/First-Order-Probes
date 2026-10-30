@@ -1,0 +1,19 @@
+{
+  "repeats": 50,
+  "methods": [
+    "W0",
+    "WP",
+    "WG",
+    "W+",
+    "W−",
+    "LF0"
+  ],
+  "alpha_denominators": [
+    100,
+    1000
+  ],
+  "no_policy_intervention_by_V": true,
+  "calibration_truth_not_used_for_selection": true,
+  "historical_development_not_pooled": true,
+  "science_is_simulation": true
+}

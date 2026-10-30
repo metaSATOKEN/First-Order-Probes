@@ -1,0 +1,77 @@
+{
+  "purpose": "Replay of saved technical CPU/GPU comparisons; not fresh simulation evidence.",
+  "source_archive_sha256": "79102ff79547c5320798343d21c26dc88405e62433240a84e746c992d940ada9",
+  "members": [
+    {
+      "member": "sessions/b6069349acc7/preflight/B_M.npz",
+      "sha256": "452a879520be983c59051aed4c116613eed7f844567430a5ee2d234d261cfe38"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/B_L.npz",
+      "sha256": "43264f00fca8d252ca2dba46beccc4cd683fa414ccd4169a03adb9a5ba7836da"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/K2_M.npz",
+      "sha256": "27a9c0728d50d792fb48d251144eb6a96e54bcc0690666f202ade2514d93a9d6"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/K200_L.npz",
+      "sha256": "16e16c407305e059d3cc9c22e9c6cfef462165f180872f65e32c357d41accbf4"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/V05_L.npz",
+      "sha256": "70375c55091110fdb54a868494bd25e7eed41f0d28c60f11ec732ef30a4bcc0a"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/B_L__GM05.npz",
+      "sha256": "ba7da793b5ef6277483898bef0f4d3a16c36c6410e621747ee284d2a13f0bf9e"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/B_L__GP05.npz",
+      "sha256": "bd195a037d8cfb24f77a664a1c95e7bce40d3098aac2e8fbd9c2d872ad3ce31d"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/B_L__P02.npz",
+      "sha256": "75a9dc21a97c9665241656809f9d2cdf675313b05b1d5b4e0fb3578accc0ee22"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/K2_M__GM05.npz",
+      "sha256": "86a68374d3456803084bd4d51d339dc281a1a6a1a687805f6a6058247c0ce7e7"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/K2_M__GP05.npz",
+      "sha256": "b946b9551677c43906f0d6cc79b16f2ae2e889c4f9dd394e0056134b873a3370"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/K2_M__P02.npz",
+      "sha256": "c593b658ddd25e90ab9d229f653ab5e6ec77629f4bb213f0087c5ce38102a53f"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/K200_L__GM05.npz",
+      "sha256": "0f93601340cecc7c38b2e3d3c5139ff7c8f242c589a4f944425d38b1a17c2887"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/K200_L__GP05.npz",
+      "sha256": "3b046d20884edc6ef1750d29bf69ef55cadaa8d07f6fc5230b6bc5a5dcbf10fa"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/K200_L__P02.npz",
+      "sha256": "397980fb06ba4dd02d2a61d3dc32a4cccc1ffaa5daeabe5450f706fb0593dd39"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/V05_L__GM05.npz",
+      "sha256": "c71822aa5bd868e45648135168e5e18df5f4e8723c2e554fbdbad7efc99b5731"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/V05_L__GP05.npz",
+      "sha256": "0b5eedb84ac767b57e9caaa36955608d12771e0039297e36e95f019578e56edf"
+    },
+    {
+      "member": "sessions/b6069349acc7/preflight/V05_L__P02.npz",
+      "sha256": "a20b9cb56d502c5fcad3330602967a760c7af96b6b2b4c7d6deadb70a9d3da99"
+    }
+  ],
+  "fixture_sha256": "63f1559f307bdddb6f8b023b8574250ba3406ebbf1c3a1532ac3335b5f037918",
+  "rows": 1088,
+  "dtype": "float64"
+}

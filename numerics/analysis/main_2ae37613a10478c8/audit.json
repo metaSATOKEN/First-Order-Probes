@@ -1,0 +1,67 @@
+{
+  "version": "roc-postanalysis-1.0.0",
+  "analysis_seed": 2026101702,
+  "bootstrap_replicates": 1000,
+  "archive": "main_2ae37613a10478c8_COMPLETE_20261016T160008Z.zip",
+  "archive_sha256": "ead4356ab3f54a58758002b6204e561e26ca87e566a14f680e82f793afe5418c",
+  "original_config": {
+    "code_version": "covariance-suite-1.0.1",
+    "engine_sha256": "6ec93a4397c354583016a54203206dd854473b654bc64c2c7cef1ff427bf4d81",
+    "profile": "main",
+    "experiments": [
+      1,
+      2,
+      3
+    ],
+    "seed": 20261017,
+    "batch_size": 256,
+    "memory_batch_size": 64,
+    "repetitions": {
+      "reference": 9999,
+      "null": 20000,
+      "alternative": 5000,
+      "endpoint": 200000
+    },
+    "alpha": [
+      0.01,
+      0.05
+    ],
+    "protocol": "fixed-v1; nonperiodic; independent reference/test; known-zero primary"
+  },
+  "original_status": {
+    "status": "COMPLETE",
+    "finished_at": "2026-10-16T16:00:08.726057+00:00",
+    "completed_cases": 146,
+    "planned_cases": 146,
+    "new_batches": 8024,
+    "reused_batches": 0,
+    "elapsed_seconds": 694.006769645,
+    "config_hash": "2ae37613a10478c8b375ab80a19f899127882155e09ab13a1021275cff9458a0",
+    "profile": "main",
+    "main_profile_complete": true,
+    "scientific_interpretation": "completion is not a statistical validation or a superiority claim"
+  },
+  "audit": {
+    "cases": 146,
+    "tasks": 197,
+    "records": 4779949,
+    "chunks": 8024,
+    "chunk_sha256_verified": true,
+    "contiguous_counts_verified": true,
+    "archived_engine_sha256_verified": true
+  },
+  "analysis_python": "3.12.14",
+  "analysis_numpy": "2.3.5",
+  "analysis_script_sha256": "16a92370a7e64e84949bb97a517cb497662bd4fae0a73715e8c8fbe445639a1b",
+  "scope": "Post-hoc reanalysis of stored scores only. No new physical or simulated records.",
+  "normal_groups": 9,
+  "alternative_cases": 90,
+  "counts_by_group": {
+    "primary": 78,
+    "structural": 6,
+    "robustness": 6
+  },
+  "bootstrap_scope": "Paired records within each normal/alternative group; re-estimate 1% threshold each replicate. Pointwise percentile intervals, not simultaneous.",
+  "split_scope": "Deterministic 10000 calibration / 10000 holdout normal records, shared between methods. Alternatives never set thresholds. Exploratory, not a new experiment.",
+  "elapsed_seconds": 12.553148962557316
+}

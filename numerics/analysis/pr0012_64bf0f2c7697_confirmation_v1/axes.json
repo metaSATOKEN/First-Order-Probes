@@ -1,0 +1,189 @@
+{
+  "outer_replicate": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "groups": [
+    "B_L",
+    "K2_M",
+    "K200_L",
+    "V05_L"
+  ],
+  "candidates": [
+    "clean",
+    "GM800",
+    "GP800",
+    "BAL800",
+    "BAL400",
+    "TRI800"
+  ],
+  "evaluations": [
+    "normal",
+    "GM05",
+    "GP05",
+    "P02"
+  ],
+  "W0_contexts": [
+    "F",
+    "clean",
+    "GM800",
+    "GP800",
+    "BAL800",
+    "BAL400",
+    "TRI800",
+    "C"
+  ],
+  "LF0_contexts": [
+    "F",
+    "clean",
+    "C"
+  ],
+  "alpha_denominators": [
+    100,
+    1000
+  ],
+  "policy_states": [
+    "alarm",
+    "provided_quiet",
+    "defer",
+    "invalid"
+  ],
+  "histogram_bins": [
+    "000",
+    "001",
+    "010",
+    "011",
+    "100",
+    "101",
+    "110",
+    "111",
+    "invalid"
+  ],
+  "policy_pairs": [
+    "P1-P0",
+    "P2-P0",
+    "P2-P1"
+  ],
+  "LF_pair_bins": [
+    "both",
+    "W0_only",
+    "LF0_only",
+    "neither",
+    "invalid"
+  ],
+  "gates": [
+    "G-M",
+    "G-MC"
+  ],
+  "array_shapes": {
+    "gates": [
+      4,
+      6,
+      2
+    ],
+    "selection": [
+      4,
+      6,
+      2,
+      3
+    ],
+    "v_counts": [
+      4,
+      2,
+      2,
+      2
+    ],
+    "wcounts": [
+      4,
+      4,
+      8,
+      2,
+      9
+    ],
+    "lcounts": [
+      4,
+      4,
+      3,
+      2,
+      9
+    ],
+    "policy": [
+      4,
+      6,
+      4,
+      2,
+      3,
+      4
+    ],
+    "pairs": [
+      4,
+      6,
+      4,
+      2,
+      3,
+      4,
+      4
+    ],
+    "lf_pairs": [
+      4,
+      4,
+      3,
+      2,
+      5
+    ],
+    "inactive": [
+      4,
+      3,
+      2
+    ]
+  },
+  "units": "fractions; outer arrays include 50 as first axis"
+}

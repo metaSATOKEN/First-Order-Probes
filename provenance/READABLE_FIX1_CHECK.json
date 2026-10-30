@@ -1,0 +1,43 @@
+{
+  "status": "PASS_READABLE_FIX1_TECHNICAL_CHECKS",
+  "date": "2026-10-27",
+  "cell_id": "d41a11833edd6d21",
+  "payload_sha256": "4045cf2857875c9d0978a19961e3daea38a382303418f2267572023eb1c3789f",
+  "exact_members": 28,
+  "exact_python_members": 20,
+  "unit_tests": 20,
+  "saved_cpu_gpu_rows_replayed": 1088,
+  "classified_boundary_branch_flips": 2,
+  "unexplained_boundary_failures": 0,
+  "scientific_thresholds_changed": false,
+  "saved_primary": {
+    "status": "PASS_SAVED_AGGREGATES",
+    "primary": {
+      "SUPPORTED": 12,
+      "UNRESOLVED": 1,
+      "OPPOSITE": 0,
+      "TECHNICAL_UNESTABLISHED": 0
+    },
+    "unresolved": "R05",
+    "policy_pair_tables_checked": 28800,
+    "invalid": {
+      "wcounts": 0,
+      "lcounts": 0,
+      "policy": 0,
+      "lf_pairs": 0
+    },
+    "scope": "Included outer aggregates; no raw-score replay, simulation, or model fitting."
+  },
+  "local_check_environment": {
+    "python": "3.13.17",
+    "numpy": "2.4.1",
+    "scipy": "1.17.0"
+  },
+  "new_physical_records": 0,
+  "fresh_gpu_run": false,
+  "live_colab_browser_test": false,
+  "live_runtime_loss_restore_test": false,
+  "general_environment_port": false,
+  "method": "Same-agent technical checks, saved comparison replay, source-byte equality; not independent scientific replication.",
+  "historical_packaging_check": "VERIFICATION.json"
+}

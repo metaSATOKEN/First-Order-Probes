@@ -1,0 +1,26 @@
+{
+  "cell_id": "568b5189bb5d58d5b1f4ba6f7497ebf234783d01e3bd3ebc90c543ca7ebcf80c",
+  "payload_sha256": "3f8eaf10ccbc0a961d32c6173ac39173ced377e9a128fdc90f9b1445e24a90bb",
+  "bootstrap_sha256": "b8583df60fe5954f6c692277e19c901de0fabcde91a34303a8add4bb54dfa1b8",
+  "settings_excluded_from_cell_id": [
+    "MODE",
+    "RESTORE_ZIP",
+    "PILOT_ZIP",
+    "CONFIRM_APPROVAL",
+    "AUTO_DOWNLOAD"
+  ],
+  "sources": {
+    "fusion_confirmation_pr0002_v1.py": "0cd62bcd077905cb14a9c22fc9b2391b2ee5b193d2c845886b30a944528a0706",
+    "pr0002_checks.py": "113b4d6a73080faa229ebf501fd2a489c18541fc4524678ff8a6d0c052b25212",
+    "covariance_consistency_colab_v1.py": "0124e988e1a2927afd034ed5fbcc827f4eccb4653583c22d9c2066484836678c",
+    "PR-0002.md": "ac2725d797cb6cdfe85bc0a3f389fa3dbf2bd8a9cd303acafe95a63a381e3e07",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "LICENSE-CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  "artifacts": {
+    "pr0002_confirmation_one_cell.py": "be2891ea5b241bd00d5919415293acde47a86d5c24808b768753b4db76129cfb",
+    "pr0002_confirmation_one_cell.ipynb": "d1e84f5404872820f4740ffebc13861cd0e937d65c250dbd86b744a5751340bf"
+  },
+  "default": "pilot",
+  "main_executed": false
+}

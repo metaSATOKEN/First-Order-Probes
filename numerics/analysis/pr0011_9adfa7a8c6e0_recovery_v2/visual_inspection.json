@@ -1,0 +1,22 @@
+{
+  "status": "PASS_VISUAL_INSPECTION",
+  "figures": {
+    "numerics/analysis/pr0011_9adfa7a8c6e0_recovery_v2/figures/01_validation_support.png": "fd0c2f4b66835267123cfbe39499f174bd752b7390042b8961e47e9ae9ab6df6",
+    "numerics/analysis/pr0011_9adfa7a8c6e0_recovery_v2/figures/02_coverage.png": "8323ee8e6c67ddc2836d328df379cead1cd5f250a5684c58a0f0a5598628b443",
+    "numerics/analysis/pr0011_9adfa7a8c6e0_recovery_v2/figures/03_full_record_performance.png": "ca94adf1cee0026e39bd4480d720f7cbc09fd928a75f371cbbe9975de776d138",
+    "numerics/analysis/pr0011_9adfa7a8c6e0_recovery_v2/figures/04_full_record_performance.png": "e9bbe41b42063407053bfe339938784c7a064eb15eaf5d62f6375d67f698c5e9",
+    "numerics/analysis/pr0011_9adfa7a8c6e0_recovery_v2/figures/05_paired_gain_loss.png": "227a057e264607c7df63d79bbf906ba0f745a23631072ab19186e2bd7f19f70b",
+    "numerics/analysis/pr0011_9adfa7a8c6e0_recovery_v2/figures/06_miss_vs_defer.png": "3bba54e5cc9568ae18c3136fb76427bb7a8c1dc915ea435e93a5390d5a61dee2",
+    "numerics/analysis/pr0011_9adfa7a8c6e0_recovery_v2/figures/07_unverified_update_path.png": "c3ca13c368309ee6e4254afd1bd609894f800b1b6fa5a0b9f0de97ffffc9c15e",
+    "numerics/analysis/pr0011_9adfa7a8c6e0_recovery_v2/figures/08_validation_vs_evaluation.png": "a3fc00a0f5c24bda86fd8886300662cba1b27da5e8e3d5b33ccffaa9fd663d72"
+  },
+  "inspector": "same-agent actual view_image display, all eight PNGs",
+  "checks": [
+    "Legible axes and labels",
+    "Six groups and both alpha levels present",
+    "DEFER separate from NO-ALARM",
+    "Figure 5 small positive gains annotated",
+    "Figure 8 integer boundaries visible"
+  ],
+  "third_party": false
+}

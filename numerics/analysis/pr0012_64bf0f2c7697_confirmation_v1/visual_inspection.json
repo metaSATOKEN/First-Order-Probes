@@ -1,0 +1,22 @@
+{
+  "status": "EIGHT_FIGURES_DISPLAYED_AND_REVIEWED",
+  "reviewer": "same agent",
+  "checks": [
+    "titles/conditions",
+    "axis units",
+    "legends",
+    "readable labels",
+    "R05 unresolved visible"
+  ],
+  "notes": "Figures 1-8 were displayed through view_image during this work unit. Small intervals in figure 1 are also tabulated.",
+  "figures": {
+    "01_primary13.png": "a74e906f2a0859b33dd9f81d5a57d33c450f6d11042fd34a9b09347334ad740d",
+    "02_gate_holds.png": "8c7ec86ca280e960b6ab581f1eaf8548b54a3a0d45f6a43845c3f399d9c83ede",
+    "03_cancellation_and_private_addition.png": "ca88b535c9490c8fd4fa960c6e2b999f3729cdbfd0c4c62b957f4e21dea2bf61",
+    "04_V_support.png": "eeb6f7bc66edaf7dbbc204d179f07101e7da14ef27c627de8923a3550b8c911a",
+    "05_policy_paths.png": "d4260086ebef28de7e7084028be92c386e1c70df30e1a8d7960ae73251c738b7",
+    "06_recovery_tradeoffs.png": "c881ab0ebf37c2825ac68ab922a3754a7d6441aa736b53a9849f2d63dcea2149",
+    "07_paired_gain_loss.png": "d60cdc17cb5941c16a0873817ee218f1fff17e19c02d40ff70217c06fe21cae7",
+    "08_LF0_W0.png": "0f0cffb5db504cb25d81157da9b51d0d4ae44f9e07f6845e49e774f17a2a71e1"
+  }
+}

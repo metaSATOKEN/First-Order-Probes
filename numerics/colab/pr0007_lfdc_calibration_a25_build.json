@@ -1,0 +1,32 @@
+{
+  "cell_id": "af385f6b95739a08",
+  "payload_sha256": "eaa2dd2e093c16e05ae1623d5aec13c76002fb643c211fd73243eddb56dbcd17",
+  "sources": {
+    "numerics/scripts/probe_check_io.py": "9798cfbdf0b6154310f12d7bd48f99a1b6cfb5c086b15cfca1200a6f23f67c84",
+    "numerics/scripts/probe_check_launcher.py": "5453feb894de0ccc56082948acbfadc9a808f16e16a4db4ef1902ebf1119f4f1",
+    "numerics/scripts/probe_backend_check_v1.py": "aecd24fffdb04da40b9bcd630ae3cdcf68b41e9a598ad662d4f893447cf02adf",
+    "numerics/scripts/pr0004_spec.py": "6cc8f085df1962ee3e13707ed4359fe8e931de8e93e3f937d67dac1b801f98db",
+    "numerics/scripts/pr0004_methods.py": "4f1563c2b17d79783799f10a5294eca2543b181defd4a5839d6ce6d5078427bf",
+    "numerics/scripts/pr0006_spec.py": "6b01024b016b39877f8a41d20ce9ffc855a10bdefc9ad6c47e8c4387e734a06c",
+    "numerics/scripts/pr0006_methods.py": "157d7667d2d4ef904b8cbe989f21667dc1b004c1fb62309480bed27cebf165ab",
+    "numerics/scripts/pr0006_io.py": "025d0ddd871c05253bc8aa9c7fdf23446c394fd62f101d4c278df40ade6ced89",
+    "numerics/scripts/pr0006_runner.py": "779599b715da324ee80f846ca51827f23adc29b51f3ecf5fe62c2206607bc17b",
+    "numerics/scripts/pr0007_spec.py": "e828d4c08160c389da0d8be607b275895ad18dfa48dde128a3a0b2d891da72a1",
+    "numerics/scripts/pr0007_methods.py": "1794ecaada40868cc21cc5d78449225b97d32e69f7fd9a90d97ea82d7d1ff745",
+    "numerics/scripts/pr0007_io.py": "90c9a5825a5b3a92daab14c37f9499d96fb399407cd12131070c3a9628b3847b",
+    "numerics/scripts/pr0007_runner.py": "d853961ee4700deb36744ee54f9e371eda40c17c6dd9376baf6ab24d714e3d59",
+    "numerics/scripts/pr0007_download.py": "ce2c40c780e1c79ccc39c653065cc4712e87855d4718633416e091ba758ab7a5",
+    "numerics/scripts/pr0007_launcher.py": "04aa587724230f11f3e316e800422108c3f8546bc8726e6c0f904a36c8cfeee8",
+    "audits/prereg/PR-0007_lfdc_calibration_contamination.md": "8309b2143879fef69a5020fc2945fb2159786f3de7c1da62b787b6907d98be37",
+    "audits/prereg/PR-0007_A01_five_replicates_per_zip.md": "8c87378bb87920c985f4e94477799cf382a2519c7db3678a85a63ebde05e4a7f",
+    "audits/verification/2026-10-18_PR-0007_design_freeze.json": "61efd8635dd0b66af16bb16d711a4e9fbe68bfe565e12777b6d8a585723a75cb",
+    "audits/verification/2026-10-18_PR-0007_A01.json": "1225410523dc4f252c61ae6a653b04a54c0469862e8b3c5c8892466301033fa7",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "LICENSE-CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "numerics/PR0007_THIRD_PARTY_NOTICE.txt": "cf7aed3c1404ada84dbde5ad1d0bce56c1391dacf3962637edf5521adaf580cf"
+  },
+  "artifacts": {
+    "numerics/colab/pr0007_lfdc_calibration_a25_one_cell.py": "e7402119132eeb9746eb66602cdf4eb8f1b178ed890cfb1e896d001e7ebe5274",
+    "numerics/colab/pr0007_lfdc_calibration_a25_one_cell.ipynb": "913288106efe19e4bc81a8a18dc1a0a3b8c50307649b4983fce8878eeb6ffe89"
+  }
+}

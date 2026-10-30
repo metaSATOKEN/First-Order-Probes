@@ -1,0 +1,316 @@
+{
+  "chronology": [
+    {
+      "replicate": 0,
+      "latest_training_record": "2026-10-18T04:47:16.030271+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T04:47:16.633033+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 1,
+      "latest_training_record": "2026-10-18T04:49:41.454186+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T04:49:42.047623+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 2,
+      "latest_training_record": "2026-10-18T04:52:04.863644+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T04:52:05.446915+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 3,
+      "latest_training_record": "2026-10-18T04:54:29.990170+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T04:54:30.600174+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 4,
+      "latest_training_record": "2026-10-18T04:56:54.058663+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T04:56:54.651004+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 5,
+      "latest_training_record": "2026-10-18T04:59:28.725114+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T04:59:29.316831+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 6,
+      "latest_training_record": "2026-10-18T05:01:52.640216+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:01:53.241975+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 7,
+      "latest_training_record": "2026-10-18T05:04:17.489692+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:04:18.090384+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 8,
+      "latest_training_record": "2026-10-18T05:06:40.913812+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:06:41.507163+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 9,
+      "latest_training_record": "2026-10-18T05:09:05.739926+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:09:06.336238+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 10,
+      "latest_training_record": "2026-10-18T05:11:43.982663+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:11:44.572210+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 11,
+      "latest_training_record": "2026-10-18T05:14:09.071423+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:14:09.672229+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 12,
+      "latest_training_record": "2026-10-18T05:16:33.789032+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:16:34.384049+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 13,
+      "latest_training_record": "2026-10-18T05:18:58.733521+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:18:59.335134+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 14,
+      "latest_training_record": "2026-10-18T05:21:24.604881+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:21:25.202213+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 15,
+      "latest_training_record": "2026-10-18T05:24:02.955644+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:24:03.597258+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 16,
+      "latest_training_record": "2026-10-18T05:26:29.293207+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:26:29.892443+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 17,
+      "latest_training_record": "2026-10-18T05:28:53.944484+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:28:54.543759+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 18,
+      "latest_training_record": "2026-10-18T05:31:18.875971+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:31:19.457311+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 19,
+      "latest_training_record": "2026-10-18T05:33:43.542454+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:33:44.149443+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 20,
+      "latest_training_record": "2026-10-18T05:36:22.722785+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:36:23.323283+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 21,
+      "latest_training_record": "2026-10-18T05:38:47.890747+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:38:48.674174+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 22,
+      "latest_training_record": "2026-10-18T05:41:13.637501+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:41:14.224172+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 23,
+      "latest_training_record": "2026-10-18T05:43:39.061643+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:43:39.661984+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 24,
+      "latest_training_record": "2026-10-18T05:46:04.399363+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:46:04.995000+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 25,
+      "latest_training_record": "2026-10-18T05:48:44.733186+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:48:45.339011+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 26,
+      "latest_training_record": "2026-10-18T05:51:10.457987+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:51:11.045251+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 27,
+      "latest_training_record": "2026-10-18T05:53:36.247432+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:53:36.838064+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 28,
+      "latest_training_record": "2026-10-18T05:56:00.962144+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:56:01.554838+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 29,
+      "latest_training_record": "2026-10-18T05:58:26.313577+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T05:58:26.911965+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 30,
+      "latest_training_record": "2026-10-18T06:01:08.573628+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:01:09.168312+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 31,
+      "latest_training_record": "2026-10-18T06:03:35.765856+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:03:36.375788+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 32,
+      "latest_training_record": "2026-10-18T06:06:01.739995+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:06:02.352337+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 33,
+      "latest_training_record": "2026-10-18T06:08:27.385457+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:08:27.979917+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 34,
+      "latest_training_record": "2026-10-18T06:10:53.153233+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:10:53.745559+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 35,
+      "latest_training_record": "2026-10-18T06:13:35.106891+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:13:35.696369+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 36,
+      "latest_training_record": "2026-10-18T06:16:00.865589+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:16:01.458549+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 37,
+      "latest_training_record": "2026-10-18T06:18:26.715152+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:18:27.311335+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 38,
+      "latest_training_record": "2026-10-18T06:20:53.792692+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:20:54.381722+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 39,
+      "latest_training_record": "2026-10-18T06:23:18.920259+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:23:19.521263+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 40,
+      "latest_training_record": "2026-10-18T06:26:01.550189+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:26:02.139290+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 41,
+      "latest_training_record": "2026-10-18T06:28:27.485296+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:28:28.073593+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 42,
+      "latest_training_record": "2026-10-18T06:30:53.156901+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:30:53.756773+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 43,
+      "latest_training_record": "2026-10-18T06:33:19.970924+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:33:20.567754+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 44,
+      "latest_training_record": "2026-10-18T06:35:46.177713+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:35:46.790178+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 45,
+      "latest_training_record": "2026-10-18T06:38:30.518227+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:38:31.106553+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 46,
+      "latest_training_record": "2026-10-18T06:40:56.881246+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:40:57.876500+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 47,
+      "latest_training_record": "2026-10-18T06:43:23.625150+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:43:24.219391+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 48,
+      "latest_training_record": "2026-10-18T06:45:50.647164+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:45:51.243580+00:00",
+      "raw_chunks": 212
+    },
+    {
+      "replicate": 49,
+      "latest_training_record": "2026-10-18T06:48:17.642534+00:00",
+      "earliest_validation_or_evaluation_record": "2026-10-18T06:48:18.255208+00:00",
+      "raw_chunks": 212
+    }
+  ],
+  "all_calibration_inputs_before_V_E": true,
+  "raw_rss_high_water_bytes": 3517251584,
+  "raw_gpu_reserved_max_bytes": 3248805376,
+  "raw_timing_sums": {
+    "compute_seconds": 143.99063735602238,
+    "d2h_seconds": 0.6542086650467809,
+    "gpu_event_seconds": 143.8887931861878,
+    "h2d_seconds": 195.95233546101656,
+    "input_seconds": 6510.215942602957
+  },
+  "max_sum_of_chunk_timing_components": 1.4267471052791187,
+  "interpretation": "Saved timestamps and resource observations; not independent clock instrumentation"
+}

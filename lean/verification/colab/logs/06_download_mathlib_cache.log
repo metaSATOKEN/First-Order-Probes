@@ -1,0 +1,22 @@
+✔ [2/12] Built Cache.Lean
+✔ [3/12] Built Cache.Lean:c.o
+✔ [4/12] Built Cache.IO
+✔ [5/12] Built Cache.Hashing
+✔ [6/12] Built Cache.Requests
+✔ [7/12] Built Cache.Hashing:c.o
+✔ [8/12] Built Cache.Main
+✔ [9/12] Built Cache.IO:c.o
+✔ [10/12] Built Cache.Requests:c.o
+✔ [11/12] Built Cache.Main:c.o
+✔ [12/12] Built cache
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1075k  100 1075k    0     0  2979k      0 --:--:-- --:--:-- --:--:-- 2979k
+
+installing leantar 0.1.15
+Attempting to download 1334 file(s)
+Downloaded: 1 file(s) [attempted 1/1334 = 0%]Downloaded: 70 file(s) [attempted 70/1334 = 5%]Downloaded: 193 file(s) [attempted 193/1334 = 14%]Downloaded: 330 file(s) [attempted 330/1334 = 24%]Downloaded: 470 file(s) [attempted 470/1334 = 35%]Downloaded: 614 file(s) [attempted 614/1334 = 46%]Downloaded: 759 file(s) [attempted 759/1334 = 56%]Downloaded: 894 file(s) [attempted 894/1334 = 67%]Downloaded: 1043 file(s) [attempted 1043/1334 = 78%]Downloaded: 1183 file(s) [attempted 1183/1334 = 88%]Downloaded: 1322 file(s) [attempted 1322/1334 = 99%]Downloaded: 1334 file(s) [attempted 1334/1334 = 100%] (100% success)
+Decompressing 1334 file(s)
+Unpacked in 2544 ms
+Completed successfully!

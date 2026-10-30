@@ -1,0 +1,174 @@
+{
+  "status": "NOT_BUNDLED_NO_PUBLIC_DEPOSIT_ASSIGNED",
+  "archives": {
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_COMPLETE_INDEX_dee0d9eb.zip": {
+      "bytes": 25377254,
+      "sha256": "8895aa25444aa889d0675c9e94e6b144dee439605b3cbdbd41bffab6ec3b2441"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_COMPLETE_INDEX_fa2c5f70.zip": {
+      "bytes": 25375776,
+      "sha256": "6c1de9081e827b6cf0679693754bd8dc81a0c6680f8e77ecaa773d2ab1094370"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_01_COMPLETE_a0d2436a.zip": {
+      "bytes": 352979351,
+      "sha256": "8945f393a6c5182f995ebd2fe9932736f9c530143bad324ad2cbbbda2eeb9b49"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_02_COMPLETE_9d0e6957.zip": {
+      "bytes": 353591306,
+      "sha256": "de2c12f0b8565a2fb7028acf7c73897feadb8de033fb63c057ec5e67c4aa0c5d"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_03_COMPLETE_24dd24f5.zip": {
+      "bytes": 354192475,
+      "sha256": "75ce6408e86045384ade5dfefccbd0bae4760bcc9506a21985291368fbf27c6e"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_04_COMPLETE_992cc69d.zip": {
+      "bytes": 354806658,
+      "sha256": "79cbe3ccc0892dd15b2082d5576161c40c702a3e23c65519057fe0effa32b700"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_05_COMPLETE_2449d163.zip": {
+      "bytes": 355414142,
+      "sha256": "3bcd4be41fa6353f57f58beb72c98f948155675408b347ba1b0ad50d1a9742d9"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_06_COMPLETE_4af04c2e.zip": {
+      "bytes": 356008127,
+      "sha256": "26ae05b19db0f672c1bc7c90f56e1d1717ffc4933a1f3e909e2db2f3cdb60f81"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_07_COMPLETE_02c0f671.zip": {
+      "bytes": 356652569,
+      "sha256": "1997342e0888cefa0cd001e89541b079345837a0614278993ed452fb4d7da0c0"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_08_COMPLETE_578bfda5.zip": {
+      "bytes": 357292845,
+      "sha256": "4d0a557304009e795166c88bc1181a45319fb3d47b941727ecd4b87b7996e45d"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_09_COMPLETE_e81aaf8a.zip": {
+      "bytes": 357886129,
+      "sha256": "5834029418dfac50726d0ef64051e81beff18255d0750e6bf3de80c49af00000"
+    },
+    "Pr0009/two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_10_COMPLETE_ef5c3ff7.zip": {
+      "bytes": 358540551,
+      "sha256": "76acc1f5e42cca176681dfd83ca4a39c821d4eadcea909d873bc38ec901b68f7"
+    },
+    "audits/verification/PR0012_failure_606fc449db00/original_TECHNICAL_FAILURE.zip": {
+      "bytes": 370620,
+      "sha256": "79102ff79547c5320798343d21c26dc88405e62433240a84e746c992d940ada9"
+    },
+    "fusion_confirmation_pr0002_v1_confirm_9bb38b60e748_COMPLETE_20261017T063729_7cb5a0.zip": {
+      "bytes": 904960749,
+      "sha256": "1ef8e7c24060b8811594fdf4d83c0c725b8ecd9d70cb6157b99417abdd60b2b3"
+    },
+    "fusion_confirmation_pr0002_v1_pilot_d20113f06db7_PILOT_COMPLETE_20261017T043519_0236c7.zip": {
+      "bytes": 791876,
+      "sha256": "b5c64466fa70c78e77e4176630726fc88c95f2b925c7b8b2bf28417f7c60d519"
+    },
+    "lfdc_budget_pr0006_v1_6f23fc7946f8_COMPLETE_INDEX_251422d8.zip": {
+      "bytes": 2831605,
+      "sha256": "83c4bcdd3ae7f951d4bfc2b05f75eaf965cf7fa5460c401f67ae87da037b02bd"
+    },
+    "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_01_COMPLETE_d8111874.zip": {
+      "bytes": 288568280,
+      "sha256": "68a2643ed477d2bec9ee9b73f10ca8d026a4b4064f8b959330710b7fae174d06"
+    },
+    "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_02_COMPLETE_e0ec6045.zip": {
+      "bytes": 288762839,
+      "sha256": "24103985b258a3ef7c0b32d03fdb8912f8c8d5186ec940c1df1f75e2fa75ec37"
+    },
+    "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_03_COMPLETE_2ec2fecf.zip": {
+      "bytes": 288935190,
+      "sha256": "acc499d88c75545c426fd509ad2f8de8df72cd71fc2f590b14d098d62ae09719"
+    },
+    "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_04_COMPLETE_5a9a6e31.zip": {
+      "bytes": 289112957,
+      "sha256": "50b5c24dcd25c6f5e29694143a859ca6951217144d46bbc20b701da0d4d30c02"
+    },
+    "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_05_COMPLETE_f12dcba5.zip": {
+      "bytes": 291047965,
+      "sha256": "9c64f2d881d8607d4f0a64f9126979622ed2fb0492be19cc91660d1bfec87147"
+    },
+    "lfdc_calibration_pr0007_v1_60acab7af20d_COMPLETE_INDEX_7b99d8d2.zip": {
+      "bytes": 22424129,
+      "sha256": "223f697c532a8ac4e288d54e6925afa808c566a88c474be6b4e2fabf308de7d8"
+    },
+    "lfdc_calibration_pr0007_v1_60acab7af20d_COMPLETE_INDEX_c75a7456.zip": {
+      "bytes": 22422628,
+      "sha256": "6e4ae794c5be9d871fc4e6603d4e1060cca2186e48480b731e7870c6c9f27631"
+    },
+    "lfdc_calibration_pr0007_v1_60acab7af20d_SHARD_01_COMPLETE_6fcae142.zip": {
+      "bytes": 251940134,
+      "sha256": "97cda82689f053b151864d0209b3dc774cec7c7dc1facb844fa20e684f947003"
+    },
+    "lfdc_calibration_pr0007_v1_60acab7af20d_SHARD_02_COMPLETE_b6dd6370.zip": {
+      "bytes": 252552757,
+      "sha256": "bca225daa89f4d856a7554ec0e6ef6bf98d323a0eecad58df7a037c42a9470a0"
+    },
+    "lfdc_calibration_pr0007_v1_60acab7af20d_SHARD_03_COMPLETE_15f05ac6.zip": {
+      "bytes": 253248756,
+      "sha256": "027691a3a0d179b4aaef00ac08b599c1ba17a1750cd5d151db7b38f550ee7d6a"
+    },
+    "lfdc_calibration_pr0007_v1_60acab7af20d_SHARD_04_COMPLETE_f3b2b520.zip": {
+      "bytes": 253901816,
+      "sha256": "28dffc4109a915e53597ca720615a0dc6cf125d26f509ef77198d0098902a654"
+    },
+    "lfdc_calibration_pr0007_v1_60acab7af20d_SHARD_05_COMPLETE_bdebd0aa.zip": {
+      "bytes": 254560645,
+      "sha256": "2677ec3131b0f76da41ecc04272e2e6259c66cb57371fa6cf6b948cde77136f0"
+    },
+    "linear_fusion_pr0004_v1_e0af6fcba596_COMPLETE_ffc0968b.zip": {
+      "bytes": 4353437538,
+      "sha256": "7e07909140a0d9080ccdf60837fe1c84ec15d52004c227d66e6f7472feb7a589"
+    },
+    "main_2ae37613a10478c8_COMPLETE_20261016T160008Z.zip": {
+      "bytes": 200703067,
+      "sha256": "ead4356ab3f54a58758002b6204e561e26ca87e566a14f680e82f793afe5418c"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_COMPLETE_INDEX_47fa6bfc.zip": {
+      "bytes": 4156247,
+      "sha256": "5badf0d2dd232da664b5fdc09abb36a023aaea490df7808b4b601acba448c691"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_01_COMPLETE_dd1e27b3.zip": {
+      "bytes": 266648309,
+      "sha256": "081931f86c02d74a83fc38f26cdc3d34f51f21f66b44ac33e653915ac9840ffc"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_02_COMPLETE_35986d5c.zip": {
+      "bytes": 266856081,
+      "sha256": "5adf44aea8109e3fea9f5a66b849685b1a6e4ca30169a20e6c40cceb7288773a"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_03_COMPLETE_39ee86a6.zip": {
+      "bytes": 267070892,
+      "sha256": "b16c629f0df7276068d50ae2666f56a5bc505b0b4f8074a3962f08676ac82480"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_04_COMPLETE_a669f0ad.zip": {
+      "bytes": 267290755,
+      "sha256": "43ad37a309d5dc38678f0129a0cf2acc249802f649aa8be59dcb97d2875ee380"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_05_COMPLETE_aea887f9.zip": {
+      "bytes": 267502766,
+      "sha256": "8cc9f10b26141ff1791d67d00f4c9cfe88bff3cbd89bac81f06d6f6bd1c669c0"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_06_COMPLETE_ad67bfe3.zip": {
+      "bytes": 267714121,
+      "sha256": "96f4bcdfb4e9b61cac53a682ffb03eaa4545733ca33bed1f442ed09fbd817b20"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_07_COMPLETE_7d8bbd39.zip": {
+      "bytes": 267943300,
+      "sha256": "ce4aeb3149089847dfef39d78d431261b4d4636e72868d5ace1aa590ae33107d"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_08_COMPLETE_bdafb73c.zip": {
+      "bytes": 268147390,
+      "sha256": "f30cb9d3b4759a7e1e6e45ce08db7dfcd9b4b08a499f24f00f4a37efb30eb834"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_09_COMPLETE_b074c220.zip": {
+      "bytes": 268376443,
+      "sha256": "1234de056927272f1cb42f2db5b357c59019f36e0e97b410c84170c398153ddc"
+    },
+    "pr0012/mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_10_COMPLETE_af7147ef.zip": {
+      "bytes": 268581676,
+      "sha256": "484b462a342b931a87224f8a9dd894cafd64f71ffe90ebba453c77433d96c3db"
+    },
+    "probe_cpu_gpu_check_v1_23538c370862_PILOT_COMPLETE_b613933e.zip": {
+      "bytes": 168221503,
+      "sha256": "7f652e2356ab79c626d1a19ec012b7729da4a29dbc912aa5603d1b8ebcbd80f9"
+    }
+  },
+  "note": "Selected original scientific/technical returns. Filenames are archive-relative identifiers, not download URLs."
+}

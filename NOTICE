@@ -1,0 +1,15 @@
+Readout and Calibration-Update Audits for First-Order Probes
+Copyright 2026 Kentaro Sato
+
+Original software is distributed under Apache License 2.0 (LICENSE).
+Original manuscripts, explanatory documents, figures, and numerical result
+files are distributed under CC BY 4.0 (LICENSE-CC-BY-4.0.txt), to the extent
+copyright applies. Third-party material retains its original terms.
+
+Colab upload handling includes adapted Google Colab code. Retained notices:
+  numerics/PR0007_THIRD_PARTY_NOTICE.txt
+  numerics/PR0009_THIRD_PARTY_NOTICE.txt
+  numerics/PR0012_THIRD_PARTY_NOTICE.txt
+
+Python dependencies, Lean, and mathlib are not relicensed by this package.
+No endorsement by dependency authors or service providers is implied.

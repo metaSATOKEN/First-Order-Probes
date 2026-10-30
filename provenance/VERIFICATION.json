@@ -1,0 +1,71 @@
+{
+  "status": "PASS_LOCAL_DISTRIBUTION",
+  "date": "2026-10-27",
+  "scope": "Packaging and saved-aggregate consistency; no simulation, Lean build, PDF, Git initialization, or external publication.",
+  "original_files_hash_verified_unchanged": 2838,
+  "byte_identical": {
+    "python_and_lean_sources": 159,
+    "npz_and_csv": 612,
+    "json_npz_csv_including_metadata": 859,
+    "png_and_svg": 95,
+    "frozen_protocol_texts": 13
+  },
+  "manuscripts": {
+    "Calibration_Update_Audits_for_First_Order_Probes_JA_v5.md": {
+      "body_unchanged_except_link_destinations": true,
+      "displayed_equations": 24,
+      "images": 11,
+      "original_sha256": "8695fcb625eb4e11d523e1938f4ead9fcd6f3c62171f481a014e2f28171574f7",
+      "distribution_sha256": "2c9168d8ac1a3a6fbd5c22d0603035a02a79399079f547b4cd50509fdec4d800"
+    },
+    "Calibration_Update_Audits_for_First_Order_Probes_EN_v2.md": {
+      "body_unchanged_except_link_destinations": true,
+      "displayed_equations": 24,
+      "images": 11,
+      "original_sha256": "5164d1aac374923ecabd7b62100d91ece63ffb1af64034b883054b18e40a0381",
+      "distribution_sha256": "5e7d0f6676723fd07e456ad96770ee1aff8ec75bf9449653be9110222735b806"
+    }
+  },
+  "saved_aggregate_check": {
+    "status": "PASS_SAVED_AGGREGATES",
+    "primary": {
+      "SUPPORTED": 12,
+      "UNRESOLVED": 1,
+      "OPPOSITE": 0,
+      "TECHNICAL_UNESTABLISHED": 0
+    },
+    "unresolved": "R05",
+    "policy_pair_tables_checked": 28800,
+    "invalid": {
+      "wcounts": 0,
+      "lcounts": 0,
+      "policy": 0,
+      "lf_pairs": 0
+    },
+    "scope": "Included outer aggregates; no raw-score replay, simulation, or model fitting."
+  },
+  "credential_pattern_scan": {
+    "text_files": 539,
+    "candidate_count": 0,
+    "limitations": "Pattern-based scan of included text, including notebooks and SVGs; no guarantee against arbitrary personal or secret content. Excluded original archives were not scanned internally."
+  },
+  "citation_metadata": {
+    "basic_fields_checked": true,
+    "schema_validated": false,
+    "yaml_parsed": true
+  },
+  "public_raw_data_deposit": "PENDING",
+  "independent_scientific_replication": false,
+  "historical_link_catalog": "docs/OMITTED_MATERIALS.md",
+  "detached_copy_check": {
+    "status": "PASS",
+    "package_check": true,
+    "saved_aggregate_check": true,
+    "original_tree_not_required_by_these_checks": true
+  },
+  "syntax_and_links": {
+    "local_links": 478,
+    "python_files": 160,
+    "notebook_code_cells": 10
+  }
+}

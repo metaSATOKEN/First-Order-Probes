@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "all_proofs_checked": true,
+  "lean_toolchain": "leanprover/lean4:v4.19.0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "started_utc": "2026-10-15T03:53:22Z",
+  "commands": [
+    {
+      "args": [
+        "curl",
+        "--fail",
+        "--location",
+        "--retry",
+        "3",
+        "--connect-timeout",
+        "30",
+        "https://github.com/leanprover/elan/releases/download/v4.1.2/elan-x86_64-unknown-linux-gnu.tar.gz",
+        "--output",
+        "/content/first_order_probe_lean_8kr8af86/elan.tar.gz"
+      ],
+      "log": "01_download_elan.log",
+      "returncode": 0,
+      "seconds": 1.0
+    },
+    {
+      "args": [
+        "/content/first_order_probe_lean_8kr8af86/elan-init",
+        "-y",
+        "--no-modify-path",
+        "--default-toolchain",
+        "none"
+      ],
+      "log": "02_install_private_elan.log",
+      "returncode": 0,
+      "seconds": 1.0
+    },
+    {
+      "args": [
+        "/content/first_order_probe_lean_8kr8af86/elan/bin/lake",
+        "update"
+      ],
+      "log": "03_resolve_pinned_dependencies.log",
+      "returncode": 0,
+      "seconds": 63.01
+    },
+    {
+      "args": [
+        "git",
+        "-C",
+        "/content/first_order_probe_lean_8kr8af86/project/.lake/packages/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "04_check_mathlib_commit.log",
+      "returncode": 0,
+      "seconds": 1.0
+    },
+    {
+      "args": [
+        "/content/first_order_probe_lean_8kr8af86/elan/bin/lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "log": "05_lean_version.log",
+      "returncode": 0,
+      "seconds": 1.0
+    },
+    {
+      "args": [
+        "/content/first_order_probe_lean_8kr8af86/elan/bin/lake",
+        "exe",
+        "cache",
+        "get",
+        "Mathlib.Data.Real.Sqrt",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Ring",
+        "Mathlib.Tactic.Positivity"
+      ],
+      "log": "06_download_mathlib_cache.log",
+      "returncode": 0,
+      "seconds": 19.01
+    },
+    {
+      "args": [
+        "/content/first_order_probe_lean_8kr8af86/elan/bin/lake",
+        "env",
+        "lean",
+        "-DwarningAsError=true",
+        "-o",
+        "FirstOrderProbe.olean",
+        "FirstOrderProbe.lean"
+      ],
+      "log": "07_kernel_check.log",
+      "returncode": 0,
+      "seconds": 13.0
+    }
+  ],
+  "theorem_axioms": {
+    "FirstOrderProbe.continuous_pointwise_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.variance_identity_of_balance": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.compatibility_of_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.numerator_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.sharp_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.sharp_lower_bound_eq_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.discrete_den_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.one_sub_mul_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.discrete_weights_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.discrete_pointwise_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "Real rational frequency kernels and scalar covariance consequences; not a formalization of stochastic processes or spectral integration.",
+  "source_sha256": "6c88044eb777d6ac07cf8d467fc421ecec6fb30de6a88b80a2dc2d8432dd2e23",
+  "elan_archive_sha256": "f81c2e48c1588d4612cd2c8851947898a45ac8d72748a07dff3a5694f1cf589b",
+  "lean_version_output": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "finished_utc": "2026-10-15T03:55:01Z"
+}

@@ -1,0 +1,15 @@
+{
+  "figures": [
+    "01_coordinates.png",
+    "02_source_thresholds.png",
+    "03_rank_cap.png",
+    "04_all_differences.png",
+    "05_private_tradeoffs.png",
+    "06_representation_collisions.png",
+    "07_gain_asymmetry.png"
+  ],
+  "comparison_rows": 96,
+  "asymmetry_rows": 48,
+  "auxiliary_rows": 576,
+  "collision_rows": 96
+}

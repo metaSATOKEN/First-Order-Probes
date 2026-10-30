@@ -1,0 +1,16 @@
+{
+  "cell_id": "8178b6de2ae1584b",
+  "payload_sha256": "bb41051d0de3710bd8a4f6a85a53b2388a6d3456a9ddc7d8901ebf2b4c3a442b",
+  "sources": {
+    "numerics/scripts/probe_check_io.py": "9798cfbdf0b6154310f12d7bd48f99a1b6cfb5c086b15cfca1200a6f23f67c84",
+    "numerics/scripts/probe_check_launcher.py": "5453feb894de0ccc56082948acbfadc9a808f16e16a4db4ef1902ebf1119f4f1",
+    "numerics/scripts/probe_backend_check_v1.py": "aecd24fffdb04da40b9bcd630ae3cdcf68b41e9a598ad662d4f893447cf02adf",
+    "audits/prereg/PR-0003_cpu_gpu_backend_pilot.md": "0d1aff4739239cb13d626cb05524d3705d8388f27cada6b62b260256576fa966",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "LICENSE-CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  "artifacts": {
+    "numerics/colab/probe_cpu_gpu_check_one_cell.py": "20a5ebdb8a04e493e1aff196272483586b0fbe03ad76a3e86d28dc81bdb613c1",
+    "numerics/colab/probe_cpu_gpu_check_one_cell.ipynb": "9108fb00ce2badae38e2118f346865be50804ccb5a856ef68e9c056bc5ac9c25"
+  }
+}

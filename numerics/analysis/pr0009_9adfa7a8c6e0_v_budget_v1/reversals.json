@@ -1,0 +1,98 @@
+[
+  {
+    "group": "B_M",
+    "alpha": 0.01,
+    "early_support": 35,
+    "early_support_final_unresolved": 2,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 7
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.01,
+    "early_support": 28,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.01,
+    "early_support": 0,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.01,
+    "early_support": 50,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.01,
+    "early_support": 50,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.01,
+    "early_support": 0,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  },
+  {
+    "group": "B_M",
+    "alpha": 0.001,
+    "early_support": 2,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.001,
+    "early_support": 0,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.001,
+    "early_support": 0,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.001,
+    "early_support": 31,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 2
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.001,
+    "early_support": 27,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.001,
+    "early_support": 0,
+    "early_support_final_unresolved": 0,
+    "early_support_final_exceeded": 0,
+    "any_support_then_nonsupport": 0
+  }
+]

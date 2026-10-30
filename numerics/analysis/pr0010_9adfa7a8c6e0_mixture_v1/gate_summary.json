@@ -1,0 +1,9578 @@
+[
+  {
+    "group": "B_M",
+    "candidate": "clean",
+    "counts": [
+      0,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      1
+    ],
+    "pass_count": [
+      50,
+      49,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GM_n80",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      6
+    ],
+    "pass_count": [
+      50,
+      45,
+      44
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GP_n80",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      4,
+      5
+    ],
+    "pass_count": [
+      50,
+      46,
+      45
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      2
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "P_n80",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP31_n80",
+    "counts": [
+      60,
+      20,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      3
+    ],
+    "pass_count": [
+      50,
+      48,
+      47
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP11_n80",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      1
+    ],
+    "pass_count": [
+      50,
+      50,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      1
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP13_n80",
+    "counts": [
+      20,
+      60,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      3
+    ],
+    "pass_count": [
+      50,
+      48,
+      47
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      1
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMP11_n80",
+    "counts": [
+      40,
+      0,
+      40
+    ],
+    "holds": [
+      0,
+      3,
+      28
+    ],
+    "pass_count": [
+      50,
+      47,
+      22
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GPP11_n80",
+    "counts": [
+      0,
+      40,
+      40
+    ],
+    "holds": [
+      0,
+      2,
+      28
+    ],
+    "pass_count": [
+      50,
+      48,
+      22
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n80",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "holds": [
+      0,
+      0,
+      28
+    ],
+    "pass_count": [
+      50,
+      50,
+      22
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GM_n160",
+    "counts": [
+      160,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      25,
+      29
+    ],
+    "pass_count": [
+      50,
+      25,
+      21
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GP_n160",
+    "counts": [
+      0,
+      160,
+      0
+    ],
+    "holds": [
+      0,
+      17,
+      26
+    ],
+    "pass_count": [
+      50,
+      33,
+      24
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      4
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "P_n160",
+    "counts": [
+      0,
+      0,
+      160
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      5,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP31_n160",
+    "counts": [
+      120,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      6,
+      13
+    ],
+    "pass_count": [
+      50,
+      44,
+      37
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      2
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP11_n160",
+    "counts": [
+      80,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      10
+    ],
+    "pass_count": [
+      50,
+      50,
+      40
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      2
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP13_n160",
+    "counts": [
+      40,
+      120,
+      0
+    ],
+    "holds": [
+      0,
+      3,
+      12
+    ],
+    "pass_count": [
+      50,
+      47,
+      38
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      4
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMP11_n160",
+    "counts": [
+      80,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      9,
+      50
+    ],
+    "pass_count": [
+      50,
+      41,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GPP11_n160",
+    "counts": [
+      0,
+      80,
+      80
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n160",
+    "counts": [
+      40,
+      40,
+      80
+    ],
+    "holds": [
+      0,
+      1,
+      50
+    ],
+    "pass_count": [
+      50,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GM_n400",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      3
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GP_n400",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      16
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "P_n400",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      7,
+      50
+    ],
+    "pass_count": [
+      50,
+      43,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP31_n400",
+    "counts": [
+      300,
+      100,
+      0
+    ],
+    "holds": [
+      0,
+      31,
+      44
+    ],
+    "pass_count": [
+      50,
+      19,
+      6
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      7
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP11_n400",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      38
+    ],
+    "pass_count": [
+      50,
+      48,
+      12
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      10
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP13_n400",
+    "counts": [
+      100,
+      300,
+      0
+    ],
+    "holds": [
+      0,
+      22,
+      44
+    ],
+    "pass_count": [
+      50,
+      28,
+      6
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      11
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMP11_n400",
+    "counts": [
+      200,
+      0,
+      200
+    ],
+    "holds": [
+      0,
+      42,
+      50
+    ],
+    "pass_count": [
+      50,
+      8,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GPP11_n400",
+    "counts": [
+      0,
+      200,
+      200
+    ],
+    "holds": [
+      0,
+      14,
+      50
+    ],
+    "pass_count": [
+      50,
+      36,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n400",
+    "counts": [
+      100,
+      100,
+      200
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GM_n800",
+    "counts": [
+      800,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      8
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GP_n800",
+    "counts": [
+      0,
+      800,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      40
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "P_n800",
+    "counts": [
+      0,
+      0,
+      800
+    ],
+    "holds": [
+      50,
+      27,
+      50
+    ],
+    "pass_count": [
+      0,
+      23,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP31_n800",
+    "counts": [
+      600,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      20
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP11_n800",
+    "counts": [
+      400,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      50
+    ],
+    "pass_count": [
+      50,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      25
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP13_n800",
+    "counts": [
+      200,
+      600,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      36
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMP11_n800",
+    "counts": [
+      400,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GPP11_n800",
+    "counts": [
+      0,
+      400,
+      400
+    ],
+    "holds": [
+      10,
+      44,
+      50
+    ],
+    "pass_count": [
+      40,
+      6,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n800",
+    "counts": [
+      200,
+      200,
+      400
+    ],
+    "holds": [
+      4,
+      7,
+      50
+    ],
+    "pass_count": [
+      46,
+      43,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP11_n160_keep0",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      6
+    ],
+    "pass_count": [
+      50,
+      45,
+      44
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      4,
+      5
+    ],
+    "pass_count": [
+      50,
+      46,
+      45
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      2
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMP11_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GPP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      6
+    ],
+    "pass_count": [
+      50,
+      45,
+      44
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      2
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n160_keep0",
+    "counts": [
+      40,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      2
+    ],
+    "pass_count": [
+      50,
+      48,
+      48
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n160_keep1",
+    "counts": [
+      0,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      2
+    ],
+    "pass_count": [
+      50,
+      48,
+      48
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      1
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n160_keep01",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      2
+    ],
+    "pass_count": [
+      50,
+      49,
+      48
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      1
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n160_keep02",
+    "counts": [
+      40,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      3,
+      50
+    ],
+    "pass_count": [
+      50,
+      47,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n160_keep12",
+    "counts": [
+      0,
+      40,
+      80
+    ],
+    "holds": [
+      0,
+      1,
+      50
+    ],
+    "pass_count": [
+      50,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP11_n800_keep0",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      3
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      16
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMP11_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      6,
+      50
+    ],
+    "pass_count": [
+      50,
+      44,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GPP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      15
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n800_keep0",
+    "counts": [
+      200,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      33,
+      34
+    ],
+    "pass_count": [
+      50,
+      17,
+      16
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n800_keep1",
+    "counts": [
+      0,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      24,
+      30
+    ],
+    "pass_count": [
+      50,
+      26,
+      20
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      5
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      6,
+      50
+    ],
+    "pass_count": [
+      50,
+      44,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n800_keep01",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      37
+    ],
+    "pass_count": [
+      50,
+      49,
+      13
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      11
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n800_keep02",
+    "counts": [
+      200,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      46,
+      50
+    ],
+    "pass_count": [
+      50,
+      4,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_M",
+    "candidate": "GMGPP112_n800_keep12",
+    "counts": [
+      0,
+      200,
+      400
+    ],
+    "holds": [
+      0,
+      6,
+      50
+    ],
+    "pass_count": [
+      50,
+      44,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "clean",
+    "counts": [
+      0,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      0
+    ],
+    "pass_count": [
+      50,
+      48,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM_n80",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      20,
+      12
+    ],
+    "pass_count": [
+      50,
+      30,
+      38
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      41
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP_n80",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      19,
+      13
+    ],
+    "pass_count": [
+      50,
+      31,
+      37
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "P_n80",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      1,
+      50
+    ],
+    "pass_count": [
+      50,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP31_n80",
+    "counts": [
+      60,
+      20,
+      0
+    ],
+    "holds": [
+      0,
+      4,
+      5
+    ],
+    "pass_count": [
+      50,
+      46,
+      45
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      48
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP11_n80",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      4
+    ],
+    "pass_count": [
+      50,
+      49,
+      46
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP13_n80",
+    "counts": [
+      20,
+      60,
+      0
+    ],
+    "holds": [
+      0,
+      4,
+      7
+    ],
+    "pass_count": [
+      50,
+      46,
+      43
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMP11_n80",
+    "counts": [
+      40,
+      0,
+      40
+    ],
+    "holds": [
+      0,
+      6,
+      49
+    ],
+    "pass_count": [
+      50,
+      44,
+      1
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GPP11_n80",
+    "counts": [
+      0,
+      40,
+      40
+    ],
+    "holds": [
+      0,
+      3,
+      50
+    ],
+    "pass_count": [
+      50,
+      47,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n80",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "holds": [
+      0,
+      0,
+      49
+    ],
+    "pass_count": [
+      50,
+      50,
+      1
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM_n160",
+    "counts": [
+      160,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      47,
+      48
+    ],
+    "pass_count": [
+      50,
+      3,
+      2
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP_n160",
+    "counts": [
+      0,
+      160,
+      0
+    ],
+    "holds": [
+      0,
+      49,
+      48
+    ],
+    "pass_count": [
+      50,
+      1,
+      2
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "P_n160",
+    "counts": [
+      0,
+      0,
+      160
+    ],
+    "holds": [
+      0,
+      4,
+      50
+    ],
+    "pass_count": [
+      50,
+      46,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP31_n160",
+    "counts": [
+      120,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      18,
+      25
+    ],
+    "pass_count": [
+      50,
+      32,
+      25
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP11_n160",
+    "counts": [
+      80,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      19
+    ],
+    "pass_count": [
+      50,
+      50,
+      31
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP13_n160",
+    "counts": [
+      40,
+      120,
+      0
+    ],
+    "holds": [
+      0,
+      15,
+      26
+    ],
+    "pass_count": [
+      50,
+      35,
+      24
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMP11_n160",
+    "counts": [
+      80,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      33,
+      50
+    ],
+    "pass_count": [
+      50,
+      17,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GPP11_n160",
+    "counts": [
+      0,
+      80,
+      80
+    ],
+    "holds": [
+      0,
+      10,
+      50
+    ],
+    "pass_count": [
+      50,
+      40,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n160",
+    "counts": [
+      40,
+      40,
+      80
+    ],
+    "holds": [
+      0,
+      1,
+      50
+    ],
+    "pass_count": [
+      50,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM_n400",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      8,
+      50,
+      50
+    ],
+    "pass_count": [
+      42,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      6,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP_n400",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      48,
+      50,
+      50
+    ],
+    "pass_count": [
+      2,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      37,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "P_n400",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      31,
+      50
+    ],
+    "pass_count": [
+      0,
+      19,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP31_n400",
+    "counts": [
+      300,
+      100,
+      0
+    ],
+    "holds": [
+      15,
+      50,
+      50
+    ],
+    "pass_count": [
+      35,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      10,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP11_n400",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      28,
+      0,
+      50
+    ],
+    "pass_count": [
+      22,
+      50,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      18,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP13_n400",
+    "counts": [
+      100,
+      300,
+      0
+    ],
+    "holds": [
+      36,
+      50,
+      50
+    ],
+    "pass_count": [
+      14,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      28,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMP11_n400",
+    "counts": [
+      200,
+      0,
+      200
+    ],
+    "holds": [
+      49,
+      50,
+      50
+    ],
+    "pass_count": [
+      1,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GPP11_n400",
+    "counts": [
+      0,
+      200,
+      200
+    ],
+    "holds": [
+      50,
+      47,
+      50
+    ],
+    "pass_count": [
+      0,
+      3,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n400",
+    "counts": [
+      100,
+      100,
+      200
+    ],
+    "holds": [
+      50,
+      5,
+      50
+    ],
+    "pass_count": [
+      0,
+      45,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GM_n800",
+    "counts": [
+      800,
+      0,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      39,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GP_n800",
+    "counts": [
+      0,
+      800,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "P_n800",
+    "counts": [
+      0,
+      0,
+      800
+    ],
+    "holds": [
+      50,
+      49,
+      50
+    ],
+    "pass_count": [
+      0,
+      1,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP31_n800",
+    "counts": [
+      600,
+      200,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      45,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP11_n800",
+    "counts": [
+      400,
+      400,
+      0
+    ],
+    "holds": [
+      50,
+      0,
+      50
+    ],
+    "pass_count": [
+      0,
+      50,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      48,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP13_n800",
+    "counts": [
+      200,
+      600,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMP11_n800",
+    "counts": [
+      400,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GPP11_n800",
+    "counts": [
+      0,
+      400,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n800",
+    "counts": [
+      200,
+      200,
+      400
+    ],
+    "holds": [
+      50,
+      32,
+      50
+    ],
+    "pass_count": [
+      0,
+      18,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP11_n160_keep0",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      19,
+      13
+    ],
+    "pass_count": [
+      50,
+      31,
+      37
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      41
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      21,
+      12
+    ],
+    "pass_count": [
+      50,
+      29,
+      38
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMP11_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GPP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      18,
+      14
+    ],
+    "pass_count": [
+      50,
+      32,
+      36
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n160_keep0",
+    "counts": [
+      40,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      4,
+      0
+    ],
+    "pass_count": [
+      50,
+      46,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      13
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n160_keep1",
+    "counts": [
+      0,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      4
+    ],
+    "pass_count": [
+      50,
+      45,
+      46
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      43
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n160_keep01",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      4
+    ],
+    "pass_count": [
+      50,
+      49,
+      46
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n160_keep02",
+    "counts": [
+      40,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      7,
+      50
+    ],
+    "pass_count": [
+      50,
+      43,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n160_keep12",
+    "counts": [
+      0,
+      40,
+      80
+    ],
+    "holds": [
+      0,
+      3,
+      50
+    ],
+    "pass_count": [
+      50,
+      47,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP11_n800_keep0",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      8,
+      50,
+      50
+    ],
+    "pass_count": [
+      42,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      6,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      47,
+      50,
+      50
+    ],
+    "pass_count": [
+      3,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      37,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMP11_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      30,
+      50
+    ],
+    "pass_count": [
+      0,
+      20,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GPP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      47,
+      50,
+      50
+    ],
+    "pass_count": [
+      3,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      37,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n800_keep0",
+    "counts": [
+      200,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      49
+    ],
+    "pass_count": [
+      50,
+      0,
+      1
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n800_keep1",
+    "counts": [
+      0,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      32,
+      50
+    ],
+    "pass_count": [
+      0,
+      18,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n800_keep01",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      30,
+      0,
+      50
+    ],
+    "pass_count": [
+      20,
+      50,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      18,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n800_keep02",
+    "counts": [
+      200,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "B_L",
+    "candidate": "GMGPP112_n800_keep12",
+    "counts": [
+      0,
+      200,
+      400
+    ],
+    "holds": [
+      50,
+      29,
+      50
+    ],
+    "pass_count": [
+      0,
+      21,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "clean",
+    "counts": [
+      0,
+      0,
+      0
+    ],
+    "holds": [
+      1,
+      1,
+      1
+    ],
+    "pass_count": [
+      49,
+      49,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      46
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM_n80",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      13,
+      15,
+      20
+    ],
+    "pass_count": [
+      37,
+      35,
+      30
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP_n80",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      19,
+      8,
+      16
+    ],
+    "pass_count": [
+      31,
+      42,
+      34
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "P_n80",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      34,
+      1,
+      50
+    ],
+    "pass_count": [
+      16,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      9,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP31_n80",
+    "counts": [
+      60,
+      20,
+      0
+    ],
+    "holds": [
+      13,
+      2,
+      9
+    ],
+    "pass_count": [
+      37,
+      48,
+      41
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP11_n80",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      15,
+      1,
+      8
+    ],
+    "pass_count": [
+      35,
+      49,
+      42
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP13_n80",
+    "counts": [
+      20,
+      60,
+      0
+    ],
+    "holds": [
+      16,
+      1,
+      9
+    ],
+    "pass_count": [
+      34,
+      49,
+      41
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMP11_n80",
+    "counts": [
+      40,
+      0,
+      40
+    ],
+    "holds": [
+      26,
+      3,
+      49
+    ],
+    "pass_count": [
+      24,
+      47,
+      1
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      2,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GPP11_n80",
+    "counts": [
+      0,
+      40,
+      40
+    ],
+    "holds": [
+      27,
+      4,
+      50
+    ],
+    "pass_count": [
+      23,
+      46,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      4,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n80",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "holds": [
+      27,
+      1,
+      50
+    ],
+    "pass_count": [
+      23,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      3,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM_n160",
+    "counts": [
+      160,
+      0,
+      0
+    ],
+    "holds": [
+      28,
+      37,
+      40
+    ],
+    "pass_count": [
+      22,
+      13,
+      10
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP_n160",
+    "counts": [
+      0,
+      160,
+      0
+    ],
+    "holds": [
+      33,
+      33,
+      42
+    ],
+    "pass_count": [
+      17,
+      17,
+      8
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      2,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "P_n160",
+    "counts": [
+      0,
+      0,
+      160
+    ],
+    "holds": [
+      50,
+      1,
+      50
+    ],
+    "pass_count": [
+      0,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      46,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP31_n160",
+    "counts": [
+      120,
+      40,
+      0
+    ],
+    "holds": [
+      29,
+      13,
+      26
+    ],
+    "pass_count": [
+      21,
+      37,
+      24
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP11_n160",
+    "counts": [
+      80,
+      80,
+      0
+    ],
+    "holds": [
+      29,
+      1,
+      20
+    ],
+    "pass_count": [
+      21,
+      49,
+      30
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      2,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP13_n160",
+    "counts": [
+      40,
+      120,
+      0
+    ],
+    "holds": [
+      33,
+      8,
+      25
+    ],
+    "pass_count": [
+      17,
+      42,
+      25
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      2,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMP11_n160",
+    "counts": [
+      80,
+      0,
+      80
+    ],
+    "holds": [
+      44,
+      15,
+      50
+    ],
+    "pass_count": [
+      6,
+      35,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      14,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GPP11_n160",
+    "counts": [
+      0,
+      80,
+      80
+    ],
+    "holds": [
+      46,
+      7,
+      50
+    ],
+    "pass_count": [
+      4,
+      43,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      15,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n160",
+    "counts": [
+      40,
+      40,
+      80
+    ],
+    "holds": [
+      45,
+      1,
+      50
+    ],
+    "pass_count": [
+      5,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      15,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM_n400",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      49,
+      50,
+      50
+    ],
+    "pass_count": [
+      1,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      9,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP_n400",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      18,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "P_n400",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      6,
+      50
+    ],
+    "pass_count": [
+      0,
+      44,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP31_n400",
+    "counts": [
+      300,
+      100,
+      0
+    ],
+    "holds": [
+      49,
+      42,
+      50
+    ],
+    "pass_count": [
+      1,
+      8,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      11,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP11_n400",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      50,
+      1,
+      50
+    ],
+    "pass_count": [
+      0,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      13,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP13_n400",
+    "counts": [
+      100,
+      300,
+      0
+    ],
+    "holds": [
+      50,
+      39,
+      50
+    ],
+    "pass_count": [
+      0,
+      11,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      16,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMP11_n400",
+    "counts": [
+      200,
+      0,
+      200
+    ],
+    "holds": [
+      50,
+      47,
+      50
+    ],
+    "pass_count": [
+      0,
+      3,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GPP11_n400",
+    "counts": [
+      0,
+      200,
+      200
+    ],
+    "holds": [
+      50,
+      36,
+      50
+    ],
+    "pass_count": [
+      0,
+      14,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n400",
+    "counts": [
+      100,
+      100,
+      200
+    ],
+    "holds": [
+      50,
+      1,
+      50
+    ],
+    "pass_count": [
+      0,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GM_n800",
+    "counts": [
+      800,
+      0,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      33,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GP_n800",
+    "counts": [
+      0,
+      800,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      45,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "P_n800",
+    "counts": [
+      0,
+      0,
+      800
+    ],
+    "holds": [
+      50,
+      14,
+      50
+    ],
+    "pass_count": [
+      0,
+      36,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP31_n800",
+    "counts": [
+      600,
+      200,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      38,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP11_n800",
+    "counts": [
+      400,
+      400,
+      0
+    ],
+    "holds": [
+      50,
+      1,
+      50
+    ],
+    "pass_count": [
+      0,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      39,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP13_n800",
+    "counts": [
+      200,
+      600,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      42,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMP11_n800",
+    "counts": [
+      400,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GPP11_n800",
+    "counts": [
+      0,
+      400,
+      400
+    ],
+    "holds": [
+      50,
+      49,
+      50
+    ],
+    "pass_count": [
+      0,
+      1,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n800",
+    "counts": [
+      200,
+      200,
+      400
+    ],
+    "holds": [
+      50,
+      6,
+      50
+    ],
+    "pass_count": [
+      0,
+      44,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP11_n160_keep0",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      14,
+      15,
+      19
+    ],
+    "pass_count": [
+      36,
+      35,
+      31
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      17,
+      8,
+      16
+    ],
+    "pass_count": [
+      33,
+      42,
+      34
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMP11_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      34,
+      1,
+      50
+    ],
+    "pass_count": [
+      16,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      9,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GPP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      18,
+      8,
+      17
+    ],
+    "pass_count": [
+      32,
+      42,
+      33
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n160_keep0",
+    "counts": [
+      40,
+      0,
+      0
+    ],
+    "holds": [
+      7,
+      2,
+      5
+    ],
+    "pass_count": [
+      43,
+      48,
+      45
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      49
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n160_keep1",
+    "counts": [
+      0,
+      40,
+      0
+    ],
+    "holds": [
+      11,
+      1,
+      3
+    ],
+    "pass_count": [
+      39,
+      49,
+      47
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      49
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      32,
+      1,
+      50
+    ],
+    "pass_count": [
+      18,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      9,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n160_keep01",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      15,
+      1,
+      9
+    ],
+    "pass_count": [
+      35,
+      49,
+      41
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n160_keep02",
+    "counts": [
+      40,
+      0,
+      80
+    ],
+    "holds": [
+      40,
+      5,
+      50
+    ],
+    "pass_count": [
+      10,
+      45,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      11,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n160_keep12",
+    "counts": [
+      0,
+      40,
+      80
+    ],
+    "holds": [
+      42,
+      3,
+      50
+    ],
+    "pass_count": [
+      8,
+      47,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      13,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP11_n800_keep0",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      49,
+      50,
+      50
+    ],
+    "pass_count": [
+      1,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      9,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      20,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMP11_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      6,
+      50
+    ],
+    "pass_count": [
+      0,
+      44,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GPP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      18,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n800_keep0",
+    "counts": [
+      200,
+      0,
+      0
+    ],
+    "holds": [
+      31,
+      45,
+      48
+    ],
+    "pass_count": [
+      19,
+      5,
+      2
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n800_keep1",
+    "counts": [
+      0,
+      200,
+      0
+    ],
+    "holds": [
+      41,
+      43,
+      50
+    ],
+    "pass_count": [
+      9,
+      7,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      4,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      6,
+      50
+    ],
+    "pass_count": [
+      0,
+      44,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n800_keep01",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      50,
+      1,
+      50
+    ],
+    "pass_count": [
+      0,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      13,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n800_keep02",
+    "counts": [
+      200,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K2_M",
+    "candidate": "GMGPP112_n800_keep12",
+    "counts": [
+      0,
+      200,
+      400
+    ],
+    "holds": [
+      50,
+      21,
+      50
+    ],
+    "pass_count": [
+      0,
+      29,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "clean",
+    "counts": [
+      0,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      0
+    ],
+    "pass_count": [
+      50,
+      50,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM_n80",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      0
+    ],
+    "pass_count": [
+      50,
+      50,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP_n80",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      0
+    ],
+    "pass_count": [
+      50,
+      49,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "P_n80",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      0,
+      6
+    ],
+    "pass_count": [
+      50,
+      50,
+      44
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      42
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP31_n80",
+    "counts": [
+      60,
+      20,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      0
+    ],
+    "pass_count": [
+      50,
+      50,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP11_n80",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      0
+    ],
+    "pass_count": [
+      50,
+      50,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP13_n80",
+    "counts": [
+      20,
+      60,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      0
+    ],
+    "pass_count": [
+      50,
+      49,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMP11_n80",
+    "counts": [
+      40,
+      0,
+      40
+    ],
+    "holds": [
+      0,
+      0,
+      1
+    ],
+    "pass_count": [
+      50,
+      50,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      6
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GPP11_n80",
+    "counts": [
+      0,
+      40,
+      40
+    ],
+    "holds": [
+      0,
+      0,
+      1
+    ],
+    "pass_count": [
+      50,
+      50,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      5
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n80",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "holds": [
+      0,
+      0,
+      1
+    ],
+    "pass_count": [
+      50,
+      50,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      5
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM_n160",
+    "counts": [
+      160,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      1
+    ],
+    "pass_count": [
+      50,
+      49,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP_n160",
+    "counts": [
+      0,
+      160,
+      0
+    ],
+    "holds": [
+      0,
+      3,
+      1
+    ],
+    "pass_count": [
+      50,
+      47,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "P_n160",
+    "counts": [
+      0,
+      0,
+      160
+    ],
+    "holds": [
+      0,
+      1,
+      38
+    ],
+    "pass_count": [
+      50,
+      49,
+      12
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP31_n160",
+    "counts": [
+      120,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      1
+    ],
+    "pass_count": [
+      50,
+      49,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP11_n160",
+    "counts": [
+      80,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      1
+    ],
+    "pass_count": [
+      50,
+      50,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP13_n160",
+    "counts": [
+      40,
+      120,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      1
+    ],
+    "pass_count": [
+      50,
+      49,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMP11_n160",
+    "counts": [
+      80,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      1,
+      7
+    ],
+    "pass_count": [
+      50,
+      49,
+      43
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      42
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GPP11_n160",
+    "counts": [
+      0,
+      80,
+      80
+    ],
+    "holds": [
+      0,
+      0,
+      8
+    ],
+    "pass_count": [
+      50,
+      50,
+      42
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      42
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n160",
+    "counts": [
+      40,
+      40,
+      80
+    ],
+    "holds": [
+      0,
+      1,
+      7
+    ],
+    "pass_count": [
+      50,
+      49,
+      43
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      42
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM_n400",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      11,
+      3
+    ],
+    "pass_count": [
+      50,
+      39,
+      47
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP_n400",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      3
+    ],
+    "pass_count": [
+      50,
+      45,
+      47
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "P_n400",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      13,
+      50
+    ],
+    "pass_count": [
+      50,
+      37,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP31_n400",
+    "counts": [
+      300,
+      100,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      1
+    ],
+    "pass_count": [
+      50,
+      48,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP11_n400",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      1
+    ],
+    "pass_count": [
+      50,
+      50,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP13_n400",
+    "counts": [
+      100,
+      300,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      1
+    ],
+    "pass_count": [
+      50,
+      48,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMP11_n400",
+    "counts": [
+      200,
+      0,
+      200
+    ],
+    "holds": [
+      0,
+      13,
+      50
+    ],
+    "pass_count": [
+      50,
+      37,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GPP11_n400",
+    "counts": [
+      0,
+      200,
+      200
+    ],
+    "holds": [
+      0,
+      0,
+      50
+    ],
+    "pass_count": [
+      50,
+      50,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n400",
+    "counts": [
+      100,
+      100,
+      200
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GM_n800",
+    "counts": [
+      800,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      34,
+      28
+    ],
+    "pass_count": [
+      50,
+      16,
+      22
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GP_n800",
+    "counts": [
+      0,
+      800,
+      0
+    ],
+    "holds": [
+      0,
+      19,
+      18
+    ],
+    "pass_count": [
+      50,
+      31,
+      32
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "P_n800",
+    "counts": [
+      0,
+      0,
+      800
+    ],
+    "holds": [
+      50,
+      39,
+      50
+    ],
+    "pass_count": [
+      0,
+      11,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      42,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP31_n800",
+    "counts": [
+      600,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      13,
+      14
+    ],
+    "pass_count": [
+      50,
+      37,
+      36
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP11_n800",
+    "counts": [
+      400,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      10
+    ],
+    "pass_count": [
+      50,
+      49,
+      40
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP13_n800",
+    "counts": [
+      200,
+      600,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      13
+    ],
+    "pass_count": [
+      50,
+      45,
+      37
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMP11_n800",
+    "counts": [
+      400,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      36,
+      50
+    ],
+    "pass_count": [
+      50,
+      14,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GPP11_n800",
+    "counts": [
+      0,
+      400,
+      400
+    ],
+    "holds": [
+      0,
+      1,
+      50
+    ],
+    "pass_count": [
+      50,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n800",
+    "counts": [
+      200,
+      200,
+      400
+    ],
+    "holds": [
+      0,
+      13,
+      50
+    ],
+    "pass_count": [
+      50,
+      37,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP11_n160_keep0",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      0
+    ],
+    "pass_count": [
+      50,
+      50,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      0
+    ],
+    "pass_count": [
+      50,
+      49,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMP11_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      0,
+      6
+    ],
+    "pass_count": [
+      50,
+      50,
+      44
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      42
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GPP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      0
+    ],
+    "pass_count": [
+      50,
+      49,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n160_keep0",
+    "counts": [
+      40,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      0
+    ],
+    "pass_count": [
+      50,
+      50,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n160_keep1",
+    "counts": [
+      0,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      0
+    ],
+    "pass_count": [
+      50,
+      50,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      0,
+      6
+    ],
+    "pass_count": [
+      50,
+      50,
+      44
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      42
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n160_keep01",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      0
+    ],
+    "pass_count": [
+      50,
+      50,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n160_keep02",
+    "counts": [
+      40,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      1,
+      7
+    ],
+    "pass_count": [
+      50,
+      49,
+      43
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      42
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n160_keep12",
+    "counts": [
+      0,
+      40,
+      80
+    ],
+    "holds": [
+      0,
+      0,
+      7
+    ],
+    "pass_count": [
+      50,
+      50,
+      43
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      42
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP11_n800_keep0",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      12,
+      4
+    ],
+    "pass_count": [
+      50,
+      38,
+      46
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      4
+    ],
+    "pass_count": [
+      50,
+      45,
+      46
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMP11_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      12,
+      50
+    ],
+    "pass_count": [
+      50,
+      38,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GPP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      3
+    ],
+    "pass_count": [
+      50,
+      45,
+      47
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n800_keep0",
+    "counts": [
+      200,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      1
+    ],
+    "pass_count": [
+      50,
+      48,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n800_keep1",
+    "counts": [
+      0,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      3,
+      1
+    ],
+    "pass_count": [
+      50,
+      47,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      11,
+      50
+    ],
+    "pass_count": [
+      50,
+      39,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n800_keep01",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      2
+    ],
+    "pass_count": [
+      50,
+      50,
+      48
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n800_keep02",
+    "counts": [
+      200,
+      0,
+      400
+    ],
+    "holds": [
+      0,
+      24,
+      50
+    ],
+    "pass_count": [
+      50,
+      26,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "K200_L",
+    "candidate": "GMGPP112_n800_keep12",
+    "counts": [
+      0,
+      200,
+      400
+    ],
+    "holds": [
+      0,
+      3,
+      50
+    ],
+    "pass_count": [
+      50,
+      47,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      1,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "clean",
+    "counts": [
+      0,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      0
+    ],
+    "pass_count": [
+      50,
+      49,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM_n80",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      2
+    ],
+    "pass_count": [
+      50,
+      45,
+      48
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP_n80",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      9,
+      1
+    ],
+    "pass_count": [
+      50,
+      41,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "P_n80",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      0,
+      46
+    ],
+    "pass_count": [
+      50,
+      50,
+      4
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP31_n80",
+    "counts": [
+      60,
+      20,
+      0
+    ],
+    "holds": [
+      0,
+      2,
+      0
+    ],
+    "pass_count": [
+      50,
+      48,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP11_n80",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      0
+    ],
+    "pass_count": [
+      50,
+      49,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP13_n80",
+    "counts": [
+      20,
+      60,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      1
+    ],
+    "pass_count": [
+      50,
+      49,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMP11_n80",
+    "counts": [
+      40,
+      0,
+      40
+    ],
+    "holds": [
+      0,
+      2,
+      17
+    ],
+    "pass_count": [
+      50,
+      48,
+      33
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GPP11_n80",
+    "counts": [
+      0,
+      40,
+      40
+    ],
+    "holds": [
+      0,
+      1,
+      18
+    ],
+    "pass_count": [
+      50,
+      49,
+      32
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n80",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "holds": [
+      0,
+      0,
+      17
+    ],
+    "pass_count": [
+      50,
+      50,
+      33
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM_n160",
+    "counts": [
+      160,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      34,
+      26
+    ],
+    "pass_count": [
+      50,
+      16,
+      24
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP_n160",
+    "counts": [
+      0,
+      160,
+      0
+    ],
+    "holds": [
+      0,
+      33,
+      20
+    ],
+    "pass_count": [
+      50,
+      17,
+      30
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      1
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "P_n160",
+    "counts": [
+      0,
+      0,
+      160
+    ],
+    "holds": [
+      0,
+      1,
+      50
+    ],
+    "pass_count": [
+      50,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      26,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP31_n160",
+    "counts": [
+      120,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      5,
+      5
+    ],
+    "pass_count": [
+      50,
+      45,
+      45
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP11_n160",
+    "counts": [
+      80,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      3
+    ],
+    "pass_count": [
+      50,
+      49,
+      47
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP13_n160",
+    "counts": [
+      40,
+      120,
+      0
+    ],
+    "holds": [
+      0,
+      7,
+      4
+    ],
+    "pass_count": [
+      50,
+      43,
+      46
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMP11_n160",
+    "counts": [
+      80,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      10,
+      50
+    ],
+    "pass_count": [
+      50,
+      40,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GPP11_n160",
+    "counts": [
+      0,
+      80,
+      80
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n160",
+    "counts": [
+      40,
+      40,
+      80
+    ],
+    "holds": [
+      0,
+      0,
+      50
+    ],
+    "pass_count": [
+      50,
+      50,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM_n400",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP_n400",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      9
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "P_n400",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      33,
+      7,
+      50
+    ],
+    "pass_count": [
+      17,
+      43,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP31_n400",
+    "counts": [
+      300,
+      100,
+      0
+    ],
+    "holds": [
+      0,
+      44,
+      45
+    ],
+    "pass_count": [
+      50,
+      6,
+      5
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP11_n400",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      29
+    ],
+    "pass_count": [
+      50,
+      50,
+      21
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      1
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP13_n400",
+    "counts": [
+      100,
+      300,
+      0
+    ],
+    "holds": [
+      0,
+      41,
+      40
+    ],
+    "pass_count": [
+      50,
+      9,
+      10
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      7
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMP11_n400",
+    "counts": [
+      200,
+      0,
+      200
+    ],
+    "holds": [
+      0,
+      49,
+      50
+    ],
+    "pass_count": [
+      50,
+      1,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GPP11_n400",
+    "counts": [
+      0,
+      200,
+      200
+    ],
+    "holds": [
+      0,
+      27,
+      50
+    ],
+    "pass_count": [
+      50,
+      23,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n400",
+    "counts": [
+      100,
+      100,
+      200
+    ],
+    "holds": [
+      0,
+      4,
+      50
+    ],
+    "pass_count": [
+      50,
+      46,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GM_n800",
+    "counts": [
+      800,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GP_n800",
+    "counts": [
+      0,
+      800,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      32
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "P_n800",
+    "counts": [
+      0,
+      0,
+      800
+    ],
+    "holds": [
+      50,
+      44,
+      50
+    ],
+    "pass_count": [
+      0,
+      6,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP31_n800",
+    "counts": [
+      600,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      5
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP11_n800",
+    "counts": [
+      400,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      50
+    ],
+    "pass_count": [
+      50,
+      50,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      16
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP13_n800",
+    "counts": [
+      200,
+      600,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      23
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMP11_n800",
+    "counts": [
+      400,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GPP11_n800",
+    "counts": [
+      0,
+      400,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n800",
+    "counts": [
+      200,
+      200,
+      400
+    ],
+    "holds": [
+      50,
+      12,
+      50
+    ],
+    "pass_count": [
+      0,
+      38,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP11_n160_keep0",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      4,
+      2
+    ],
+    "pass_count": [
+      50,
+      46,
+      48
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      7,
+      1
+    ],
+    "pass_count": [
+      50,
+      43,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMP11_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      0,
+      47
+    ],
+    "pass_count": [
+      50,
+      50,
+      3
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GPP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      0,
+      8,
+      1
+    ],
+    "pass_count": [
+      50,
+      42,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n160_keep0",
+    "counts": [
+      40,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      0
+    ],
+    "pass_count": [
+      50,
+      49,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n160_keep1",
+    "counts": [
+      0,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      1
+    ],
+    "pass_count": [
+      50,
+      49,
+      49
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      0,
+      46
+    ],
+    "pass_count": [
+      50,
+      50,
+      4
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n160_keep01",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      0,
+      1,
+      0
+    ],
+    "pass_count": [
+      50,
+      49,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n160_keep02",
+    "counts": [
+      40,
+      0,
+      80
+    ],
+    "holds": [
+      0,
+      2,
+      50
+    ],
+    "pass_count": [
+      50,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n160_keep12",
+    "counts": [
+      0,
+      40,
+      80
+    ],
+    "holds": [
+      0,
+      1,
+      49
+    ],
+    "pass_count": [
+      50,
+      49,
+      1
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP11_n800_keep0",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      9
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMP11_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      34,
+      6,
+      50
+    ],
+    "pass_count": [
+      16,
+      44,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GPP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      0,
+      50,
+      50
+    ],
+    "pass_count": [
+      50,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      9
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n800_keep0",
+    "counts": [
+      200,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      44,
+      39
+    ],
+    "pass_count": [
+      50,
+      6,
+      11
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      0
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n800_keep1",
+    "counts": [
+      0,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      45,
+      38
+    ],
+    "pass_count": [
+      50,
+      5,
+      12
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      1
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      33,
+      6,
+      50
+    ],
+    "pass_count": [
+      17,
+      44,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n800_keep01",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      29
+    ],
+    "pass_count": [
+      50,
+      50,
+      21
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      1
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n800_keep02",
+    "counts": [
+      200,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V05_L",
+    "candidate": "GMGPP112_n800_keep12",
+    "counts": [
+      0,
+      200,
+      400
+    ],
+    "holds": [
+      50,
+      12,
+      50
+    ],
+    "pass_count": [
+      0,
+      38,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "clean",
+    "counts": [
+      0,
+      0,
+      0
+    ],
+    "holds": [
+      0,
+      0,
+      0
+    ],
+    "pass_count": [
+      50,
+      50,
+      50
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      22
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GM_n80",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      11,
+      30,
+      24
+    ],
+    "pass_count": [
+      39,
+      20,
+      26
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GP_n80",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      12,
+      31,
+      29
+    ],
+    "pass_count": [
+      38,
+      19,
+      21
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "P_n80",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      12,
+      2,
+      50
+    ],
+    "pass_count": [
+      38,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP31_n80",
+    "counts": [
+      60,
+      20,
+      0
+    ],
+    "holds": [
+      11,
+      11,
+      9
+    ],
+    "pass_count": [
+      39,
+      39,
+      41
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP11_n80",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      11,
+      0,
+      8
+    ],
+    "pass_count": [
+      39,
+      50,
+      42
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP13_n80",
+    "counts": [
+      20,
+      60,
+      0
+    ],
+    "holds": [
+      11,
+      5,
+      9
+    ],
+    "pass_count": [
+      39,
+      45,
+      41
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMP11_n80",
+    "counts": [
+      40,
+      0,
+      40
+    ],
+    "holds": [
+      11,
+      15,
+      50
+    ],
+    "pass_count": [
+      39,
+      35,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GPP11_n80",
+    "counts": [
+      0,
+      40,
+      40
+    ],
+    "holds": [
+      12,
+      3,
+      50
+    ],
+    "pass_count": [
+      38,
+      47,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n80",
+    "counts": [
+      20,
+      20,
+      40
+    ],
+    "holds": [
+      11,
+      1,
+      50
+    ],
+    "pass_count": [
+      39,
+      49,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GM_n160",
+    "counts": [
+      160,
+      0,
+      0
+    ],
+    "holds": [
+      48,
+      50,
+      50
+    ],
+    "pass_count": [
+      2,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      7,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GP_n160",
+    "counts": [
+      0,
+      160,
+      0
+    ],
+    "holds": [
+      48,
+      50,
+      50
+    ],
+    "pass_count": [
+      2,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      18,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "P_n160",
+    "counts": [
+      0,
+      0,
+      160
+    ],
+    "holds": [
+      48,
+      11,
+      50
+    ],
+    "pass_count": [
+      2,
+      39,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP31_n160",
+    "counts": [
+      120,
+      40,
+      0
+    ],
+    "holds": [
+      48,
+      30,
+      45
+    ],
+    "pass_count": [
+      2,
+      20,
+      5
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      10,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP11_n160",
+    "counts": [
+      80,
+      80,
+      0
+    ],
+    "holds": [
+      48,
+      0,
+      45
+    ],
+    "pass_count": [
+      2,
+      50,
+      5
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      11,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP13_n160",
+    "counts": [
+      40,
+      120,
+      0
+    ],
+    "holds": [
+      48,
+      27,
+      48
+    ],
+    "pass_count": [
+      2,
+      23,
+      2
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      12,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMP11_n160",
+    "counts": [
+      80,
+      0,
+      80
+    ],
+    "holds": [
+      48,
+      42,
+      50
+    ],
+    "pass_count": [
+      2,
+      8,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      16,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GPP11_n160",
+    "counts": [
+      0,
+      80,
+      80
+    ],
+    "holds": [
+      48,
+      20,
+      50
+    ],
+    "pass_count": [
+      2,
+      30,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      34,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n160",
+    "counts": [
+      40,
+      40,
+      80
+    ],
+    "holds": [
+      48,
+      2,
+      50
+    ],
+    "pass_count": [
+      2,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      24,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GM_n400",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GP_n400",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "P_n400",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      39,
+      50
+    ],
+    "pass_count": [
+      0,
+      11,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP31_n400",
+    "counts": [
+      300,
+      100,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP11_n400",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      50,
+      0,
+      50
+    ],
+    "pass_count": [
+      0,
+      50,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP13_n400",
+    "counts": [
+      100,
+      300,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMP11_n400",
+    "counts": [
+      200,
+      0,
+      200
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GPP11_n400",
+    "counts": [
+      0,
+      200,
+      200
+    ],
+    "holds": [
+      50,
+      49,
+      50
+    ],
+    "pass_count": [
+      0,
+      1,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n400",
+    "counts": [
+      100,
+      100,
+      200
+    ],
+    "holds": [
+      50,
+      13,
+      50
+    ],
+    "pass_count": [
+      0,
+      37,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GM_n800",
+    "counts": [
+      800,
+      0,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GP_n800",
+    "counts": [
+      0,
+      800,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "P_n800",
+    "counts": [
+      0,
+      0,
+      800
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP31_n800",
+    "counts": [
+      600,
+      200,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP11_n800",
+    "counts": [
+      400,
+      400,
+      0
+    ],
+    "holds": [
+      50,
+      0,
+      50
+    ],
+    "pass_count": [
+      0,
+      50,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP13_n800",
+    "counts": [
+      200,
+      600,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMP11_n800",
+    "counts": [
+      400,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GPP11_n800",
+    "counts": [
+      0,
+      400,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n800",
+    "counts": [
+      200,
+      200,
+      400
+    ],
+    "holds": [
+      50,
+      33,
+      50
+    ],
+    "pass_count": [
+      0,
+      17,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP11_n160_keep0",
+    "counts": [
+      80,
+      0,
+      0
+    ],
+    "holds": [
+      10,
+      30,
+      24
+    ],
+    "pass_count": [
+      40,
+      20,
+      26
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      12,
+      31,
+      29
+    ],
+    "pass_count": [
+      38,
+      19,
+      21
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMP11_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      13,
+      2,
+      50
+    ],
+    "pass_count": [
+      37,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GPP11_n160_keep1",
+    "counts": [
+      0,
+      80,
+      0
+    ],
+    "holds": [
+      12,
+      31,
+      29
+    ],
+    "pass_count": [
+      38,
+      19,
+      21
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n160_keep0",
+    "counts": [
+      40,
+      0,
+      0
+    ],
+    "holds": [
+      1,
+      11,
+      3
+    ],
+    "pass_count": [
+      49,
+      39,
+      47
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n160_keep1",
+    "counts": [
+      0,
+      40,
+      0
+    ],
+    "holds": [
+      2,
+      6,
+      4
+    ],
+    "pass_count": [
+      48,
+      44,
+      46
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n160_keep2",
+    "counts": [
+      0,
+      0,
+      80
+    ],
+    "holds": [
+      13,
+      2,
+      50
+    ],
+    "pass_count": [
+      37,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n160_keep01",
+    "counts": [
+      40,
+      40,
+      0
+    ],
+    "holds": [
+      11,
+      0,
+      8
+    ],
+    "pass_count": [
+      39,
+      50,
+      42
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      0,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n160_keep02",
+    "counts": [
+      40,
+      0,
+      80
+    ],
+    "holds": [
+      33,
+      20,
+      50
+    ],
+    "pass_count": [
+      17,
+      30,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      3,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n160_keep12",
+    "counts": [
+      0,
+      40,
+      80
+    ],
+    "holds": [
+      34,
+      2,
+      50
+    ],
+    "pass_count": [
+      16,
+      48,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      3,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP11_n800_keep0",
+    "counts": [
+      400,
+      0,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMP11_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      40,
+      50
+    ],
+    "pass_count": [
+      0,
+      10,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GPP11_n800_keep1",
+    "counts": [
+      0,
+      400,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n800_keep0",
+    "counts": [
+      200,
+      0,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      26,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n800_keep1",
+    "counts": [
+      0,
+      200,
+      0
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      49,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n800_keep2",
+    "counts": [
+      0,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      40,
+      50
+    ],
+    "pass_count": [
+      0,
+      10,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n800_keep01",
+    "counts": [
+      200,
+      200,
+      0
+    ],
+    "holds": [
+      50,
+      0,
+      50
+    ],
+    "pass_count": [
+      0,
+      50,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n800_keep02",
+    "counts": [
+      200,
+      0,
+      400
+    ],
+    "holds": [
+      50,
+      50,
+      50
+    ],
+    "pass_count": [
+      0,
+      0,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  },
+  {
+    "group": "V15_L",
+    "candidate": "GMGPP112_n800_keep12",
+    "counts": [
+      0,
+      200,
+      400
+    ],
+    "holds": [
+      50,
+      33,
+      50
+    ],
+    "pass_count": [
+      0,
+      17,
+      0
+    ],
+    "unknown": [
+      0,
+      0,
+      0
+    ],
+    "inactive": [
+      50,
+      50
+    ]
+  }
+]

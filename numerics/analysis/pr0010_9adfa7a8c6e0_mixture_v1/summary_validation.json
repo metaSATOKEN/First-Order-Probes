@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SUMMARY_IDENTITIES",
+  "rows": 5472,
+  "gate_rows": 342,
+  "parent_rows": 2304,
+  "asymmetry_rows": 1368,
+  "figures": 8,
+  "unknown": 0,
+  "unavailable": 0,
+  "excluded": 0
+}

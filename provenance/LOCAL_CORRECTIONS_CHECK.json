@@ -1,0 +1,45 @@
+{
+  "status": "PASS_LOCAL_DOCUMENTATION_CHECKS",
+  "date": "2026-10-27",
+  "scope": "Five approved public-preparation corrections; no scientific implementation or result changes.",
+  "resolved": {
+    "F1": "Four Finder metadata files preserved outside the distribution.",
+    "F2": "Equation (1) points to the actual GPU.filt method.",
+    "F3": "Fresh-run 24 GiB free runtime disk requirement documented.",
+    "F4": "Both public manuscripts link to the current readable FIX1 guide.",
+    "F5": "Equation (22) historical cross-check is labelled for inspection with its omitted dependency."
+  },
+  "manuscripts": {
+    "Calibration_Update_Audits_for_First_Order_Probes_EN_v2.md": {
+      "navigation_paragraphs_added": 1,
+      "removal_restores_original_bytes": true,
+      "display_math_blocks_unchanged": 24,
+      "table_lines_unchanged": 124,
+      "before_sha256": "5e7d0f6676723fd07e456ad96770ee1aff8ec75bf9449653be9110222735b806",
+      "after_sha256": "1777af7539d8af3bfa3c8ebdf949cde08ab7a3d9888f59208d9a65756fddf635"
+    },
+    "Calibration_Update_Audits_for_First_Order_Probes_JA_v5.md": {
+      "navigation_paragraphs_added": 1,
+      "removal_restores_original_bytes": true,
+      "display_math_blocks_unchanged": 24,
+      "table_lines_unchanged": 124,
+      "before_sha256": "2c9168d8ac1a3a6fbd5c22d0603035a02a79399079f547b4cd50509fdec4d800",
+      "after_sha256": "889edd22012f94c9c1a180f7bfaa7084cff32853741f5dc0f9747e50d7313b6b"
+    }
+  },
+  "source_manifest_rows_verified": 1235,
+  "frozen_entry_check": {
+    "command": "python3 -B numerics/experiments/pr0012_fix1/run_colab.py --check",
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"mode\": \"read_only_check\",\n  \"members\": 28,\n  \"python_files\": 20,\n  \"cell_id\": \"d41a11833edd6d21\",\n  \"payload_sha256\": \"4045cf2857875c9d0978a19961e3daea38a382303418f2267572023eb1c3789f\",\n  \"simulation_started\": false,\n  \"environment_installed\": false\n}\n",
+    "stderr": ""
+  },
+  "numerical_tests_rerun": false,
+  "saved_primary_recomputation_rerun": false,
+  "new_scientific_records": 0,
+  "fresh_gpu_run": false,
+  "live_browser_or_runtime_loss_restore_tested": false,
+  "pdf_generated": false,
+  "git_initialized": false,
+  "pushed_or_published": false
+}

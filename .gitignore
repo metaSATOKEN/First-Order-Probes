@@ -1,0 +1,25 @@
+# Machine-local environments, credentials, and temporary build products
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.lake/
+build/
+dist/
+
+# Original raw returns are archived separately, not included in this package.
+*.zip
+/pr0012/
+/Pr0009/
+/raw/
+/scratch/
+
+# Included analysis NPZ/JSON/CSV and figures are intentionally trackable.

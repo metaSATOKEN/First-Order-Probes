@@ -1,0 +1,17 @@
+{
+  "primary": {
+    "SUPPORTED": 12,
+    "UNRESOLVED": 1,
+    "OPPOSITE": 0,
+    "TECHNICAL_UNESTABLISHED": 0
+  },
+  "policy_pair_tables_checked": 28800,
+  "invalid": {
+    "wcounts": 0,
+    "lcounts": 0,
+    "policy": 0,
+    "lf_pairs": 0
+  },
+  "V_classifications_checked": 800,
+  "status": "PASS_SECOND_PATH_COUNTS_AND_PRIMARY_INFERENCE"
+}

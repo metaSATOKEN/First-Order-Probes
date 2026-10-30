@@ -1,0 +1,81 @@
+{
+  "status": "PASS_SAVED_DATA_RECOMPUTATION",
+  "run_id": "6f23fc7946f8",
+  "cell_id": "f98f8d0167e97f69",
+  "counts": {
+    "npz_checked": 6325,
+    "nonfinite_rows": 0,
+    "chunks": 4100,
+    "records": 13749700,
+    "records_ref": 499950,
+    "tasks": 1400,
+    "records_cal": 3999750,
+    "records_null": 5000000,
+    "records_fault": 4125000,
+    "records_control": 125000,
+    "disabled_directions": 0,
+    "models": 50,
+    "calibrations": 250,
+    "evaluation_contexts": 1900,
+    "policy_evaluation_records": 16250000,
+    "independent_intervals": 16813
+  },
+  "max_absolute_differences": {
+    "moment_identity": 0.0,
+    "CR_identity": 5.956173054766367e-15,
+    "reference_sorted_refit": 4.440892098500626e-15,
+    "independent_reference_mean": 4.0657581468206416e-20,
+    "independent_2x2_weights": 6.821210263296962e-13,
+    "calibration_cut": 8.881784197001252e-16,
+    "cross_library_interval_endpoint": 5.703881811314204e-12,
+    "outer_mean": 3.3306690738754696e-16,
+    "outer_sd": 1.1102230246251565e-16,
+    "outer_mcse": 2.7755575615628914e-17,
+    "outer_q10": 0.0,
+    "outer_q50": 0.0,
+    "outer_q90": 0.0,
+    "outer_lower": 3.3306690738754696e-16,
+    "outer_upper": 3.3306690738754696e-16
+  },
+  "tolerance": {
+    "atol": 2e-12,
+    "rtol": 2e-12
+  },
+  "archives": 6,
+  "archive_member_occurrences": 6909,
+  "protected_files": 465,
+  "protected_unchanged": true,
+  "exact_final_decisions": true,
+  "calibration_roles_separate": true,
+  "inference_check": "fsum variance + inverse-survival t; all rate/branch/pair/primary/FPR/contrast intervals",
+  "limitation": "same agent self-audit; stored 17-column statistics, not regenerated waveforms; no simulator called",
+  "elapsed_seconds": 38.74919454008341,
+  "source_sha256": "eba909ad3e41ce8583d556c14180a343387bdddf59ac6c00ef81d413c041598c",
+  "wrapper_source_sha256": "1eb165a862845b7e45292b6824a081bdc747a1e732349981c689a43aacfb0fa1",
+  "base_source_sha256": "eba909ad3e41ce8583d556c14180a343387bdddf59ac6c00ef81d413c041598c",
+  "interval_endpoint_atol": 1e-10,
+  "quantile_audit": [
+    {
+      "family": 1,
+      "df": 24,
+      "high_precision": "2.06389856162802584924578412367660082721288820775698687778653",
+      "local": 2.063898561628024,
+      "archive_implied": 2.0638985616280197
+    },
+    {
+      "family": 25,
+      "df": 24,
+      "high_precision": "3.46677729801602768812099083864307092958926157689686202253005",
+      "local": 3.466777298016027,
+      "archive_implied": 3.46677729809869
+    },
+    {
+      "family": 216,
+      "df": 24,
+      "high_precision": "4.32441716386381690968271323967048922536451148751889213365623",
+      "local": 4.32441716386388,
+      "archive_implied": 4.324417163863882
+    }
+  ],
+  "corrected_audit": "v1 overstrict Student-t endpoint comparison; archived decisions unchanged"
+}

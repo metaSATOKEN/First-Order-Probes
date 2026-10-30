@@ -1,0 +1,239 @@
+{
+  "status": "PASS_RECEIPT",
+  "archives": [
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_01_COMPLETE_dd1e27b3.zip",
+      "bytes": 266648309,
+      "sha256": "081931f86c02d74a83fc38f26cdc3d34f51f21f66b44ac33e653915ac9840ffc",
+      "sequence": 0,
+      "status": "SHARD_01_COMPLETE",
+      "members": 1833,
+      "uncompressed_bytes": 395955249,
+      "coverage": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_02_COMPLETE_35986d5c.zip",
+      "bytes": 266856081,
+      "sha256": "5adf44aea8109e3fea9f5a66b849685b1a6e4ca30169a20e6c40cceb7288773a",
+      "sequence": 1,
+      "status": "SHARD_02_COMPLETE",
+      "members": 1843,
+      "uncompressed_bytes": 397004910,
+      "coverage": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_03_COMPLETE_39ee86a6.zip",
+      "bytes": 267070892,
+      "sha256": "b16c629f0df7276068d50ae2666f56a5bc505b0b4f8074a3962f08676ac82480",
+      "sequence": 2,
+      "status": "SHARD_03_COMPLETE",
+      "members": 1853,
+      "uncompressed_bytes": 398060035,
+      "coverage": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_04_COMPLETE_a669f0ad.zip",
+      "bytes": 267290755,
+      "sha256": "43ad37a309d5dc38678f0129a0cf2acc249802f649aa8be59dcb97d2875ee380",
+      "sequence": 3,
+      "status": "SHARD_04_COMPLETE",
+      "members": 1863,
+      "uncompressed_bytes": 399109424,
+      "coverage": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_05_COMPLETE_aea887f9.zip",
+      "bytes": 267502766,
+      "sha256": "8cc9f10b26141ff1791d67d00f4c9cfe88bff3cbd89bac81f06d6f6bd1c669c0",
+      "sequence": 4,
+      "status": "SHARD_05_COMPLETE",
+      "members": 1873,
+      "uncompressed_bytes": 400159523,
+      "coverage": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_06_COMPLETE_ad67bfe3.zip",
+      "bytes": 267714121,
+      "sha256": "96f4bcdfb4e9b61cac53a682ffb03eaa4545733ca33bed1f442ed09fbd817b20",
+      "sequence": 5,
+      "status": "SHARD_06_COMPLETE",
+      "members": 1883,
+      "uncompressed_bytes": 401208982,
+      "coverage": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_07_COMPLETE_7d8bbd39.zip",
+      "bytes": 267943300,
+      "sha256": "ce4aeb3149089847dfef39d78d431261b4d4636e72868d5ace1aa590ae33107d",
+      "sequence": 6,
+      "status": "SHARD_07_COMPLETE",
+      "members": 1893,
+      "uncompressed_bytes": 402258810,
+      "coverage": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_08_COMPLETE_bdafb73c.zip",
+      "bytes": 268147390,
+      "sha256": "f30cb9d3b4759a7e1e6e45ce08db7dfcd9b4b08a499f24f00f4a37efb30eb834",
+      "sequence": 7,
+      "status": "SHARD_08_COMPLETE",
+      "members": 1903,
+      "uncompressed_bytes": 403309136,
+      "coverage": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_09_COMPLETE_b074c220.zip",
+      "bytes": 268376443,
+      "sha256": "1234de056927272f1cb42f2db5b357c59019f36e0e97b410c84170c398153ddc",
+      "sequence": 8,
+      "status": "SHARD_09_COMPLETE",
+      "members": 1913,
+      "uncompressed_bytes": 404358508,
+      "coverage": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_SHARD_10_COMPLETE_af7147ef.zip",
+      "bytes": 268581676,
+      "sha256": "484b462a342b931a87224f8a9dd894cafd64f71ffe90ebba453c77433d96c3db",
+      "sequence": 9,
+      "status": "SHARD_10_COMPLETE",
+      "members": 1923,
+      "uncompressed_bytes": 405408359,
+      "coverage": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "file": "mixture_recovery_pr0012_v1_64bf0f2c7697_COMPLETE_INDEX_47fa6bfc.zip",
+      "bytes": 4156247,
+      "sha256": "5badf0d2dd232da664b5fdc09abb36a023aaea490df7808b4b601acba448c691",
+      "sequence": 10,
+      "status": "COMPLETE_INDEX",
+      "members": 186,
+      "uncompressed_bytes": 39627262,
+      "coverage": []
+    }
+  ],
+  "indexed_member_occurrences": 18966,
+  "unique_files": 17686,
+  "immutable_duplicate_occurrences": 830,
+  "coverage": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "summary": {
+    "all_scientific_records_certified": true,
+    "note": "Keep ten data shards plus index; receipt-only raw was not re-read.",
+    "raw_not_present_this_runtime": [],
+    "replicates": 50,
+    "status": "COMPLETE",
+    "unique_records": 23999200
+  },
+  "sources_checked": 28
+}

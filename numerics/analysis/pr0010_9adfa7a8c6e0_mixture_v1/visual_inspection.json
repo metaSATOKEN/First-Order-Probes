@@ -1,0 +1,14 @@
+{
+  "status": "PASS_DISPLAY_INSPECTION",
+  "figures": {
+    "01_dose_Gold.png": "c7ecd450d1d2381eb23a5e524aeed5bb8e253010d7f7bc9c4bc77c253881611c",
+    "02_dose_GM.png": "2dea7f1638d024ef34fb3da1ac2354a19dca5fb592d44f3be2739328564d0af9",
+    "03_dose_GMC.png": "b5a59b201981f14a0e935d2a94fde337cbea44676209f67647489172e768d82f",
+    "04_cancellation.png": "d186a8047718fe16488482c0c38c8755451a35cc462a0ac1cf44cdcb897fa18d",
+    "05_mean_sd.png": "e7b216204125763835a6cd296916cfd894e098f452ec04221d0f46ac487fdaab",
+    "06_private_addition.png": "d8904d8fd3bdc42e473eb83d3045ee311d6b0d2a8bf9ff8e62cc795a8c61423b",
+    "07_policy_tradeoffs.png": "ff49f23f0fbc716207eaf284a3e56af6ffc704bc78c6fe8e174a0db591f09570",
+    "08_low_alpha.png": "1e961ac7c2b2bb978d48e25ff60089468b51f846d4f558c7b241de42ac5407ee"
+  },
+  "scope": "Eight full rendered figures inspected for axes, labels, legend, clipping, units and interpretation; same agent, no independent reviewer."
+}

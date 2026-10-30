@@ -1,0 +1,74 @@
+[
+  {
+    "path": "lfdc_budget_pr0006_v1_6f23fc7946f8_COMPLETE_INDEX_251422d8.zip",
+    "sha256": "83c4bcdd3ae7f951d4bfc2b05f75eaf965cf7fa5460c401f67ae87da037b02bd",
+    "bytes": 2831605,
+    "members": 122,
+    "coverage": []
+  },
+  {
+    "path": "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_01_COMPLETE_d8111874.zip",
+    "sha256": "68a2643ed477d2bec9ee9b73f10ca8d026a4b4064f8b959330710b7fae174d06",
+    "bytes": 288568280,
+    "members": 1337,
+    "coverage": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "path": "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_02_COMPLETE_e0ec6045.zip",
+    "sha256": "24103985b258a3ef7c0b32d03fdb8912f8c8d5186ec940c1df1f75e2fa75ec37",
+    "bytes": 288762839,
+    "members": 1347,
+    "coverage": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "path": "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_03_COMPLETE_2ec2fecf.zip",
+    "sha256": "acc499d88c75545c426fd509ad2f8de8df72cd71fc2f590b14d098d62ae09719",
+    "bytes": 288935190,
+    "members": 1357,
+    "coverage": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "path": "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_04_COMPLETE_5a9a6e31.zip",
+    "sha256": "50b5c24dcd25c6f5e29694143a859ca6951217144d46bbc20b701da0d4d30c02",
+    "bytes": 289112957,
+    "members": 1367,
+    "coverage": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "path": "lfdc_budget_pr0006_v1_6f23fc7946f8_SHARD_05_COMPLETE_f12dcba5.zip",
+    "sha256": "9c64f2d881d8607d4f0a64f9126979622ed2fb0492be19cc91660d1bfec87147",
+    "bytes": 291047965,
+    "members": 1379,
+    "coverage": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "data_scope": "Stored scores only; no experiment regenerated",
+  "matched_fpr_rows_recomputed": 900,
+  "roc_auc_pairs_independently_integrated": 180,
+  "max_auc_difference": 2.220446049250313e-16,
+  "max_normalized_pauc_difference": 2.220446049250313e-16,
+  "paired_differences_checked": 90,
+  "deterministic_tests_passed": 5,
+  "report_links_checked": true,
+  "source_archive_sha256": "ead4356ab3f54a58758002b6204e561e26ca87e566a14f680e82f793afe5418c"
+}

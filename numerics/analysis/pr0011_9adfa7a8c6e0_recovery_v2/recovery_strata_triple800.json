@@ -1,0 +1,1094 @@
+[
+  {
+    "group": "B_M",
+    "alpha": 0.01,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 8,
+    "defer_replicates": 4,
+    "recovery_issued": {
+      "value": 0.009625,
+      "ci95": [
+        0.008800614461891745,
+        0.010449385538108254
+      ],
+      "active_replicates": 8,
+      "issued_records": 160000
+    },
+    "C0_switch_gain": 35,
+    "C0_switch_loss": 215,
+    "defer_lost_P0_alarm": 774,
+    "defer_lost_P0_noalarm": 79226,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.009905
+  },
+  {
+    "group": "B_M",
+    "alpha": 0.01,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 8,
+    "defer_replicates": 4,
+    "recovery_issued": {
+      "value": 0.128625,
+      "ci95": [
+        0.12076704717675352,
+        0.13648295282324646
+      ],
+      "active_replicates": 8,
+      "issued_records": 40000
+    },
+    "C0_switch_gain": 67,
+    "C0_switch_loss": 350,
+    "defer_lost_P0_alarm": 2738,
+    "defer_lost_P0_noalarm": 17262,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.130728
+  },
+  {
+    "group": "B_M",
+    "alpha": 0.01,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 8,
+    "defer_replicates": 4,
+    "recovery_issued": {
+      "value": 0.20565,
+      "ci95": [
+        0.19796795304520012,
+        0.21333204695479988
+      ],
+      "active_replicates": 8,
+      "issued_records": 40000
+    },
+    "C0_switch_gain": 69,
+    "C0_switch_loss": 747,
+    "defer_lost_P0_alarm": 4340,
+    "defer_lost_P0_noalarm": 15660,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.213824
+  },
+  {
+    "group": "B_M",
+    "alpha": 0.01,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 8,
+    "defer_replicates": 4,
+    "recovery_issued": {
+      "value": 0.97885,
+      "ci95": [
+        0.9778080904209804,
+        0.9798919095790196
+      ],
+      "active_replicates": 8,
+      "issued_records": 40000
+    },
+    "C0_switch_gain": 9,
+    "C0_switch_loss": 43,
+    "defer_lost_P0_alarm": 19601,
+    "defer_lost_P0_noalarm": 399,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.97874
+  },
+  {
+    "group": "B_M",
+    "alpha": 0.001,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 2,
+    "defer_replicates": 41,
+    "recovery_issued": {
+      "value": 0.0006,
+      "ci95": [
+        0.0005282294558168129,
+        0.000671770544183187
+      ],
+      "active_replicates": 2,
+      "issued_records": 40000
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 20,
+    "defer_lost_P0_alarm": 823,
+    "defer_lost_P0_noalarm": 819177,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.001088
+  },
+  {
+    "group": "B_M",
+    "alpha": 0.001,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 2,
+    "defer_replicates": 41,
+    "recovery_issued": {
+      "value": 0.0188,
+      "ci95": [
+        0.013919602995543276,
+        0.023680397004456726
+      ],
+      "active_replicates": 2,
+      "issued_records": 10000
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 120,
+    "defer_lost_P0_alarm": 5841,
+    "defer_lost_P0_noalarm": 199159,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.029828
+  },
+  {
+    "group": "B_M",
+    "alpha": 0.001,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 2,
+    "defer_replicates": 41,
+    "recovery_issued": {
+      "value": 0.0606,
+      "ci95": [
+        0.057442096055939765,
+        0.06375790394406024
+      ],
+      "active_replicates": 2,
+      "issued_records": 10000
+    },
+    "C0_switch_gain": 3,
+    "C0_switch_loss": 144,
+    "defer_lost_P0_alarm": 14276,
+    "defer_lost_P0_noalarm": 190724,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.071132
+  },
+  {
+    "group": "B_M",
+    "alpha": 0.001,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 2,
+    "defer_replicates": 41,
+    "recovery_issued": {
+      "value": 0.9444,
+      "ci95": [
+        0.9395196029955433,
+        0.9492803970044568
+      ],
+      "active_replicates": 2,
+      "issued_records": 10000
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 100,
+    "defer_lost_P0_alarm": 194868,
+    "defer_lost_P0_noalarm": 10132,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.95022
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.01,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 5,
+    "defer_replicates": 8,
+    "recovery_issued": {
+      "value": 0.00947,
+      "ci95": [
+        0.009061374042703643,
+        0.009878625957296355
+      ],
+      "active_replicates": 5,
+      "issued_records": 100000
+    },
+    "C0_switch_gain": 19,
+    "C0_switch_loss": 99,
+    "defer_lost_P0_alarm": 1652,
+    "defer_lost_P0_noalarm": 158348,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.009806
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.01,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 5,
+    "defer_replicates": 8,
+    "recovery_issued": {
+      "value": 0.74652,
+      "ci95": [
+        0.7357596024109087,
+        0.7572803975890913
+      ],
+      "active_replicates": 5,
+      "issued_records": 25000
+    },
+    "C0_switch_gain": 102,
+    "C0_switch_loss": 375,
+    "defer_lost_P0_alarm": 29600,
+    "defer_lost_P0_noalarm": 10400,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.737872
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.01,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 5,
+    "defer_replicates": 8,
+    "recovery_issued": {
+      "value": 0.85052,
+      "ci95": [
+        0.8423349050117709,
+        0.8587050949882292
+      ],
+      "active_replicates": 5,
+      "issued_records": 25000
+    },
+    "C0_switch_gain": 32,
+    "C0_switch_loss": 230,
+    "defer_lost_P0_alarm": 34388,
+    "defer_lost_P0_noalarm": 5612,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.856188
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.01,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 5,
+    "defer_replicates": 8,
+    "recovery_issued": {
+      "value": 1.0,
+      "ci95": null,
+      "active_replicates": 5,
+      "issued_records": 25000
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 40000,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 1.0
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.001,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 3,
+    "defer_replicates": 43,
+    "recovery_issued": {
+      "value": 0.0006333333333333333,
+      "ci95": [
+        0.00041757912758799915,
+        0.0008490875390786674
+      ],
+      "active_replicates": 3,
+      "issued_records": 60000
+    },
+    "C0_switch_gain": 5,
+    "C0_switch_loss": 36,
+    "defer_lost_P0_alarm": 903,
+    "defer_lost_P0_noalarm": 859097,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.000941
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.001,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 3,
+    "defer_replicates": 43,
+    "recovery_issued": {
+      "value": 0.39613333333333334,
+      "ci95": [
+        0.35899302378332526,
+        0.4332736428833414
+      ],
+      "active_replicates": 3,
+      "issued_records": 15000
+    },
+    "C0_switch_gain": 23,
+    "C0_switch_loss": 1266,
+    "defer_lost_P0_alarm": 100614,
+    "defer_lost_P0_noalarm": 114386,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.458708
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.001,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 3,
+    "defer_replicates": 43,
+    "recovery_issued": {
+      "value": 0.5952,
+      "ci95": [
+        0.5324897913937028,
+        0.6579102086062971
+      ],
+      "active_replicates": 3,
+      "issued_records": 15000
+    },
+    "C0_switch_gain": 23,
+    "C0_switch_loss": 1490,
+    "defer_lost_P0_alarm": 140566,
+    "defer_lost_P0_noalarm": 74434,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.64084
+  },
+  {
+    "group": "B_L",
+    "alpha": 0.001,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 3,
+    "defer_replicates": 43,
+    "recovery_issued": {
+      "value": 1.0,
+      "ci95": null,
+      "active_replicates": 3,
+      "issued_records": 15000
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 215000,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 1.0
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.01,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 40,
+    "defer_replicates": 10,
+    "recovery_issued": {
+      "value": 0.0094675,
+      "ci95": [
+        0.009136293324118984,
+        0.009798706675881017
+      ],
+      "active_replicates": 40,
+      "issued_records": 800000
+    },
+    "C0_switch_gain": 200,
+    "C0_switch_loss": 21446,
+    "defer_lost_P0_alarm": 7393,
+    "defer_lost_P0_noalarm": 192607,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.009802
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.01,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 40,
+    "defer_replicates": 10,
+    "recovery_issued": {
+      "value": 0.261305,
+      "ci95": [
+        0.2575994988976581,
+        0.2650105011023419
+      ],
+      "active_replicates": 40,
+      "issued_records": 200000
+    },
+    "C0_switch_gain": 217,
+    "C0_switch_loss": 31304,
+    "defer_lost_P0_alarm": 20677,
+    "defer_lost_P0_noalarm": 29323,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.263196
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.01,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 40,
+    "defer_replicates": 10,
+    "recovery_issued": {
+      "value": 0.376095,
+      "ci95": [
+        0.37307910002319317,
+        0.37911089997680686
+      ],
+      "active_replicates": 40,
+      "issued_records": 200000
+    },
+    "C0_switch_gain": 279,
+    "C0_switch_loss": 25249,
+    "defer_lost_P0_alarm": 25216,
+    "defer_lost_P0_noalarm": 24784,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.378548
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.01,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 40,
+    "defer_replicates": 10,
+    "recovery_issued": {
+      "value": 0.965235,
+      "ci95": [
+        0.9644618893104324,
+        0.9660081106895675
+      ],
+      "active_replicates": 40,
+      "issued_records": 200000
+    },
+    "C0_switch_gain": 97,
+    "C0_switch_loss": 660,
+    "defer_lost_P0_alarm": 48494,
+    "defer_lost_P0_noalarm": 1506,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.965848
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.001,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 6,
+    "defer_replicates": 44,
+    "recovery_issued": {
+      "value": 0.000575,
+      "ci95": [
+        0.00044672444304671207,
+        0.0007032755569532879
+      ],
+      "active_replicates": 6,
+      "issued_records": 120000
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 1048,
+    "defer_lost_P0_alarm": 7646,
+    "defer_lost_P0_noalarm": 872354,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.001002
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.001,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 6,
+    "defer_replicates": 44,
+    "recovery_issued": {
+      "value": 0.10623333333333333,
+      "ci95": [
+        0.101631636310105,
+        0.11083503035656167
+      ],
+      "active_replicates": 6,
+      "issued_records": 30000
+    },
+    "C0_switch_gain": 3,
+    "C0_switch_loss": 3933,
+    "defer_lost_P0_alarm": 52050,
+    "defer_lost_P0_noalarm": 167950,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.122048
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.001,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 6,
+    "defer_replicates": 44,
+    "recovery_issued": {
+      "value": 0.20556666666666668,
+      "ci95": [
+        0.20142695377083616,
+        0.20970637956249719
+      ],
+      "active_replicates": 6,
+      "issued_records": 30000
+    },
+    "C0_switch_gain": 4,
+    "C0_switch_loss": 4181,
+    "defer_lost_P0_alarm": 72124,
+    "defer_lost_P0_noalarm": 147876,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.2285
+  },
+  {
+    "group": "K2_M",
+    "alpha": 0.001,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 6,
+    "defer_replicates": 44,
+    "recovery_issued": {
+      "value": 0.9331,
+      "ci95": [
+        0.9304623307876053,
+        0.9357376692123948
+      ],
+      "active_replicates": 6,
+      "issued_records": 30000
+    },
+    "C0_switch_gain": 2,
+    "C0_switch_loss": 292,
+    "defer_lost_P0_alarm": 207151,
+    "defer_lost_P0_noalarm": 12849,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.93886
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.01,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 0,
+    "defer_replicates": 0,
+    "recovery_issued": {
+      "value": null,
+      "ci95": null,
+      "active_replicates": 0,
+      "issued_records": 0
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 0,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.00997
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.01,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 0,
+    "defer_replicates": 0,
+    "recovery_issued": {
+      "value": null,
+      "ci95": null,
+      "active_replicates": 0,
+      "issued_records": 0
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 0,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.021564
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.01,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 0,
+    "defer_replicates": 0,
+    "recovery_issued": {
+      "value": null,
+      "ci95": null,
+      "active_replicates": 0,
+      "issued_records": 0
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 0,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.031312
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.01,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 0,
+    "defer_replicates": 0,
+    "recovery_issued": {
+      "value": null,
+      "ci95": null,
+      "active_replicates": 0,
+      "issued_records": 0
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 0,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.635492
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.001,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 1,
+    "defer_replicates": 11,
+    "recovery_issued": {
+      "value": 0.00065,
+      "ci95": null,
+      "active_replicates": 1,
+      "issued_records": 20000
+    },
+    "C0_switch_gain": 10,
+    "C0_switch_loss": 6,
+    "defer_lost_P0_alarm": 128,
+    "defer_lost_P0_noalarm": 219872,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.000993
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.001,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 1,
+    "defer_replicates": 11,
+    "recovery_issued": {
+      "value": 0.003,
+      "ci95": null,
+      "active_replicates": 1,
+      "issued_records": 5000
+    },
+    "C0_switch_gain": 4,
+    "C0_switch_loss": 10,
+    "defer_lost_P0_alarm": 126,
+    "defer_lost_P0_noalarm": 54874,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.002792
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.001,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 1,
+    "defer_replicates": 11,
+    "recovery_issued": {
+      "value": 0.0046,
+      "ci95": null,
+      "active_replicates": 1,
+      "issued_records": 5000
+    },
+    "C0_switch_gain": 8,
+    "C0_switch_loss": 10,
+    "defer_lost_P0_alarm": 185,
+    "defer_lost_P0_noalarm": 54815,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.004804
+  },
+  {
+    "group": "K200_L",
+    "alpha": 0.001,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 1,
+    "defer_replicates": 11,
+    "recovery_issued": {
+      "value": 0.3534,
+      "ci95": null,
+      "active_replicates": 1,
+      "issued_records": 5000
+    },
+    "C0_switch_gain": 3,
+    "C0_switch_loss": 420,
+    "defer_lost_P0_alarm": 22831,
+    "defer_lost_P0_noalarm": 32169,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.40062
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.01,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 0,
+    "defer_replicates": 0,
+    "recovery_issued": {
+      "value": null,
+      "ci95": null,
+      "active_replicates": 0,
+      "issued_records": 0
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 0,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.009882
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.01,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 0,
+    "defer_replicates": 0,
+    "recovery_issued": {
+      "value": null,
+      "ci95": null,
+      "active_replicates": 0,
+      "issued_records": 0
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 0,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.30794
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.01,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 0,
+    "defer_replicates": 0,
+    "recovery_issued": {
+      "value": null,
+      "ci95": null,
+      "active_replicates": 0,
+      "issued_records": 0
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 0,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.443444
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.01,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 0,
+    "defer_replicates": 0,
+    "recovery_issued": {
+      "value": null,
+      "ci95": null,
+      "active_replicates": 0,
+      "issued_records": 0
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 0,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.999044
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.001,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 1,
+    "defer_replicates": 9,
+    "recovery_issued": {
+      "value": 0.00075,
+      "ci95": null,
+      "active_replicates": 1,
+      "issued_records": 20000
+    },
+    "C0_switch_gain": 13,
+    "C0_switch_loss": 6,
+    "defer_lost_P0_alarm": 120,
+    "defer_lost_P0_noalarm": 179880,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.000971
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.001,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 1,
+    "defer_replicates": 9,
+    "recovery_issued": {
+      "value": 0.1486,
+      "ci95": null,
+      "active_replicates": 1,
+      "issued_records": 5000
+    },
+    "C0_switch_gain": 617,
+    "C0_switch_loss": 20,
+    "defer_lost_P0_alarm": 1324,
+    "defer_lost_P0_noalarm": 43676,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.12036
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.001,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 1,
+    "defer_replicates": 9,
+    "recovery_issued": {
+      "value": 0.1556,
+      "ci95": null,
+      "active_replicates": 1,
+      "issued_records": 5000
+    },
+    "C0_switch_gain": 499,
+    "C0_switch_loss": 55,
+    "defer_lost_P0_alarm": 3979,
+    "defer_lost_P0_noalarm": 41021,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.208052
+  },
+  {
+    "group": "V05_L",
+    "alpha": 0.001,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 1,
+    "defer_replicates": 9,
+    "recovery_issued": {
+      "value": 0.995,
+      "ci95": null,
+      "active_replicates": 1,
+      "issued_records": 5000
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 12,
+    "defer_lost_P0_alarm": 44851,
+    "defer_lost_P0_noalarm": 149,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.9955
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.01,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 36,
+    "defer_replicates": 14,
+    "recovery_issued": {
+      "value": 0.009652777777777777,
+      "ci95": [
+        0.009377832378055308,
+        0.009927723177500247
+      ],
+      "active_replicates": 36,
+      "issued_records": 720000
+    },
+    "C0_switch_gain": 93,
+    "C0_switch_loss": 9848,
+    "defer_lost_P0_alarm": 6728,
+    "defer_lost_P0_noalarm": 273272,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.009955
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.01,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 36,
+    "defer_replicates": 14,
+    "recovery_issued": {
+      "value": 0.9084333333333333,
+      "ci95": [
+        0.9062455558522217,
+        0.910621110814445
+      ],
+      "active_replicates": 36,
+      "issued_records": 180000
+    },
+    "C0_switch_gain": 28,
+    "C0_switch_loss": 9598,
+    "defer_lost_P0_alarm": 67357,
+    "defer_lost_P0_noalarm": 2643,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.90852
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.01,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 36,
+    "defer_replicates": 14,
+    "recovery_issued": {
+      "value": 0.9654833333333334,
+      "ci95": [
+        0.9644358615475582,
+        0.9665308051191085
+      ],
+      "active_replicates": 36,
+      "issued_records": 180000
+    },
+    "C0_switch_gain": 12,
+    "C0_switch_loss": 3425,
+    "defer_lost_P0_alarm": 68923,
+    "defer_lost_P0_noalarm": 1077,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.966088
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.01,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 36,
+    "defer_replicates": 14,
+    "recovery_issued": {
+      "value": 1.0,
+      "ci95": null,
+      "active_replicates": 36,
+      "issued_records": 180000
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 70000,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 1.0
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.001,
+    "evaluation": "normal",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 9,
+    "defer_replicates": 41,
+    "recovery_issued": {
+      "value": 0.0006444444444444444,
+      "ci95": [
+        0.000528944049304304,
+        0.0007599448395845849
+      ],
+      "active_replicates": 9,
+      "issued_records": 180000
+    },
+    "C0_switch_gain": 9,
+    "C0_switch_loss": 667,
+    "defer_lost_P0_alarm": 3498,
+    "defer_lost_P0_noalarm": 816502,
+    "planned_records": 1000000,
+    "unconditional_C0_rate": 0.000988
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.001,
+    "evaluation": "GM05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 9,
+    "defer_replicates": 41,
+    "recovery_issued": {
+      "value": 0.6508,
+      "ci95": [
+        0.6288033143829358,
+        0.6727966856170643
+      ],
+      "active_replicates": 9,
+      "issued_records": 45000
+    },
+    "C0_switch_gain": 35,
+    "C0_switch_loss": 9959,
+    "defer_lost_P0_alarm": 179101,
+    "defer_lost_P0_noalarm": 25899,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.697656
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.001,
+    "evaluation": "GP05",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 9,
+    "defer_replicates": 41,
+    "recovery_issued": {
+      "value": 0.8309555555555556,
+      "ci95": [
+        0.8155602378092232,
+        0.846350873301888
+      ],
+      "active_replicates": 9,
+      "issued_records": 45000
+    },
+    "C0_switch_gain": 19,
+    "C0_switch_loss": 5214,
+    "defer_lost_P0_alarm": 193212,
+    "defer_lost_P0_noalarm": 11788,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 0.86366
+  },
+  {
+    "group": "V15_L",
+    "alpha": 0.001,
+    "evaluation": "P02",
+    "candidate": "GMGPP112_n800",
+    "gate": "G-MC",
+    "recovery_replicates": 9,
+    "defer_replicates": 41,
+    "recovery_issued": {
+      "value": 1.0,
+      "ci95": null,
+      "active_replicates": 9,
+      "issued_records": 45000
+    },
+    "C0_switch_gain": 0,
+    "C0_switch_loss": 0,
+    "defer_lost_P0_alarm": 205000,
+    "defer_lost_P0_noalarm": 0,
+    "planned_records": 250000,
+    "unconditional_C0_rate": 1.0
+  }
+]

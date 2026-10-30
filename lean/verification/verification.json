@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "all_proofs_checked": true,
+  "lean_toolchain": "leanprover/lean4:v4.19.0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "platform": "macOS-14.7.2-arm64-arm-64bit-Mach-O",
+  "started_utc": "2026-10-15T03:48:46Z",
+  "commands": [
+    {
+      "args": [
+        "curl",
+        "--fail",
+        "--location",
+        "--retry",
+        "3",
+        "--connect-timeout",
+        "30",
+        "https://github.com/leanprover/elan/releases/download/v4.1.2/elan-aarch64-apple-darwin.tar.gz",
+        "--output",
+        "/var/folders/x7/k7pz4hs92pggc3nqsgb5wlcr0000gn/T/first_order_probe_lean_n_9q2bmv/elan.tar.gz"
+      ],
+      "log": "01_download_elan.log",
+      "returncode": 0,
+      "seconds": 1.01
+    },
+    {
+      "args": [
+        "/var/folders/x7/k7pz4hs92pggc3nqsgb5wlcr0000gn/T/first_order_probe_lean_n_9q2bmv/elan-init",
+        "-y",
+        "--no-modify-path",
+        "--default-toolchain",
+        "none"
+      ],
+      "log": "02_install_private_elan.log",
+      "returncode": 0,
+      "seconds": 1.01
+    },
+    {
+      "args": [
+        "/var/folders/x7/k7pz4hs92pggc3nqsgb5wlcr0000gn/T/first_order_probe_lean_n_9q2bmv/elan/bin/lake",
+        "update"
+      ],
+      "log": "03_resolve_pinned_dependencies.log",
+      "returncode": 0,
+      "seconds": 131.48
+    },
+    {
+      "args": [
+        "git",
+        "-C",
+        "/var/folders/x7/k7pz4hs92pggc3nqsgb5wlcr0000gn/T/first_order_probe_lean_n_9q2bmv/project/.lake/packages/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "04_check_mathlib_commit.log",
+      "returncode": 0,
+      "seconds": 1.0
+    },
+    {
+      "args": [
+        "/var/folders/x7/k7pz4hs92pggc3nqsgb5wlcr0000gn/T/first_order_probe_lean_n_9q2bmv/elan/bin/lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "log": "05_lean_version.log",
+      "returncode": 0,
+      "seconds": 2.02
+    },
+    {
+      "args": [
+        "/var/folders/x7/k7pz4hs92pggc3nqsgb5wlcr0000gn/T/first_order_probe_lean_n_9q2bmv/elan/bin/lake",
+        "exe",
+        "cache",
+        "get",
+        "Mathlib.Data.Real.Sqrt",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Ring",
+        "Mathlib.Tactic.Positivity"
+      ],
+      "log": "06_download_mathlib_cache.log",
+      "returncode": 0,
+      "seconds": 24.1
+    },
+    {
+      "args": [
+        "/var/folders/x7/k7pz4hs92pggc3nqsgb5wlcr0000gn/T/first_order_probe_lean_n_9q2bmv/elan/bin/lake",
+        "env",
+        "lean",
+        "-DwarningAsError=true",
+        "-o",
+        "FirstOrderProbe.olean",
+        "FirstOrderProbe.lean"
+      ],
+      "log": "07_kernel_check.log",
+      "returncode": 0,
+      "seconds": 13.06
+    }
+  ],
+  "theorem_axioms": {
+    "FirstOrderProbe.continuous_pointwise_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.variance_identity_of_balance": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.compatibility_of_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.numerator_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.sharp_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.sharp_lower_bound_eq_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.discrete_den_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.one_sub_mul_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.discrete_weights_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FirstOrderProbe.discrete_pointwise_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "Real rational frequency kernels and scalar covariance consequences; not a formalization of stochastic processes or spectral integration.",
+  "source_sha256": "6c88044eb777d6ac07cf8d467fc421ecec6fb30de6a88b80a2dc2d8432dd2e23",
+  "elan_archive_sha256": "79f4c33e497cd50864de2388fafff43f7ca98bd27f63847fb6a6b59102ae1fd1",
+  "lean_version_output": "Lean (version 4.19.0, arm64-apple-darwin23.6.0, commit 6caaee842e94, Release)",
+  "finished_utc": "2026-10-15T03:51:39Z"
+}

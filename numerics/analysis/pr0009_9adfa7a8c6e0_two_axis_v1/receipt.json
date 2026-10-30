@@ -1,0 +1,239 @@
+{
+  "status": "PASS_RECEIPT",
+  "archives": [
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_01_COMPLETE_a0d2436a.zip",
+      "bytes": 352979351,
+      "sha256": "8945f393a6c5182f995ebd2fe9932736f9c530143bad324ad2cbbbda2eeb9b49",
+      "sequence": 0,
+      "status": "SHARD_01_COMPLETE",
+      "members": 2451,
+      "coverage": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_02_COMPLETE_9d0e6957.zip",
+      "bytes": 353591306,
+      "sha256": "de2c12f0b8565a2fb7028acf7c73897feadb8de033fb63c057ec5e67c4aa0c5d",
+      "sequence": 1,
+      "status": "SHARD_02_COMPLETE",
+      "members": 2461,
+      "coverage": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_03_COMPLETE_24dd24f5.zip",
+      "bytes": 354192475,
+      "sha256": "75ce6408e86045384ade5dfefccbd0bae4760bcc9506a21985291368fbf27c6e",
+      "sequence": 2,
+      "status": "SHARD_03_COMPLETE",
+      "members": 2471,
+      "coverage": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_04_COMPLETE_992cc69d.zip",
+      "bytes": 354806658,
+      "sha256": "79cbe3ccc0892dd15b2082d5576161c40c702a3e23c65519057fe0effa32b700",
+      "sequence": 3,
+      "status": "SHARD_04_COMPLETE",
+      "members": 2481,
+      "coverage": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_05_COMPLETE_2449d163.zip",
+      "bytes": 355414142,
+      "sha256": "3bcd4be41fa6353f57f58beb72c98f948155675408b347ba1b0ad50d1a9742d9",
+      "sequence": 4,
+      "status": "SHARD_05_COMPLETE",
+      "members": 2491,
+      "coverage": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_06_COMPLETE_4af04c2e.zip",
+      "bytes": 356008127,
+      "sha256": "26ae05b19db0f672c1bc7c90f56e1d1717ffc4933a1f3e909e2db2f3cdb60f81",
+      "sequence": 5,
+      "status": "SHARD_06_COMPLETE",
+      "members": 2501,
+      "coverage": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_07_COMPLETE_02c0f671.zip",
+      "bytes": 356652569,
+      "sha256": "1997342e0888cefa0cd001e89541b079345837a0614278993ed452fb4d7da0c0",
+      "sequence": 6,
+      "status": "SHARD_07_COMPLETE",
+      "members": 2511,
+      "coverage": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_08_COMPLETE_578bfda5.zip",
+      "bytes": 357292845,
+      "sha256": "4d0a557304009e795166c88bc1181a45319fb3d47b941727ecd4b87b7996e45d",
+      "sequence": 7,
+      "status": "SHARD_08_COMPLETE",
+      "members": 2521,
+      "coverage": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_09_COMPLETE_e81aaf8a.zip",
+      "bytes": 357886129,
+      "sha256": "5834029418dfac50726d0ef64051e81beff18255d0750e6bf3de80c49af00000",
+      "sequence": 8,
+      "status": "SHARD_09_COMPLETE",
+      "members": 2531,
+      "coverage": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_SHARD_10_COMPLETE_ef5c3ff7.zip",
+      "bytes": 358540551,
+      "sha256": "76acc1f5e42cca176681dfd83ca4a39c821d4eadcea909d873bc38ec901b68f7",
+      "sequence": 9,
+      "status": "SHARD_10_COMPLETE",
+      "members": 2541,
+      "coverage": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_COMPLETE_INDEX_fa2c5f70.zip",
+      "bytes": 25375776,
+      "sha256": "6c1de9081e827b6cf0679693754bd8dc81a0c6680f8e77ecaa773d2ab1094370",
+      "sequence": 10,
+      "status": "COMPLETE_INDEX",
+      "members": 174,
+      "coverage": []
+    },
+    {
+      "file": "two_axis_pr0009_v1_9adfa7a8c6e0_COMPLETE_INDEX_dee0d9eb.zip",
+      "bytes": 25377254,
+      "sha256": "8895aa25444aa889d0675c9e94e6b144dee439605b3cbdbd41bffab6ec3b2441",
+      "sequence": 11,
+      "status": "COMPLETE_INDEX",
+      "members": 178,
+      "coverage": []
+    }
+  ],
+  "indexed_member_occurrences": 25312,
+  "unique_files": 23978,
+  "immutable_duplicate_occurrences": 943,
+  "coverage": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "summary": {
+    "all_scientific_records_certified": true,
+    "decision_count": 1008000000,
+    "note": "Keep every data shard; receipt-only evidence is not re-read here.",
+    "raw_not_present_this_runtime": [],
+    "replicates": 50,
+    "status": "COMPLETE",
+    "unique_records": 31039200,
+    "validation_decision_count": 82800000
+  },
+  "sources_checked": 26
+}

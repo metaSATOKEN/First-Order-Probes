@@ -1,0 +1,2741 @@
+{
+  "mixed_hold": [
+    855,
+    1175,
+    1515
+  ],
+  "clean_hold": [
+    1,
+    5,
+    2
+  ],
+  "MC_adds_over_M": 386,
+  "MC_releases_M": 46,
+  "unknown": 0,
+  "same_batch_gate_disagreements": 219,
+  "primary": [
+    {
+      "id": "P01",
+      "group": "B_L",
+      "mix_fault": "GM05",
+      "mix_count": 160,
+      "evaluation": "GM05",
+      "candidate": 1,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.38394799999999996,
+      "sd": 0.0858133504669719,
+      "median": 0.4017,
+      "lower": 0.3457141398149062,
+      "upper": 0.42218186018509374,
+      "U": 0.33852399999999994,
+      "GMC": 0.7224719999999999,
+      "classification": "positive"
+    },
+    {
+      "id": "P02",
+      "group": "B_L",
+      "mix_fault": "GM05",
+      "mix_count": 160,
+      "evaluation": "normal",
+      "candidate": 1,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.0038799999999999998,
+      "sd": 0.0012968171397223093,
+      "median": 0.004125,
+      "lower": 0.0033022073262963967,
+      "upper": 0.004457792673703603,
+      "U": 0.005799000000000001,
+      "GMC": 0.009678999999999998,
+      "classification": "positive"
+    },
+    {
+      "id": "P03",
+      "group": "B_L",
+      "mix_fault": "GM05",
+      "mix_count": 800,
+      "evaluation": "GM05",
+      "candidate": 2,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.61834,
+      "sd": 0.02262858044732865,
+      "median": 0.6202,
+      "lower": 0.6082579093194443,
+      "upper": 0.6284220906805557,
+      "U": 0.120512,
+      "GMC": 0.738852,
+      "classification": "positive"
+    },
+    {
+      "id": "P04",
+      "group": "B_L",
+      "mix_fault": "GM05",
+      "mix_count": 800,
+      "evaluation": "normal",
+      "candidate": 2,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.006504000000000001,
+      "sd": 0.0009179524686463224,
+      "median": 0.006625,
+      "lower": 0.006095009252618643,
+      "upper": 0.006912990747381359,
+      "U": 0.0033179999999999998,
+      "GMC": 0.009822,
+      "classification": "positive"
+    },
+    {
+      "id": "P05",
+      "group": "B_L",
+      "mix_fault": "GP05",
+      "mix_count": 160,
+      "evaluation": "GP05",
+      "candidate": 3,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.386256,
+      "sd": 0.08351169088388591,
+      "median": 0.4073,
+      "lower": 0.34904763678262174,
+      "upper": 0.42346436321737824,
+      "U": 0.4529599999999999,
+      "GMC": 0.839216,
+      "classification": "positive"
+    },
+    {
+      "id": "P06",
+      "group": "B_L",
+      "mix_fault": "GP05",
+      "mix_count": 160,
+      "evaluation": "normal",
+      "candidate": 3,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.005704,
+      "sd": 0.0014530348254882374,
+      "median": 0.005849999999999999,
+      "lower": 0.005056605042694707,
+      "upper": 0.006351394957305293,
+      "U": 0.0038640000000000002,
+      "GMC": 0.009568,
+      "classification": "positive"
+    },
+    {
+      "id": "P07",
+      "group": "B_L",
+      "mix_fault": "GP05",
+      "mix_count": 800,
+      "evaluation": "GP05",
+      "candidate": 4,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.72758,
+      "sd": 0.017066221560947423,
+      "median": 0.7275,
+      "lower": 0.7199762002940295,
+      "upper": 0.7351837997059705,
+      "U": 0.128524,
+      "GMC": 0.856104,
+      "classification": "positive"
+    },
+    {
+      "id": "P08",
+      "group": "B_L",
+      "mix_fault": "GP05",
+      "mix_count": 800,
+      "evaluation": "normal",
+      "candidate": 4,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.007234999999999999,
+      "sd": 0.0007788171303001619,
+      "median": 0.0073,
+      "lower": 0.006888000551690227,
+      "upper": 0.007581999448309771,
+      "U": 0.002587,
+      "GMC": 0.009822,
+      "classification": "positive"
+    },
+    {
+      "id": "P09",
+      "group": "K200_L",
+      "mix_fault": "P02",
+      "mix_count": 160,
+      "evaluation": "P02",
+      "candidate": 5,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.152844,
+      "sd": 0.0903364892487854,
+      "median": 0.1939,
+      "lower": 0.11259486998986665,
+      "upper": 0.19309313001013337,
+      "U": 0.428408,
+      "GMC": 0.5812519999999999,
+      "classification": "positive"
+    },
+    {
+      "id": "P10",
+      "group": "K200_L",
+      "mix_fault": "P02",
+      "mix_count": 160,
+      "evaluation": "normal",
+      "candidate": 5,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": -0.000579,
+      "sd": 0.0009741605491448543,
+      "median": -0.0003500000000000005,
+      "lower": -0.0010130340754807596,
+      "upper": -0.00014496592451924034,
+      "U": 0.005536,
+      "GMC": 0.0049570000000000005,
+      "classification": "negative"
+    },
+    {
+      "id": "P11",
+      "group": "K200_L",
+      "mix_fault": "P02",
+      "mix_count": 800,
+      "evaluation": "P02",
+      "candidate": 6,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.520568,
+      "sd": 0.015823122321463604,
+      "median": 0.5194,
+      "lower": 0.5135180591313782,
+      "upper": 0.5276179408686219,
+      "U": 0.10641999999999997,
+      "GMC": 0.626988,
+      "classification": "positive"
+    },
+    {
+      "id": "P12",
+      "group": "K200_L",
+      "mix_fault": "P02",
+      "mix_count": 800,
+      "evaluation": "normal",
+      "candidate": 6,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.000164,
+      "sd": 0.0009877845753740735,
+      "median": 7.499999999999998e-05,
+      "lower": -0.0002761042162126089,
+      "upper": 0.0006041042162126089,
+      "U": 0.004692999999999999,
+      "GMC": 0.004856999999999999,
+      "classification": "unresolved"
+    },
+    {
+      "id": "P13",
+      "group": "K2_M",
+      "mix_fault": "P02",
+      "mix_count": 160,
+      "evaluation": "P02",
+      "candidate": 5,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.424176,
+      "sd": 0.033740344408679755,
+      "median": 0.4253,
+      "lower": 0.40914309889896583,
+      "upper": 0.43920890110103417,
+      "U": 0.54424,
+      "GMC": 0.9684160000000002,
+      "classification": "positive"
+    },
+    {
+      "id": "P14",
+      "group": "K2_M",
+      "mix_fault": "P02",
+      "mix_count": 160,
+      "evaluation": "normal",
+      "candidate": 5,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.033416,
+      "sd": 0.0027280373448877204,
+      "median": 0.033525,
+      "lower": 0.03220053180237618,
+      "upper": 0.034631468197623826,
+      "U": 0.0027970000000000004,
+      "GMC": 0.036213,
+      "classification": "positive"
+    },
+    {
+      "id": "P15",
+      "group": "K2_M",
+      "mix_fault": "P02",
+      "mix_count": 800,
+      "evaluation": "P02",
+      "candidate": 6,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.8154,
+      "sd": 0.010957953033932821,
+      "median": 0.8149,
+      "lower": 0.8105177195397415,
+      "upper": 0.8202822804602585,
+      "U": 0.15301599999999999,
+      "GMC": 0.9684160000000002,
+      "classification": "positive"
+    },
+    {
+      "id": "P16",
+      "group": "K2_M",
+      "mix_fault": "P02",
+      "mix_count": 800,
+      "evaluation": "normal",
+      "candidate": 6,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": 0.035530000000000006,
+      "sd": 0.0027057572782826613,
+      "median": 0.035575,
+      "lower": 0.034324458613843825,
+      "upper": 0.03673554138615619,
+      "U": 0.0006830000000000001,
+      "GMC": 0.036213,
+      "classification": "positive"
+    },
+    {
+      "id": "P17",
+      "group": "V05_L",
+      "mix_fault": "GM05",
+      "mix_count": 800,
+      "evaluation": "GP05",
+      "candidate": 2,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": -0.18441600000000002,
+      "sd": 0.021974190426451646,
+      "median": -0.18530000000000002,
+      "lower": -0.19420652932758922,
+      "upper": -0.17462547067241083,
+      "U": 0.43742800000000004,
+      "GMC": 0.25301199999999996,
+      "classification": "negative"
+    },
+    {
+      "id": "P18",
+      "group": "V05_L",
+      "mix_fault": "GM05",
+      "mix_count": 800,
+      "evaluation": "normal",
+      "candidate": 2,
+      "policy": "G-MC-minus-U",
+      "method": "W0",
+      "alpha": 0.01,
+      "family": 18,
+      "n": 50,
+      "mean": -0.000601,
+      "sd": 0.0009456392935307774,
+      "median": -0.0006249999999999997,
+      "lower": -0.0010223265224774348,
+      "upper": -0.00017967347752256515,
+      "U": 0.00578,
+      "GMC": 0.0051790000000000004,
+      "classification": "negative"
+    }
+  ],
+  "validation": [
+    {
+      "group": "B_M",
+      "alpha": 0.01,
+      "variant": "clean",
+      "labels": [
+        41,
+        0,
+        9,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          41,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "B_M",
+      "alpha": 0.01,
+      "variant": "stale",
+      "labels": [
+        0,
+        0,
+        0,
+        50
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          41
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_M",
+      "alpha": 0.01,
+      "variant": "mix_GM05",
+      "labels": [
+        0,
+        43,
+        7,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          34,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_M",
+      "alpha": 0.01,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          41,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_M",
+      "alpha": 0.01,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          41,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_M",
+      "alpha": 0.001,
+      "variant": "clean",
+      "labels": [
+        11,
+        2,
+        37,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          11,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          37,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "B_M",
+      "alpha": 0.001,
+      "variant": "stale",
+      "labels": [
+        0,
+        0,
+        0,
+        50
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          37
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_M",
+      "alpha": 0.001,
+      "variant": "mix_GM05",
+      "labels": [
+        0,
+        40,
+        10,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          4,
+          7,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          34,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 45
+    },
+    {
+      "group": "B_M",
+      "alpha": 0.001,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          37,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 48
+    },
+    {
+      "group": "B_M",
+      "alpha": 0.001,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          37,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 48
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.01,
+      "variant": "clean",
+      "labels": [
+        38,
+        0,
+        12,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          38,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.01,
+      "variant": "stale",
+      "labels": [
+        0,
+        0,
+        0,
+        50
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          38
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.01,
+      "variant": "mix_GM05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          38,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.01,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          38,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.01,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          38,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.001,
+      "variant": "clean",
+      "labels": [
+        12,
+        0,
+        38,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          38,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.001,
+      "variant": "stale",
+      "labels": [
+        0,
+        0,
+        0,
+        50
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          38
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.001,
+      "variant": "mix_GM05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          38,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.001,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          38,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "B_L",
+      "alpha": 0.001,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          38,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.01,
+      "variant": "clean",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.01,
+      "variant": "stale",
+      "labels": [
+        41,
+        0,
+        9,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          41,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 41,
+      "changed": 50
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.01,
+      "variant": "mix_GM05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.01,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.01,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.001,
+      "variant": "clean",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.001,
+      "variant": "stale",
+      "labels": [
+        11,
+        2,
+        37,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          11,
+          2,
+          37,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 11,
+      "changed": 48
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.001,
+      "variant": "mix_GM05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.001,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K2_M",
+      "alpha": 0.001,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.01,
+      "variant": "clean",
+      "labels": [
+        50,
+        0,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          50,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.01,
+      "variant": "stale",
+      "labels": [
+        38,
+        0,
+        12,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          38,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 12
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.01,
+      "variant": "mix_GM05",
+      "labels": [
+        50,
+        0,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          50,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.01,
+      "variant": "mix_GP05",
+      "labels": [
+        50,
+        0,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          50,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.01,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.001,
+      "variant": "clean",
+      "labels": [
+        43,
+        0,
+        7,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          43,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.001,
+      "variant": "stale",
+      "labels": [
+        12,
+        0,
+        38,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          12,
+          0,
+          31,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 31
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.001,
+      "variant": "mix_GM05",
+      "labels": [
+        38,
+        0,
+        12,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          38,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 5
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.001,
+      "variant": "mix_GP05",
+      "labels": [
+        34,
+        0,
+        16,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          34,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 9
+    },
+    {
+      "group": "K200_L",
+      "alpha": 0.001,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          43,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.01,
+      "variant": "clean",
+      "labels": [
+        50,
+        0,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          50,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.01,
+      "variant": "stale",
+      "labels": [
+        38,
+        0,
+        12,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          38,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 12
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.01,
+      "variant": "mix_GM05",
+      "labels": [
+        15,
+        0,
+        35,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          15,
+          0,
+          35,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 35
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.01,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        49,
+        1,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          49,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.01,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.001,
+      "variant": "clean",
+      "labels": [
+        43,
+        0,
+        7,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          43,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.001,
+      "variant": "stale",
+      "labels": [
+        12,
+        0,
+        38,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          12,
+          0,
+          31,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 31
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.001,
+      "variant": "mix_GM05",
+      "labels": [
+        1,
+        16,
+        33,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          1,
+          10,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 48
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.001,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          43,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "V05_L",
+      "alpha": 0.001,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          43,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 50
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.01,
+      "variant": "clean",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.01,
+      "variant": "stale",
+      "labels": [
+        38,
+        0,
+        12,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          38,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 38,
+      "changed": 50
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.01,
+      "variant": "mix_GM05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.01,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.01,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.001,
+      "variant": "clean",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.001,
+      "variant": "stale",
+      "labels": [
+        12,
+        0,
+        38,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          0,
+          38,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 12,
+      "changed": 50
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.001,
+      "variant": "mix_GM05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.001,
+      "variant": "mix_GP05",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    },
+    {
+      "group": "V15_L",
+      "alpha": 0.001,
+      "variant": "mix_P02",
+      "labels": [
+        0,
+        50,
+        0,
+        0
+      ],
+      "clean_to_variant": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "supported_but_E_exceeded": 0,
+      "changed": 0
+    }
+  ],
+  "run": "9adfa7a8c6e0",
+  "fresh_wall_minutes": 124.74898519196667,
+  "max_zip_bytes": 358540551
+}

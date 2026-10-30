@@ -1,0 +1,37 @@
+{
+  "default": "confirm",
+  "main_executed": false,
+  "cell_id": "568b5189bb5d58d5b1f4ba6f7497ebf234783d01e3bd3ebc90c543ca7ebcf80c",
+  "pilot_zip": "fusion_confirmation_pr0002_v1_pilot_d20113f06db7_PILOT_COMPLETE_20261017T043519_0236c7.zip",
+  "pilot_zip_sha256": "b5c64466fa70c78e77e4176630726fc88c95f2b925c7b8b2bf28417f7c60d519",
+  "pilot_audit_sha256": "45fa69aa07834683ced68162a0f503bad3881215bea4e4bcef03d98415687600",
+  "accepted_environment": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "scipy": "1.16.3",
+    "system": "Linux",
+    "machine": "x86_64",
+    "byteorder": "little"
+  },
+  "accepted_confirmation_manifest_sha256": "9bb38b60e74851c50625eea64e4fa8801399d8a6426992a9b2bd9a4fcc7b0a0b",
+  "original_build_manifest_sha256": "63b58337288f83c965134dd2d5010ae26b6d5e8d2b121afe22da34a4640d4a63",
+  "payload_sha256": "3f8eaf10ccbc0a961d32c6173ac39173ced377e9a128fdc90f9b1445e24a90bb",
+  "source_hashes": {
+    "fusion_confirmation_pr0002_v1.py": "0cd62bcd077905cb14a9c22fc9b2391b2ee5b193d2c845886b30a944528a0706",
+    "pr0002_checks.py": "113b4d6a73080faa229ebf501fd2a489c18541fc4524678ff8a6d0c052b25212",
+    "covariance_consistency_colab_v1.py": "0124e988e1a2927afd034ed5fbcc827f4eccb4653583c22d9c2066484836678c",
+    "PR-0002.md": "ac2725d797cb6cdfe85bc0a3f389fa3dbf2bd8a9cd303acafe95a63a381e3e07",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "LICENSE-CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  "bootstrap_and_payload_byte_identical": true,
+  "changed_settings": [
+    "MODE",
+    "PILOT_ZIP",
+    "CONFIRM_APPROVAL"
+  ],
+  "artifacts": {
+    "pr0002_main_one_cell.py": "6e9de869e8a34478f7dec47303ae95849357e9d9517bdd2153b17383624e68be",
+    "pr0002_main_one_cell.ipynb": "4367baee24b732f93bfa735d2ab4f20fb3150a99fceaf0c70e1c88ca3b01c4f9"
+  }
+}

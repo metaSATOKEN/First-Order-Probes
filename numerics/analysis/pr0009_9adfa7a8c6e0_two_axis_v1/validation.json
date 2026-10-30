@@ -1,0 +1,424 @@
+{
+  "status": "PASS_SAVED_DATA_REPRODUCTION",
+  "per_replicate": [
+    {
+      "replicate": 0,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 1,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 2,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 3,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 4,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 5,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 6,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 7,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 8,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 9,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 10,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 11,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 12,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 13,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 14,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 15,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 16,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 17,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 18,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 19,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 20,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 21,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 22,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 23,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 24,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 25,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 26,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 27,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 28,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 29,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 30,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 31,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 32,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 33,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 34,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 35,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 36,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 37,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 38,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 39,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 40,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 41,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 42,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 43,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 44,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 45,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 46,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 47,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 48,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    },
+    {
+      "replicate": 49,
+      "raw_records": 620784,
+      "raw_chunks": 212,
+      "nonfinite_rows": 0,
+      "E_decisions": 20160000,
+      "V_decisions": 1656000
+    }
+  ],
+  "totals": {
+    "raw_records": 31039200,
+    "raw_chunks": 10600,
+    "nonfinite_rows": 0,
+    "E_decisions": 1008000000,
+    "V_decisions": 82800000
+  },
+  "elapsed_seconds": 255.19471254572272,
+  "anchors_checked": 41,
+  "source_sha256": "4f1f3ab5d50bc0b5d0dd8d4a10262ce0ee14e935529068bd44e7966dee7f4f89",
+  "independent_reviewer": false,
+  "verification": "Same agent; component-wise projection, histogram/pair path, frozen reference/calibration reproduction",
+  "science_records_generated_locally": 0,
+  "manuscript_edits": 0,
+  "scope_gaps": [
+    "Original time-series not stored or regenerated",
+    "No real VM-loss restoration test",
+    "No physical experiment or external normal-provenance validation"
+  ]
+}

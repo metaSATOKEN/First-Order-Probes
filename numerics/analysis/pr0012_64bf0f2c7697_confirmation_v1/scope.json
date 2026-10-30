@@ -1,0 +1,8 @@
+{
+  "replicates": 50,
+  "new_records": 23999200,
+  "no_E_selection": true,
+  "independent_C": true,
+  "fixed_known_conditions": true,
+  "all_supported_not_required": true
+}

@@ -1,0 +1,14 @@
+PR-0012 transport notice
+
+Copyright 2017 Google Inc.
+Copyright 2026 Kentaro Sato
+Licensed under Apache License 2.0; see LICENSE.
+
+pr0012_download.py adapts the comm-based download and upload-generator pattern
+of googlecolab/colabtools/google/colab/files.py (Apache-2.0), through this
+project's preserved PR-0009 transport. Added serial queue, bounded archives,
+browser acknowledgements, explicit resource release and streamed uploads.
+
+Source: https://github.com/googlecolab/colabtools/blob/main/google/colab/files.py
+No endorsement by Google is implied. A browser save request is not proof of
+completed local-disk storage. PR-0012 browser behavior requires Colab testing.
