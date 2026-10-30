@@ -4,7 +4,7 @@ This is the primary public code entry for the paper's **50-replicate mixture–r
 
 日本語の入口：まず「Reading order」と式の対応表から、物理モデル → M・CR → LF → 閾値 → 校正更新の順に読めます。圧縮セルを解読する必要はありません。20本の科学・運転コードは完成版 FIX1 とバイト同一で、以下の説明と薄い入口だけを追加しています。
 
-[Paper, English v2](../../../Calibration_Update_Audits_for_First_Order_Probes_EN_v2.md) · [論文、日本語 v5](../../../Calibration_Update_Audits_for_First_Order_Probes_JA_v5.md) · [Numerical evidence](../../README.md)
+[Paper, English V1.0](../../../Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md) · [論文、日本語 V1.0](../../../Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md) · [Numerical evidence](../../README.md)
 
 ## Version and scope
 
@@ -34,7 +34,7 @@ The remaining inherited modules provide configuration and runtime utilities: [pr
 
 ## Paper equations → implementation
 
-Equation numbers refer to the current English v2 / Japanese v5 manuscripts. “Explanatory” means an identity or interpretation used to explain the algorithm, not an additional runtime estimation step.
+Equation numbers refer to the English and Japanese V1.0 manuscripts. “Explanatory” means an identity or interpretation used to explain the algorithm, not an additional runtime estimation step.
 
 | Paper equation | Meaning | Implementation / saved quantity |
 |---|---|---|

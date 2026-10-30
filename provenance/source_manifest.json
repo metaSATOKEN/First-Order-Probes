@@ -4,29 +4,37 @@
   "files": [
     {
       "source": "Calibration_Update_Audits_for_First_Order_Probes_EN_v2.md",
-      "path": "Calibration_Update_Audits_for_First_Order_Probes_EN_v2.md",
+      "path": "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md",
       "role": "manuscript",
       "source_sha256": "5164d1aac374923ecabd7b62100d91ece63ffb1af64034b883054b18e40a0381",
-      "sha256": "1777af7539d8af3bfa3c8ebdf949cde08ab7a3d9888f59208d9a65756fddf635",
-      "bytes": 83878,
+      "sha256": "78f4383d8a307a03d40a34e736af2541ff6f2ed45f7c71f796cde371cfa9a5c5",
+      "bytes": 83880,
       "transforms": [
         "markdown_links",
-        "public_code_navigation_paragraph"
+        "public_code_navigation_paragraph",
+        "manuscript_version_filename",
+        "manuscript_version_date_header"
       ],
-      "navigation_note": "Distribution-only link to the current FIX1 reading order and equation map; scientific content unchanged."
+      "navigation_note": "Distribution-only link to the current FIX1 reading order and equation map; scientific content unchanged.",
+      "previous_distribution_path": "Calibration_Update_Audits_for_First_Order_Probes_EN_v2.md",
+      "manuscript_version": "V1.0"
     },
     {
       "source": "Calibration_Update_Audits_for_First_Order_Probes_JA_v5.md",
-      "path": "Calibration_Update_Audits_for_First_Order_Probes_JA_v5.md",
+      "path": "Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md",
       "role": "manuscript",
       "source_sha256": "8695fcb625eb4e11d523e1938f4ead9fcd6f3c62171f481a014e2f28171574f7",
-      "sha256": "889edd22012f94c9c1a180f7bfaa7084cff32853741f5dc0f9747e50d7313b6b",
-      "bytes": 80658,
+      "sha256": "9cd5a496035b40def82ad7f86c19470bbe1cd552a1a052067c27431204d2e1b9",
+      "bytes": 80660,
       "transforms": [
         "markdown_links",
-        "public_code_navigation_paragraph"
+        "public_code_navigation_paragraph",
+        "manuscript_version_filename",
+        "manuscript_version_date_header"
       ],
-      "navigation_note": "Distribution-only link to the current FIX1 reading order and equation map; scientific content unchanged."
+      "navigation_note": "Distribution-only link to the current FIX1 reading order and equation map; scientific content unchanged.",
+      "previous_distribution_path": "Calibration_Update_Audits_for_First_Order_Probes_JA_v5.md",
+      "manuscript_version": "V1.0"
     },
     {
       "source": "LICENSE",
@@ -11859,5 +11867,16 @@
       "kind": "unbundled_reference"
     }
   ],
-  "note": "Hashes identify selected original files and their distribution copies. Full research archives remain outside this distribution."
+  "note": "Hashes identify selected original files and their distribution copies. Full research archives remain outside this distribution.",
+  "manuscript_version_transition": {
+    "date": "2026-10-30",
+    "version": "V1.0",
+    "previous_commit": "be3ec0dd2db2851dbfbe559748c9f523bfac6237",
+    "renames": {
+      "Calibration_Update_Audits_for_First_Order_Probes_EN_v2.md": "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md",
+      "Calibration_Update_Audits_for_First_Order_Probes_JA_v5.md": "Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md"
+    },
+    "scientific_content_changed": false,
+    "note": "Historical link_changes retain the distribution paths at their original transformation date."
+  }
 }

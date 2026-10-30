@@ -54,7 +54,7 @@ The [Lean supplement](../lean/SUPPLEMENT.md) covers a limited set of algebraic i
 
 ## Provenance and historical links
 
-[Source manifest](../provenance/source_manifest.json) records original and distribution hashes and the applied transformations. Scientific Python/Lean sources and numerical arrays retain their original bytes. Manuscript scientific content is unchanged; local links are made portable, and each public manuscript adds a navigation paragraph linking to the current code reading order and equation map. JSON metadata paths can be normalized without changing numerical values.
+[Source manifest](../provenance/source_manifest.json) records original and distribution hashes and the applied transformations. Scientific Python/Lean sources and numerical arrays retain their original bytes. Manuscript scientific content is unchanged; local links are made portable, and each public manuscript adds a navigation paragraph linking to the current code reading order and equation map. Both language editions now use V1.0; [version history](VERSION_HISTORY.md) maps the earlier draft labels to this shared version. JSON metadata paths can be normalized without changing numerical values.
 
 Protocols in `audits/prereg/` have portable distribution links and a banner. Their exact frozen source text is separately included in `provenance/frozen_protocols/` so historical hashes embedded in code remain verifiable. A historical link to material outside this selected package leads to the [omission catalog](OMITTED_MATERIALS.md), which identifies the unavailable item explicitly.
 

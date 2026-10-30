@@ -3,7 +3,7 @@
 ## False Alarms, Detection Sensitivity, and Decision Coverage under Source Shifts and Calibration Contamination
 
 Kentaro Sato  
-English manuscript v2 / 19 October 2026  
+English manuscript V1.0 / 30 October 2026  
 Article license: [CC BY 4.0](LICENSE-CC-BY-4.0.txt)
 
 ## Abstract

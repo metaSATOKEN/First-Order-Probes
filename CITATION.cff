@@ -5,7 +5,8 @@ title: "Readout and Calibration-Update Audits for First-Order Probes: Research C
 authors:
   - family-names: Sato
     given-names: Kentaro
-version: "local-package-2026-10-27"
+version: "1.0"
+repository-code: "https://github.com/metaSATOKEN/First-Order-Probes"
 license: Apache-2.0
 preferred-citation:
   type: unpublished
@@ -14,5 +15,5 @@ preferred-citation:
     - family-names: Sato
       given-names: Kentaro
   year: 2026
-  version: "English v2 / Japanese v5"
-  notes: "Unpublished manuscript dated 19 October 2026. No DOI or journal acceptance is assigned."
+  version: "1.0"
+  notes: "Unpublished manuscript, English and Japanese V1.0, 30 October 2026. No DOI or journal acceptance is assigned."
