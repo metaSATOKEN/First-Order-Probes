@@ -12,6 +12,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 LINK = re.compile(r'!?\[[^\]]*\]\(([^)]+)\)')
 EXCLUDED_DIRS = {'.venv', 'venv', '__pycache__', '.git', '.pytest_cache', '.lake'}
+MANUSCRIPT_PDF = 'Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf'
 
 
 def sha(path):
@@ -44,9 +45,11 @@ def main():
             errors.append({'symlink': name})
         if p.stat().st_size >= 100 * 1024**2:
             errors.append({'file_too_large': name})
-        if p.suffix.lower() in {'.zip', '.pdf', '.pyc'} or p.name == '.DS_Store' or p.name.startswith('.env'):
+        if (p.suffix.lower() in {'.zip', '.pyc'}
+                or (p.suffix.lower() == '.pdf' and name != MANUSCRIPT_PDF)
+                or p.name == '.DS_Store' or p.name.startswith('.env')):
             errors.append({'excluded_artifact': name})
-        if p.suffix in {'.md', '.json', '.txt', '.log', '.py', '.ipynb', '.toml', '.lean', '.cff'} or p.name in {'README', 'NOTICE', 'LICENSE', '.gitignore'}:
+        if p.suffix in {'.md', '.tex', '.json', '.txt', '.log', '.py', '.ipynb', '.toml', '.lean', '.cff'} or p.name in {'README', 'NOTICE', 'LICENSE', '.gitignore'}:
             text = p.read_text(encoding='utf-8')
             text_files += 1
             if '/' + 'Users/' in text:

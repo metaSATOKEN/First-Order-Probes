@@ -3,6 +3,24 @@
   "date": "2026-10-27",
   "files": [
     {
+      "source": "output/pdf/manuscript_v1.0/Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf",
+      "path": "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf",
+      "role": "typeset_manuscript",
+      "source_sha256": "d925e7c449a066547b594f6cadbd2ea993bfd8033f9aa78ad5acb0245d72db45",
+      "sha256": "d925e7c449a066547b594f6cadbd2ea993bfd8033f9aa78ad5acb0245d72db45",
+      "bytes": 1385573,
+      "transforms": []
+    },
+    {
+      "source": "output/pdf/manuscript_v1.0/Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.tex",
+      "path": "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.tex",
+      "role": "manuscript_tex_source",
+      "source_sha256": "43d6db6b75317748ceba65f185c696e434fe69d998b3977bde695e5ea5988320",
+      "sha256": "43d6db6b75317748ceba65f185c696e434fe69d998b3977bde695e5ea5988320",
+      "bytes": 100652,
+      "transforms": []
+    },
+    {
       "source": "Calibration_Update_Audits_for_First_Order_Probes_EN_v2.md",
       "path": "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md",
       "role": "manuscript",

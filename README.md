@@ -2,7 +2,7 @@
 
 **How can we tell whether a sensor alarm system is still trustworthy after its thresholds are updated?** This project studies that question for two sensors measuring the same changing input. It follows the complete path from physical consistency checks to alarms, calibration updates, and decisions to stop or resume detection.
 
-[English paper V1.0](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md) · [日本語論文 V1.0](Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md) · [日本語の概要](#日本語の概要) · [Code and reproduction](#start-here)
+English V1.0: [PDF](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf) · [TeX source](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.tex) · [Markdown](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md) | [日本語論文 V1.0（Markdown）](Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md) · [日本語の概要](#日本語の概要) · [Code and reproduction](#start-here)
 
 Research by **Kentaro Sato**. Unpublished working paper, V1.0 in both languages, 30 October 2026. This repository contains the manuscripts, readable code, figures, and saved analysis results.
 
@@ -90,7 +90,9 @@ The experiments use specified digital first-order responses, Gaussian source/noi
 └── provenance/             # hashes, frozen protocol originals, checks
 ```
 
-Historical directory names are retained so code and evidence remain traceable. The parent research archive, old manuscripts, PDFs, raw return ZIPs, and private workflow logs are outside this distribution. References to omitted historical materials lead to an explicit [availability catalog](docs/OMITTED_MATERIALS.md), not to a purported public copy.
+The English PDF and its TeX source include the author's contact address. To rebuild the PDF, compile the English TeX file from the repository root with XeLaTeX (two passes), using the bundled `figure/` assets. The Japanese edition is distributed here in Markdown only.
+
+Historical directory names are retained so code and evidence remain traceable. The parent research archive, old manuscripts and their PDFs, raw return ZIPs, and private workflow logs are outside this distribution. References to omitted historical materials lead to an explicit [availability catalog](docs/OMITTED_MATERIALS.md), not to a purported public copy.
 
 ## Quick checks
 

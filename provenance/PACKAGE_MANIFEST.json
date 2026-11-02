@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "date": "2026-10-30",
+  "date": "2026-11-02",
   "files": {
     ".gitignore": {
       "bytes": 419,
@@ -13,6 +13,14 @@
     "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md": {
       "bytes": 83880,
       "sha256": "78f4383d8a307a03d40a34e736af2541ff6f2ed45f7c71f796cde371cfa9a5c5"
+    },
+    "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf": {
+      "bytes": 1385573,
+      "sha256": "d925e7c449a066547b594f6cadbd2ea993bfd8033f9aa78ad5acb0245d72db45"
+    },
+    "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.tex": {
+      "bytes": 100652,
+      "sha256": "43d6db6b75317748ceba65f185c696e434fe69d998b3977bde695e5ea5988320"
     },
     "Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md": {
       "bytes": 80660,
@@ -31,8 +39,8 @@
       "sha256": "e877f29718d0ac21e23337a10c966c8306ca01e56f36624f7cb719d09b885537"
     },
     "README.md": {
-      "bytes": 13055,
-      "sha256": "d70d88b1a4e9d97892a56c7f7d59e5bb4cc0e8ccdddc2a0e0c337b0616a02026"
+      "bytes": 13500,
+      "sha256": "fe4aaf16050e5085070380fb3c46ef138444fd70d5aa6792e8af8242beca3b35"
     },
     "audits/prereg/PR-0002_fusion_independent_confirmation.md": {
       "bytes": 24406,
@@ -5043,8 +5051,8 @@
       "sha256": "2a465e5e97216797e3856ccff6b1ec8c3b2a86627096797047e1bfb78a941f51"
     },
     "provenance/source_manifest.json": {
-      "bytes": 572498,
-      "sha256": "92ac90cf99ee6db6012d983a2759a8e0fb4148f8b7fbd6db38c2262f595ece36"
+      "bytes": 573412,
+      "sha256": "b73cdc1991ccbc7098c7877e2733b1151012a8432b89d87fa83c728e75d3a9a2"
     },
     "requirements.txt": {
       "bytes": 215,
@@ -5055,8 +5063,8 @@
       "sha256": "6cea722db25be8c49e09bb2fbae6c47920fe53f6973c2a9d57bca1bf9d99f284"
     },
     "tools/verify_package.py": {
-      "bytes": 4791,
-      "sha256": "33f8a34e1f1d74df4a54b2646066ff26b6090cc7837cea27bf22aef5c3111dd3"
+      "bytes": 4964,
+      "sha256": "950a8eaa552d9245774d2593ee3a704a339877fc050f06ed717b49f7038337c3"
     }
   }
 }
