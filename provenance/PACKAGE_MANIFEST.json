@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "files": {
     ".gitignore": {
       "bytes": 419,
@@ -39,8 +39,8 @@
       "sha256": "e877f29718d0ac21e23337a10c966c8306ca01e56f36624f7cb719d09b885537"
     },
     "README.md": {
-      "bytes": 13500,
-      "sha256": "fe4aaf16050e5085070380fb3c46ef138444fd70d5aa6792e8af8242beca3b35"
+      "bytes": 15425,
+      "sha256": "885b57bf1ca3e6a5ff861f4cb53d10e57e49a8830a4bafbda15aa120776b9768"
     },
     "audits/prereg/PR-0002_fusion_independent_confirmation.md": {
       "bytes": 24406,
@@ -95,8 +95,8 @@
       "sha256": "b770d772941c1a55ab3cf670996784cabda30b50dbc1f5016e1c8025bbc57ee9"
     },
     "docs/DATA_AVAILABILITY.md": {
-      "bytes": 2415,
-      "sha256": "610f78dc989df1603863d6293a718fcfa17811864dab83a2f43aa494e59ff2fe"
+      "bytes": 5070,
+      "sha256": "514f45cd05a953f2606dfc7611c251da3504f46cf9b7d39a846420eaa9c1b3f2"
     },
     "docs/OMITTED_MATERIALS.md": {
       "bytes": 16234,
@@ -107,8 +107,8 @@
       "sha256": "ba8a031caa60a7ebf63c6e977dea4cbadfdb83e9f4eb9e532a4b442b13cd2513"
     },
     "docs/REPRODUCIBILITY.md": {
-      "bytes": 8200,
-      "sha256": "5c6479b8964d33545303ade16e3e057750311b2bd19362ab8d8cdbb6347c2155"
+      "bytes": 8615,
+      "sha256": "f6903d721810843b65141fe77e1533030f428b4e5c2e6051424bb425901d1c17"
     },
     "docs/VERSION_HISTORY.md": {
       "bytes": 1867,

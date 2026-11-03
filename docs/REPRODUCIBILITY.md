@@ -42,9 +42,9 @@ The original execution guide includes estimates and “not yet run” statements
 
 ## Reanalyze the original raw returns
 
-Original checkpoint ZIPs are not bundled, and a public raw-data download location has not yet been assigned. See [Data availability](DATA_AVAILABILITY.md). The original analysis scripts are provided, but some expect those ZIPs at fixed root-relative locations, such as `pr0012/` and `Pr0009/`.
+The 42 selected original checkpoint ZIPs are distributed separately as [Release v1.0 assets](https://github.com/metaSATOKEN/First-Order-Probes/releases/tag/v1.0), rather than inside the Git tree or GitHub's automatic source-code ZIP. Follow [Data availability](DATA_AVAILABILITY.md#download-the-original-archives) and the attached `RAW_DATA_README.md` to download, verify, and restore them. Access requires authorization while the repository is private. The original analysis scripts are provided, but some expect the ZIPs at fixed root-relative locations, such as `pr0012/` and `Pr0009/`; the restoration helper preserves these logical paths.
 
-When raw returns become available, verify their hashes against [the archive inventory](RAW_ARCHIVES.json). Use a separate working copy for reanalysis: original analysis scripts have fixed output directories and can overwrite existing reports. Do not invoke them over the published saved-result directories. Compare freshly produced outputs to the supplied results after retaining the original copies. Acquisition of the raw archives and a full end-to-end reanalysis are outside the lightweight checks above.
+Verify original hashes against [the archive inventory](RAW_ARCHIVES.json) and the Release manifest; the helper also checks every transported part of the split PR-0004 ZIP. Use a separate working copy for reanalysis: original analysis scripts have fixed output directories and can overwrite existing reports. Do not invoke them over the published saved-result directories. Compare freshly produced outputs to the supplied results after retaining the original copies. Acquisition of the raw archives and a full end-to-end reanalysis are outside the lightweight checks above.
 
 ## Figures and formal supplement
 

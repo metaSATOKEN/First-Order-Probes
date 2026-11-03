@@ -6,6 +6,8 @@ English V1.0: [PDF](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf
 
 Research by **Kentaro Sato**. Unpublished working paper, V1.0 in both languages, 30 October 2026. This repository contains the manuscripts, readable code, figures, and saved analysis results.
 
+**Original simulation data:** the 42 original archives are available from [Release v1.0 — Assets](https://github.com/metaSATOKEN/First-Order-Probes/releases/tag/v1.0) (about 14.7 GB in total). Start with the attached [RAW_DATA_README.md](https://github.com/metaSATOKEN/First-Order-Probes/releases/download/v1.0/RAW_DATA_README.md); see [download and restoration details](docs/DATA_AVAILABILITY.md#download-the-original-archives).
+
 ## Why this problem matters
 
 Two healthy sensors can disagree simply because one responds more slowly. The slower sensor smooths rapid changes more strongly, so different amplitudes or correlations do not by themselves establish a fault. Even with known sensor responses, the normal fluctuations of a fault score can change when the measured process becomes faster, slower, stronger, or weaker.
@@ -64,6 +66,7 @@ The experiments use specified digital first-order responses, Gaussian source/noi
 | Read the confirmation code and match it to the paper | [Readable PR-0012 FIX1 source, reading order, and equation map](numerics/experiments/pr0012_fix1/README.md) |
 | Run the confirmation experiment in Colab | [Thin, check-first notebook](numerics/experiments/pr0012_fix1/run_colab.ipynb) · [Python entry](numerics/experiments/pr0012_fix1/run_colab.py) |
 | Find experiments, reports, and code | [Numerical evidence index](numerics/README.md) |
+| Download the original simulation archives | [Release v1.0 — Assets](https://github.com/metaSATOKEN/First-Order-Probes/releases/tag/v1.0) · [Verification and restoration](docs/DATA_AVAILABILITY.md#download-the-original-archives) |
 | Understand what data are included | [Data availability](docs/DATA_AVAILABILITY.md) |
 | Inspect the limited formal supplement | [Lean scope and saved checks](lean/SUPPLEMENT.md) |
 | Map earlier draft labels to V1.0 | [Version history](docs/VERSION_HISTORY.md) |
@@ -92,7 +95,13 @@ The experiments use specified digital first-order responses, Gaussian source/noi
 
 The English PDF and its TeX source include the author's contact address. To rebuild the PDF, compile the English TeX file from the repository root with XeLaTeX (two passes), using the bundled `figure/` assets. The Japanese edition is distributed here in Markdown only.
 
-Historical directory names are retained so code and evidence remain traceable. The parent research archive, old manuscripts and their PDFs, raw return ZIPs, and private workflow logs are outside this distribution. References to omitted historical materials lead to an explicit [availability catalog](docs/OMITTED_MATERIALS.md), not to a purported public copy.
+Historical directory names are retained so code and evidence remain traceable. Original return ZIPs are distributed separately as [Release v1.0 assets](https://github.com/metaSATOKEN/First-Order-Probes/releases/tag/v1.0), not stored in the Git tree. The larger working archive, old manuscripts and their PDFs, and private workflow logs remain outside this distribution. References to omitted historical materials lead to an explicit [availability catalog](docs/OMITTED_MATERIALS.md).
+
+## Original-data downloads
+
+Use the Release's **Assets** list for the original data. GitHub's automatic **Source code (zip)** and **Source code (tar.gz)** downloads contain the repository snapshot, not these data archives. The Release has **50 attached files**: 41 unchanged ZIPs, five ordered binary parts for the large PR-0004 ZIP, and four helper files. Every attached file is below decimal 1 GB. Download the helper files together with the required data and follow the [data guide](docs/DATA_AVAILABILITY.md#download-the-original-archives) to verify SHA-256 hashes and restore the original paths. Access follows the repository's visibility; while it is private, GitHub authorization is required.
+
+日本語：原実験ZIP42件は[Release v1.0のAssets](https://github.com/metaSATOKEN/First-Order-Probes/releases/tag/v1.0)から取得できます。全量は約14.7GBで、大きいPR-0004のみ5分割、補助資料を含めて50添付です。まず添付の`RAW_DATA_README.md`を確認してください。「Source code (zip)」には原実験データは含まれません。privateの間は閲覧権限が必要です。
 
 ## Quick checks
 
