@@ -39,8 +39,8 @@
       "sha256": "e877f29718d0ac21e23337a10c966c8306ca01e56f36624f7cb719d09b885537"
     },
     "README.md": {
-      "bytes": 16035,
-      "sha256": "61c6dfbe6937df7db8611c037166a8c9d62c610efa40715eee36fa353ae352db"
+      "bytes": 25260,
+      "sha256": "7c05f732b6ce4231e1ffbbc78c90fb043a7b38e623a1b48b18aa82a3b5c8107f"
     },
     "audits/prereg/PR-0002_fusion_independent_confirmation.md": {
       "bytes": 24406,
@@ -5579,8 +5579,8 @@
       "sha256": "2a465e5e97216797e3856ccff6b1ec8c3b2a86627096797047e1bfb78a941f51"
     },
     "provenance/source_manifest.json": {
-      "bytes": 603891,
-      "sha256": "4c3fbceb94311075d2275a0b9cb5b573245f8b4615c70ace64295f00073aede6"
+      "bytes": 604046,
+      "sha256": "65c5d943fed4f2a374ec03b106a10037399d0fa7c3779f895c357d247185e8ae"
     },
     "requirements.txt": {
       "bytes": 215,

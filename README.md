@@ -2,7 +2,7 @@
 
 **How can we tell whether a sensor alarm system is still trustworthy after its thresholds are updated?** This project studies that question for two sensors measuring the same changing input. It follows the complete path from physical consistency checks to alarms, calibration updates, and decisions to stop or resume detection.
 
-English V1.0: [PDF](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf) · [TeX source](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.tex) · [Markdown](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md) | [日本語論文 V1.0（Markdown）](Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md) · [日本語の概要](#日本語の概要) · [Code and reproduction](#start-here)
+English V1.0: [PDF](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf) · [TeX source](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.tex) · [Markdown](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md) | [Model → alarm](#from-the-model-to-an-alarm) · [日本語論文 V1.0（Markdown）](Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md) · [日本語の概要](#日本語の概要) · [Code and reproduction](#start-here)
 
 Research by **Kentaro Sato**. Unpublished working paper, V1.0 in both languages, 30 October 2026. This repository contains the manuscripts, readable code, figures, and saved analysis results.
 
@@ -30,6 +30,93 @@ These scores become alarms through either finite-reference ranks or directly cal
 
 The contribution is an auditable evaluation procedure linking these established ingredients, together with experiments showing where apparently similar alarm outcomes come from different mechanisms. The [code guide](numerics/experiments/pr0012_fix1/README.md) connects the paper's equations to the implementation.
 
+## From the model to an alarm
+
+The following is a short reading guide to the paper's equations (1)–(17). It follows one measurement window through the calculation, then explains why updating an alarm requires additional checks.
+
+### 1. Model: different waveforms from the same input
+
+For probes $i$ and $j$, the digital response is
+
+$$
+y_{\ell,t}=a_\ell y_{\ell,t-1}+(1-a_\ell)x_t,
+\qquad a_\ell=e^{-\Delta/\tau_\ell},\quad \ell\in\{i,j\}.
+$$
+
+Here $x_t$ is the common input, $\Delta$ is the sampling interval, and $\tau_\ell$ is a known response time. A slower probe retains more of its previous output, smoothing rapid changes more strongly. The consistency checks account for this difference before interpreting disagreement.
+
+The observed record is $u_\ell=y_\ell+n_\ell$, where $n_\ell$ is acquisition noise. A separate noise control $c_\ell$ has matching noise statistics. In this experiment, signals have known zero means; observation/control noises are independent of the signals, each other, and those in the other channel. Let $\langle\cdot\rangle_N$ denote the average over the same $N$ time points in each record.
+
+### 2. M: compare covariance with its variance-based prediction
+
+For a stationary common input with finite second moments, the response model gives $C_{ij}=\lambda V_i+\nu V_j$. The finite-window residual is
+
+$$
+\begin{aligned}
+q_M&=\widehat C_{ij}-\lambda\widehat V_i-\nu\widehat V_j,\\
+\lambda&=\frac{(1+a_i)(1-a_j)}{2(1-a_i a_j)},\qquad
+\nu=\frac{(1+a_j)(1-a_i)}{2(1-a_i a_j)}.
+\end{aligned}
+$$
+
+The hats denote noise-corrected window estimates: $\widehat V_\ell=\langle u_\ell^2\rangle_N-\langle c_\ell^2\rangle_N$ and $\widehat C_{ij}=\langle u_i u_j\rangle_N-\langle c_i c_j\rangle_N$. A positive $q_M$ means covariance exceeds the variance-based prediction; a negative value means it falls below it. The coefficients depend on the probe responses, so constructing this residual requires no explicit estimate of the source spectrum. Its finite-window fluctuations still depend on source statistics and need normal calibration. M summarizes second moments and loses the temporal arrangement within the window.
+
+### 3. CR: compare paths after matching their responses
+
+Write $F_\ell$ for the digital filter above. Applying the other probe's filter to each signal gives, under compatible histories and initialization,
+
+$$
+F_jy_i=F_jF_ix=F_iF_jx=F_iy_j.
+$$
+
+Both paths now traverse the same two responses. On observed records and noise controls, compute
+
+$$
+\begin{aligned}
+r_u&=F_ju_i-F_iu_j,\qquad r_c=F_jc_i-F_ic_j,\\
+q_C&=\langle r_u^2\rangle_N-\langle r_c^2\rangle_N.
+\end{aligned}
+$$
+
+Thus CR measures the noise-corrected energy of a time-series disagreement. The implementation discards a specified warm-up interval and includes remaining finite-window transients in normal calibration. Subtracting an independent control can give negative values, whose signs are retained. CR uses a temporal relation that M discards; its filtering and energy average in turn lose frequency-specific detail, residual sign, and event timing.
+
+![M compares second-moment balance; CR compares the two cross-filtered paths](figure/fig01_moment_cr_en.png)
+
+*Paper Figure 1. The lower paths show the ideal signal relation. The actual scores use noisy observations and apply identical operations to independent noise controls.*
+
+### 4. LF: read the residual pair relative to normal fluctuations
+
+For each record, retain $q=(q_M,q_C)^{\mathsf T}$. LF forms two signed scores:
+
+$$
+s_f=w_f^{\mathsf T}(q-\widehat\mu_0),\qquad
+w_f\propto\widehat\Omega_\varepsilon^{-1}\widehat d_f,
+\quad f\in\{g,p\}.
+$$
+
+Normal reference records supply the mean $\widehat\mu_0$, regularized covariance $\widehat\Omega_\varepsilon$, and the moments needed to estimate the physical response directions $\widehat d_f$. The weights account for the different scales and correlated fluctuations of M and CR; the paper specifies their normalization. The gain direction $g$ follows the first-order response to a gain change. The direction $p$ responds to private input and the quadratic gain term, so a branch activation identifies a response direction rather than a unique fault cause.
+
+The linear weights maximize a mean-shift-to-normal-variance criterion in the stated population model. Actual detection is assessed after threshold calibration. **The LF centers and weights stay fixed when source statistics change.**
+
+### 5. Readout and update: a score becomes a decision
+
+The direct readout W0 allocates the nominal false-alarm budget $\alpha$ across three branches:
+
+$$
+\begin{aligned}
+\mathrm{alarm}&\iff s_g>t_+\ \lor\ -s_g>t_-\ \lor\ s_p>t_p,\\
+(\alpha_+,\alpha_-,\alpha_p)&=(\alpha/4,\alpha/4,\alpha/2).
+\end{aligned}
+$$
+
+Each threshold is an upper order statistic from calibration scores, using its branch budget and a strict comparison. The three branches share a calibration batch, which is separate from the reference and evaluation data. For normal calibration and future normal records that are exchangeable, the finite-sample rule bounds the marginal alarm probability by $\alpha$, averaging over calibration randomness; branch independence is unnecessary. A particular fitted calibration's false-alarm rate can then be assessed on independent normal-validation data. The paper's equation (17) gives the exact order and the inactive-branch rule when calibration is too small for the requested budget.
+
+The comparison readout LF0 ranks $|s_g|$ and $s_p$ against a finite normal reference and thresholds their maximum rank. If calibration places the threshold at the largest possible rank, strict exceedance becomes impossible. W0 changes both score representation and budget allocation, allowing gains and losses in detection to be measured separately.
+
+This is where the study's main question enters: **which calibration should supply the thresholds after the source changes?** Candidate-audit data inspect suspected contamination; separate update data fit candidate thresholds. Independent normal validation checks the old and clean recovery calibrations considered by the stop/recovery policies. Evaluation data measure false alarms, fault detection, and deferred decisions. Rejecting a candidate and returning to an old threshold are therefore two distinct decisions with separately measured consequences.
+
+For derivations and assumptions, read [paper §2 and Supplement S0](Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md#2-methods-reading-physical-consistency-as-an-alarm). For the exact functions and saved quantities, follow the [equation-to-code map](numerics/experiments/pr0012_fix1/README.md#paper-equations--implementation). The [data-role diagram](figure/fig03_roles_en.png) shows how candidate auditing, calibration, validation, and evaluation are kept separate.
+
 ## What we found
 
 1. **The representation between a score and an alarm matters.** A finite rank has an upper limit. If threshold calibration reaches that limit, even a very large fault score cannot trigger a strict rank-based alarm. Direct calibration avoids this restriction in some tested conditions, while losing detections relative to the rank-based rule in others. We report measured false-alarm rates alongside detection at the same nominal alarm budget.
@@ -55,6 +142,18 @@ The experiments use specified digital first-order responses, Gaussian source/noi
 結果の中心は三つです。第一に、有限の順位へ変換することで警報が発火できなくなる条件があり、直接閾値へ変えると救える検出と失う検出の両方があります。第二に、「混入を検知できること」と「その後に使う校正が妥当であること」は別です。正負の故障が平均で相殺する場合や、候補を疑いやすくなっても、その候補から作った閾値の感度がさらに落ちる場合を確認しました。第三に、独立した正常データを使って停止・回復しても、検出損失と未判定が残ります。
 
 本研究は、この一連の判断を追跡する方法論とシミュレーションによる検証を提供します。**誤警報の少なさだけでなく、何を検出できなくなったか、どれだけ判定を提供できたかまで一緒に評価する**のが要点です。まずは[日本語論文V1.0](Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md)、実装は[読む順番と式対応の案内](numerics/experiments/pr0012_fix1/README.md)から辿れます。
+
+### 式と機序の読み方
+
+[上の式付きガイド](#from-the-model-to-an-alarm)は、次の五段階で読めます。式は日英論文と同じ離散時間モデルです。
+
+1. **応答モデル**：各センサーは前時刻の出力を一部残し、共通入力を取り込みます。応答時間が長ければ強く平滑化されるため、まずモデルで波形の違いを説明します。
+2. **Mの残差**：$q_M=\widehat C_{ij}-\lambda\widehat V_i-\nu\widehat V_j$ は、観測共分散と、二つの分散から予想される共分散との差です。係数は既知の応答で決まり、帽子は独立雑音対照で補正した窓内推定値を表します。符号は不均衡の向きで、有限窓の正常な揺らぎは校正で扱います。
+3. **CRの残差**：各出力へ相手側のフィルタをかけ、同じ二段の応答へそろえます。二経路の差を二乗平均し、同じ処理をした雑音対照の寄与を引いたものが$q_C$です。時間関係を使う一方、エネルギーへの集約で時刻などの情報は縮約されます。補正後の負値も保持します。
+4. **LFの射影**：$s_f=w_f^{\mathsf T}(q-\widehat\mu_0)$ は、M・CRの二座標を正常時の平均で中心化し、正常変動の大きさ・相関と物理的な応答方向に合わせて読む式です。ゲイン方向と私的入力・ゲイン二次項に共通する方向の二つを保存し、源変化後も中心と重みを固定します。
+5. **警報と更新**：W0は$s_g,-s_g,s_p$に1:1:2の警報予算を割り当て、独立した校正バッチから閾値を作ります。比較対象LF0は有限参照に対する順位を使い、その上端に閾値が達すると発火できなくなります。スコアの表現や閾値が変わると、拾える故障も失う検出も変わります。そこで、候補の混入検査、閾値の作成、採用校正の正常時誤警報確認、故障検出・未判定の評価を別のデータ役割として追跡します。
+
+仕組みの図は[日本語のM・CR模式図](figure/fig01_moment_cr_ja.png)と[判断経路図](figure/fig03_roles_ja.png)、係数・有限標本の閾値・前提の詳細は[日本語論文の第2–3節と補足S0](Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md)を参照してください。
 
 ## Start here
 

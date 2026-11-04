@@ -109,10 +109,12 @@
       "source": "README.md",
       "role": "readable_distribution",
       "transforms": [
-        "readable_packaging_addition"
+        "readable_packaging_addition",
+        "readme_model_to_alarm_mechanism_guide"
       ],
-      "sha256": "61c6dfbe6937df7db8611c037166a8c9d62c610efa40715eee36fa353ae352db",
-      "bytes": 16035
+      "sha256": "7c05f732b6ce4231e1ffbbc78c90fb043a7b38e623a1b48b18aa82a3b5c8107f",
+      "bytes": 25260,
+      "previous_distribution_sha256": "61c6dfbe6937df7db8611c037166a8c9d62c610efa40715eee36fa353ae352db"
     },
     {
       "source": "audits/prereg/PR-0002_fusion_independent_confirmation.md",
