@@ -24,7 +24,7 @@ python -B numerics/experiments/pr0012_fix1/tests/test_readable_fix1.py
 
 Dependencies in [requirements.txt](../requirements.txt) are supported ranges, not a historical environment lock. Environment/runtime records are retained with the saved analyses. A future environment may produce small numerical differences; the checker uses the original tolerances.
 
-The readable-bundle integrity check uses only the standard library and starts no experiment. Its technical suite compares all 28 members to the frozen capsule, exercises the thin entry, and replays saved CPU/GPU arrays plus artificial decision fixtures. See the [reading order and equation map](../numerics/experiments/pr0012_fix1/README.md) and [check record](../provenance/READABLE_FIX1_CHECK.json).
+The readable-bundle integrity check uses only the standard library and starts no experiment. Its technical suite reconstructs all 28 logical members against the frozen payload digest, exercises the thin entry, and replays saved CPU/GPU arrays plus artificial decision fixtures. It does not need the original compressed program. See the [reading order and equation map](../numerics/experiments/pr0012_fix1/README.md) and the dated [earlier check record](../provenance/READABLE_FIX1_CHECK.json).
 
 ## Generate fresh experimental data in Colab
 
@@ -34,7 +34,7 @@ The readable-bundle integrity check uses only the standard library and starts no
 4. Keep all noncumulative SHARD files and the COMPLETE_INDEX. Normal completion produces ten five-replicate shards for 50 replicates; partial checkpoints or size-split parts may add files. Each ZIP is kept below decimal 1 GB by the program. Browser download permission and actual arrival on your computer must be checked separately.
 5. If the runtime remains alive, rerun the notebook's execution cell to reuse compatible saved state. If runtime storage has been lost, set `UPLOAD_RESTORE_ZIPS = True` and select the matching FIX1 checkpoints, including required partial dependencies, or list already-uploaded paths in `RESTORE_ZIPS`. See the [dated operational guide](../numerics/PR0012_MIXTURE_RECOVERY_FIX1_COLAB_JA.md) for historical checkpoint details.
 
-The unmodified [one-cell Python](../numerics/colab/pr0012_mixture_recovery_b50_fix1_one_cell.py) and [one-cell notebook](../numerics/colab/pr0012_mixture_recovery_b50_fix1_one_cell.ipynb) remain auxiliary alternatives. In that older entry format, `RESTORE_ZIPS = ""` is the default and `"UPLOAD"` selects ZIPs. Use one entry format per kernel; do not import historical `numerics/scripts` modules into the FIX1 run. Other-environment execution remains outside this package's current support scope.
+Compressed one-cell alternatives are not distributed. Use the [readable FIX1 entry](../numerics/experiments/pr0012_fix1/run_colab.py) and its notebook; do not import historical `numerics/scripts` modules into the FIX1 run. Other experiments have their own [readable bundles](READABLE_CODE.md). Other-environment execution remains outside this package's current support scope.
 
 The early failed preflight run `606fc449db00` contains no completed scientific replicates and is not a restore source for FIX1. The completed evidence analyzed here is `64bf0f2c7697`. A new run may differ in environment metadata, archive names, runtime, and floating-point boundary behavior. Fixed seeds do not make all hardware behavior identical.
 

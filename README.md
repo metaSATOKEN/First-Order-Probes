@@ -65,6 +65,7 @@ The experiments use specified digital first-order responses, Gaussian source/noi
 | Check the saved primary results without simulation | [Reproduction guide](docs/REPRODUCIBILITY.md#check-the-included-results) |
 | Read the confirmation code and match it to the paper | [Readable PR-0012 FIX1 source, reading order, and equation map](numerics/experiments/pr0012_fix1/README.md) |
 | Run the confirmation experiment in Colab | [Thin, check-first notebook](numerics/experiments/pr0012_fix1/run_colab.ipynb) · [Python entry](numerics/experiments/pr0012_fix1/run_colab.py) |
+| Read or run an earlier experiment | [All readable bundles and their entry points](docs/READABLE_CODE.md) |
 | Find experiments, reports, and code | [Numerical evidence index](numerics/README.md) |
 | Download the original simulation archives | [Release v1.0 — Assets](https://github.com/metaSATOKEN/First-Order-Probes/releases/tag/v1.0) · [Verification and restoration](docs/DATA_AVAILABILITY.md#download-the-original-archives) |
 | Understand what data are included | [Data availability](docs/DATA_AVAILABILITY.md) |
@@ -79,11 +80,11 @@ The experiments use specified digital first-order responses, Gaussian source/noi
 ├── Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md
 ├── figure/                 # figures used by the current manuscripts
 ├── numerics/
-│   ├── experiments/pr0012_fix1/  # readable frozen sources + thin Colab entry
-│   ├── colab/              # auxiliary frozen one-cell programs and notebooks
+│   ├── experiments/        # versioned readable sources + check-first entries
+│   ├── colab/              # historical hash/identity metadata only
 │   ├── scripts/            # historical simulation, scoring, and analysis code
 │   ├── tests/              # historical technical tests
-│   ├── tools/              # historical bundle builders
+│   ├── tools/              # analysis tools and archived technical-check sources
 │   ├── theory/             # instrument and fusion notes
 │   └── analysis/           # selected complete analysis sets and summaries
 ├── audits/prereg/          # historical fixed protocols, portable links
@@ -97,6 +98,8 @@ The English PDF and its TeX source include the author's contact address. To rebu
 
 Historical directory names are retained so code and evidence remain traceable. Original return ZIPs are distributed separately as [Release v1.0 assets](https://github.com/metaSATOKEN/First-Order-Probes/releases/tag/v1.0), not stored in the Git tree. The larger working archive, old manuscripts and their PDFs, and private workflow logs remain outside this distribution. References to omitted historical materials lead to an explicit [availability catalog](docs/OMITTED_MATERIALS.md).
 
+The current main branch and future distributions use readable sources rather than compressed one-cell programs. The [readable-code guide](docs/READABLE_CODE.md) lists all experiments; each entry checks its frozen source identity before an explicitly requested run. Scientific source members and saved results retain their original bytes. The historical v1.0 tag and earlier Git history are retained and still contain the former launch format.
+
 ## Original-data downloads
 
 Use the Release's **Assets** list for the original data. GitHub's automatic **Source code (zip)** and **Source code (tar.gz)** downloads contain the repository snapshot, not these data archives. The Release has **50 attached files**: 41 unchanged ZIPs, five ordered binary parts for the large PR-0004 ZIP, and four helper files. Every attached file is below decimal 1 GB. Download the helper files together with the required data and follow the [data guide](docs/DATA_AVAILABILITY.md#download-the-original-archives) to verify SHA-256 hashes and restore the original paths. Access follows the repository's visibility; while it is private, GitHub authorization is required.
@@ -109,6 +112,7 @@ From this directory, with Python 3.11 or newer:
 
 ```bash
 python3 tools/verify_package.py
+python3 -B tools/test_readable_bundles.py
 python3 -B numerics/experiments/pr0012_fix1/run_colab.py --check
 python3 -m venv .venv
 source .venv/bin/activate

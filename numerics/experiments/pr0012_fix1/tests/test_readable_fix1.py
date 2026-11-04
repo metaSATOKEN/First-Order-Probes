@@ -38,14 +38,15 @@ import pr0006_methods as earlier
 
 
 def capsule_sources():
-    path = PUBLIC / 'numerics/colab/pr0012_mixture_recovery_b50_fix1_one_cell.py'
-    constants = {n.targets[0].id: ast.literal_eval(n.value) for n in ast.parse(path.read_text()).body
-                 if isinstance(n, ast.Assign) and isinstance(n.targets[0], ast.Name)
-                 and n.targets[0].id in {'_PAYLOAD', '_PAYLOAD_SHA256', '_CELL_ID'}}
-    raw = zlib.decompress(base64.b64decode(constants['_PAYLOAD']))
-    assert hashlib.sha256(raw).hexdigest() == constants['_PAYLOAD_SHA256'] == entry.PAYLOAD_SHA256
-    assert constants['_CELL_ID'] == entry.CELL_ID
-    return json.loads(raw)['sources']
+    # Independent reconstruction against the historical payload digest, not a
+    # second copy of a compressed executable. The 28 member hashes are public.
+    manifest = json.loads((BUNDLE / 'bundle_manifest.json').read_text())
+    sources = {name: (BUNDLE / item['path']).read_text(encoding='utf-8')
+               for name, item in manifest['members'].items()}
+    raw = json.dumps(dict(schema=1, sources=sources), sort_keys=True, ensure_ascii=False).encode()
+    assert hashlib.sha256(raw).hexdigest() == '4045cf2857875c9d0978a19961e3daea38a382303418f2267572023eb1c3789f'
+    assert manifest['cell_id'] == 'd41a11833edd6d21'
+    return sources
 
 
 class PackagingTests(unittest.TestCase):

@@ -11,7 +11,7 @@ The confirmation experiment used in the current manuscript is **PR-0012 FIX1**, 
 | Scientific conditions | [PR-0012](../audits/prereg/PR-0012_mixture_recovery_confirmation.md) |
 | Technical repair | [PR-0012 A01](../audits/prereg/PR-0012_A01_preflight_boundary_fix.md) |
 | Primary code entry | [Readable FIX1 source and equation map](experiments/pr0012_fix1/README.md) · [Thin Colab notebook](experiments/pr0012_fix1/run_colab.ipynb) |
-| Auxiliary one-cell format | [Frozen FIX1 Python](colab/pr0012_mixture_recovery_b50_fix1_one_cell.py) · [Notebook](colab/pr0012_mixture_recovery_b50_fix1_one_cell.ipynb) |
+| Earlier experiments | [Readable bundles and explicit entry points](../docs/READABLE_CODE.md) |
 | Historical execution instructions | [Japanese FIX1 guide](PR0012_MIXTURE_RECOVERY_FIX1_COLAB_JA.md) |
 | Main report | [Confirmation report](analysis/pr0012_64bf0f2c7697_confirmation_v1/PR0012_CONFIRMATION_REPORT_JA.md) |
 | Primary results | [13 contrasts](analysis/pr0012_64bf0f2c7697_confirmation_v1/primary13.json) · [Outer arrays](analysis/pr0012_64bf0f2c7697_confirmation_v1/outer_arrays.npz) |
@@ -39,9 +39,9 @@ Reports are mostly in Japanese. The English manuscript supplies the integrated s
 
 - [experiments/pr0012_fix1](experiments/pr0012_fix1/README.md): complete versioned source for the current confirmation, a reading order, equation/column map, thin check-first entry, and saved-array technical tests. All 28 capsule members (20 Python files) retain exact bytes.
 - [scripts](scripts/README.md): historical physical simulation/backends, scoring and calibration methods, fixed experiment specifications, saved-data analysis, and figure generation. Sources are copied byte for byte; the PR-0012 launcher and runner here predate FIX1. Use the versioned source above for execution.
-- [colab](colab): self-contained frozen bundles. Use the FIX1 bundle for PR-0012; the superseded broken launch bundle and abandoned PR-0004 rescue program are omitted.
+- [colab](colab): historical build hashes and identities only. Use the versioned [readable bundles](../docs/READABLE_CODE.md) for current entry points.
 - [tests](tests): technical tests from development. Some require original raw archives or local historical fixtures and are not standalone package checks.
-- [tools](tools): historical one-cell bundle builders. Rebuilding a bundle changes its source identity; use the frozen bundle when reproducing a recorded run.
+- [tools](tools): analysis utilities and archival technical-check source. Compressed-program builders are not distributed; current packaging checks are listed in the [readable-code guide](../docs/READABLE_CODE.md).
 - [Instrument specification](theory/M_CR_LF_INSTRUMENT_SPECIFICATION_v1_JA.md) and [quadratic-fusion note](theory/THEORY_NOTE_M_CR_QUADRATIC_FUSION_v1_JA.md): methodological background, with original dates and scope.
 
-For an earlier independent experiment, use the [PR-0009 one-cell program](colab/pr0009_two_axis_a50_one_cell.py) and its [guide](PR0009_TWO_AXIS_COLAB_JA.md). Running any full experiment is a new computational job, not part of the lightweight package check.
+For an earlier independent experiment, use the [PR-0009 readable entry](experiments/pr0009/run_colab.py) and its [guide](PR0009_TWO_AXIS_COLAB_JA.md). Running any full experiment is a new computational job, not part of the lightweight package check.

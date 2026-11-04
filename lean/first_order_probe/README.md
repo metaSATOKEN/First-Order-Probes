@@ -50,9 +50,9 @@ lake exe cache get Mathlib.Data.Real.Sqrt Mathlib.Tactic.FieldSimp Mathlib.Tacti
 lake env lean -DwarningAsError=true -o FirstOrderProbe.olean FirstOrderProbe.lean
 ```
 
-The Colab one-cell runner automates these commands and installs its toolchain
-inside a private temporary directory. It does not require a GPU, a local Lean
-installation, Google Drive mounting, or any account token.
+The [readable Colab runner](../experiments/algebra/README.md) automates these commands
+and installs its toolchain inside a private temporary directory. It does not require
+a GPU, a local Lean installation, Google Drive mounting, or any account token.
 
 ## Verification record
 
@@ -76,11 +76,12 @@ The official installation and library sources are:
 
 ## Colab usage
 
-Paste the entire `first_order_probe_lean_one_cell.py` file into one Python code
-cell in a fresh Colab CPU notebook and run it. Setup downloads compiled tools
-and libraries and can take several minutes; the cell prints progress while it
-waits. Internet access and at least 6 GiB of free temporary disk are required.
-No data upload or numerical experiment is involved.
+Place the repository in a fresh Colab CPU runtime and use the [check-first notebook](../experiments/algebra/run_colab.ipynb).
+Inspect the plain project files, run the integrity check, then explicitly enable
+the start switch. Setup downloads compiled tools and libraries and can take several
+minutes; the runner prints progress while it waits. Internet access and at least
+6 GiB of free temporary disk are required. No data upload or numerical experiment
+is involved. The original README bytes are preserved with the frozen bundle metadata.
 
 At completion the cell requests a ZIP download, including on a normal caught
 failure. Allow the browser download if prompted; a manual download link is also

@@ -1,0 +1,536 @@
+{
+  "status": "PASS_DESIGN_FREEZE",
+  "date": "2026-10-18",
+  "timezone": "Asia/Tokyo",
+  "scope": "design arithmetic, source anchors and documentation only",
+  "card": {
+    "path": "audits/prereg/PR-0007_lfdc_calibration_contamination.md",
+    "sha256": "8309b2143879fef69a5020fc2945fb2159786f3de7c1da62b787b6907d98be37"
+  },
+  "handoff": {
+    "path": "HANDOFF/2026-10-18_session-02.md",
+    "sha256": "0d514c2a8f828e396a2d353f43c93c40e21aa4af41823015d17f705ba8217e5b",
+    "anchors": {
+      "AGENTS.md": "4fe029785823039407e17dc6daa29ba2d63edaf733a3e243ac648ea38340afdb",
+      "docs/THROUGHLINE.md": "4e73598151839166560a8d1d19cf00342ec18e18e0b98a005955f0a7bd4d55e1",
+      "audits/prereg/PR-0006_lfdc_alarm_budget_confirmation.md": "6fd46a0061470fb4345403ec5f3a4ae04addfaa52054361744f97870577ec0b4",
+      "numerics/analysis/pr0006_6f23fc7946f8_performance_v2/PR0006_BUDGET_REPORT_JA.md": "0339bdb6d65b4f6b4bbd62b88e9ff00d64101018b7b043e982fb01d99dc37657",
+      "numerics/analysis/pr0006_6f23fc7946f8_performance_v2/delivery_validation.json": "3b452506e51fc7b4069970add646feb0daba3ab3873db33e572c248370323aed",
+      "numerics/analysis/pr0006_6f23fc7946f8_performance_v2/recomputed_results.json": "3528085b40ee7da52896964c403e3a6cb56758973b5ae51a51c8509468026a9b",
+      "numerics/design/POST_PR0006_BUDGET_AND_RECALIBRATION_OPTIONS_v1_JA.md": "f87b84878e36a4167f6f7e7bea4fea23967f200cb181f7e5afdbebb3a2bad87a",
+      "numerics/design/POST_PR0006_CROSS_CONTAMINATION_AND_IO_ADDENDUM_v1_JA.md": "396073e960b0ad23fec093b2d80b7c82b0a887bd088de7d1daf75c511d15c2de",
+      "audits/fp_corpus.md": "0e6133e56ef2b0606d6f724897ad91eacb6f44e00d1bfbc06dc2cc89d2e86437",
+      "Covariance_Consistency_Tests_for_First-Order_Probes_with_Shared_Measurement_Noise_v1.md": "1ad6ba86ca0bf5e1d9634f6d58679931924019f3cfbe61e12c7144195cfee589"
+    },
+    "verification_scope": "All 10 matched on restoration; final corpus append documented separately, other 9 unchanged"
+  },
+  "inherited_sources": {
+    "numerics/scripts/probe_backend_check_v1.py": "aecd24fffdb04da40b9bcd630ae3cdcf68b41e9a598ad662d4f893447cf02adf",
+    "numerics/scripts/pr0004_methods.py": "4f1563c2b17d79783799f10a5294eca2543b181defd4a5839d6ce6d5078427bf",
+    "numerics/scripts/pr0004_spec.py": "6cc8f085df1962ee3e13707ed4359fe8e931de8e93e3f937d67dac1b801f98db",
+    "numerics/scripts/pr0006_methods.py": "157d7667d2d4ef904b8cbe989f21667dc1b004c1fb62309480bed27cebf165ab",
+    "numerics/scripts/pr0006_spec.py": "6b01024b016b39877f8a41d20ce9ffc855a10bdefc9ad6c47e8c4387e734a06c"
+  },
+  "equipment": {
+    "docs/THROUGHLINE.md": true,
+    "audits/ledger_2026-10.md": true,
+    "HANDOFF/LATEST.md": true,
+    "audits/fp_corpus.md": true,
+    "audits/prereg/README.md": true
+  },
+  "ledger_preserved_prefix": {
+    "bytes": 170188,
+    "sha256": "0f67a738ce2336d1f09ffb77fd3e35ad18e6d0c9c7f654d0c5f8e2ba24141c9f"
+  },
+  "experiment": "lfdc_calibration_pr0007_v1",
+  "rng": {
+    "master": 2026101800,
+    "preflight_master": 2026101801,
+    "namespace": "LFDC-calibration-contamination-v1",
+    "logical_block_records": 64,
+    "address_count_checked": 171500,
+    "unique_addresses": true,
+    "random_values_generated": false
+  },
+  "counts": {
+    "replicates": 25,
+    "normal_groups": 6,
+    "fault_cases": 18,
+    "records_per_replicate_by_role": {
+      "ref": 19998,
+      "normal_cal": 191994,
+      "fault_cal": 14400,
+      "null_eval": 120000,
+      "fault_eval": 90000
+    },
+    "records_per_replicate": 436392,
+    "total_records": 10909800,
+    "unique_eval_records": 5250000,
+    "calibration_contexts_per_replicate": 66,
+    "unique_calibration_states_per_replicate": 54,
+    "eval_record_context_pairs": 57750000,
+    "binary_decisions": 693000000,
+    "method_alpha_evaluation_sets": 79200,
+    "primary_family": 8,
+    "fpr_family": 792,
+    "cross_cells": 1296,
+    "cross_off_diagonal_cells": 864
+  },
+  "primary": [
+    {
+      "group": "B_L",
+      "eval_fault": "GM05",
+      "mix_fault": "GM05",
+      "mix_count": 160,
+      "method": "W0",
+      "alpha": 0.01,
+      "m": 15999
+    },
+    {
+      "group": "B_L",
+      "eval_fault": "GM05",
+      "mix_fault": "GM05",
+      "mix_count": 800,
+      "method": "W0",
+      "alpha": 0.01,
+      "m": 15999
+    },
+    {
+      "group": "B_L",
+      "eval_fault": "GP05",
+      "mix_fault": "GP05",
+      "mix_count": 160,
+      "method": "W0",
+      "alpha": 0.01,
+      "m": 15999
+    },
+    {
+      "group": "B_L",
+      "eval_fault": "GP05",
+      "mix_fault": "GP05",
+      "mix_count": 800,
+      "method": "W0",
+      "alpha": 0.01,
+      "m": 15999
+    },
+    {
+      "group": "K200_L",
+      "eval_fault": "P02",
+      "mix_fault": "P02",
+      "mix_count": 160,
+      "method": "W0",
+      "alpha": 0.01,
+      "m": 15999
+    },
+    {
+      "group": "K200_L",
+      "eval_fault": "P02",
+      "mix_fault": "P02",
+      "mix_count": 800,
+      "method": "W0",
+      "alpha": 0.01,
+      "m": 15999
+    },
+    {
+      "group": "K2_M",
+      "eval_fault": "P02",
+      "mix_fault": "P02",
+      "mix_count": 160,
+      "method": "W0",
+      "alpha": 0.01,
+      "m": 15999
+    },
+    {
+      "group": "K2_M",
+      "eval_fault": "P02",
+      "mix_fault": "P02",
+      "mix_count": 800,
+      "method": "W0",
+      "alpha": 0.01,
+      "m": 15999
+    }
+  ],
+  "budgets_eighths": {
+    "W0": [
+      2,
+      2,
+      4
+    ],
+    "WP": [
+      1,
+      1,
+      6
+    ],
+    "WG": [
+      3,
+      3,
+      2
+    ],
+    "W+": [
+      3,
+      1,
+      4
+    ],
+    "W−": [
+      1,
+      3,
+      4
+    ]
+  },
+  "rank_budget_checks": [
+    {
+      "m": 7999,
+      "alpha_denominator": 100,
+      "method": "W0",
+      "order_indices": [
+        7980,
+        7980,
+        7960
+      ]
+    },
+    {
+      "m": 7999,
+      "alpha_denominator": 100,
+      "method": "WP",
+      "order_indices": [
+        7990,
+        7990,
+        7940
+      ]
+    },
+    {
+      "m": 7999,
+      "alpha_denominator": 100,
+      "method": "WG",
+      "order_indices": [
+        7970,
+        7970,
+        7980
+      ]
+    },
+    {
+      "m": 7999,
+      "alpha_denominator": 100,
+      "method": "W+",
+      "order_indices": [
+        7970,
+        7990,
+        7960
+      ]
+    },
+    {
+      "m": 7999,
+      "alpha_denominator": 100,
+      "method": "W−",
+      "order_indices": [
+        7990,
+        7970,
+        7960
+      ]
+    },
+    {
+      "m": 7999,
+      "alpha_denominator": 1000,
+      "method": "W0",
+      "order_indices": [
+        7998,
+        7998,
+        7996
+      ]
+    },
+    {
+      "m": 7999,
+      "alpha_denominator": 1000,
+      "method": "WP",
+      "order_indices": [
+        7999,
+        7999,
+        7994
+      ]
+    },
+    {
+      "m": 7999,
+      "alpha_denominator": 1000,
+      "method": "WG",
+      "order_indices": [
+        7997,
+        7997,
+        7998
+      ]
+    },
+    {
+      "m": 7999,
+      "alpha_denominator": 1000,
+      "method": "W+",
+      "order_indices": [
+        7997,
+        7999,
+        7996
+      ]
+    },
+    {
+      "m": 7999,
+      "alpha_denominator": 1000,
+      "method": "W−",
+      "order_indices": [
+        7999,
+        7997,
+        7996
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 100,
+      "method": "W0",
+      "order_indices": [
+        15960,
+        15960,
+        15920
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 100,
+      "method": "WP",
+      "order_indices": [
+        15980,
+        15980,
+        15880
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 100,
+      "method": "WG",
+      "order_indices": [
+        15940,
+        15940,
+        15960
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 100,
+      "method": "W+",
+      "order_indices": [
+        15940,
+        15980,
+        15920
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 100,
+      "method": "W−",
+      "order_indices": [
+        15980,
+        15940,
+        15920
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 1000,
+      "method": "W0",
+      "order_indices": [
+        15996,
+        15996,
+        15992
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 1000,
+      "method": "WP",
+      "order_indices": [
+        15998,
+        15998,
+        15988
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 1000,
+      "method": "WG",
+      "order_indices": [
+        15994,
+        15994,
+        15996
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 1000,
+      "method": "W+",
+      "order_indices": [
+        15994,
+        15998,
+        15992
+      ]
+    },
+    {
+      "m": 15999,
+      "alpha_denominator": 1000,
+      "method": "W−",
+      "order_indices": [
+        15998,
+        15994,
+        15992
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 100,
+      "method": "W0",
+      "order_indices": [
+        31920,
+        31920,
+        31840
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 100,
+      "method": "WP",
+      "order_indices": [
+        31960,
+        31960,
+        31760
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 100,
+      "method": "WG",
+      "order_indices": [
+        31880,
+        31880,
+        31920
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 100,
+      "method": "W+",
+      "order_indices": [
+        31880,
+        31960,
+        31840
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 100,
+      "method": "W−",
+      "order_indices": [
+        31960,
+        31880,
+        31840
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 1000,
+      "method": "W0",
+      "order_indices": [
+        31992,
+        31992,
+        31984
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 1000,
+      "method": "WP",
+      "order_indices": [
+        31996,
+        31996,
+        31976
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 1000,
+      "method": "WG",
+      "order_indices": [
+        31988,
+        31988,
+        31992
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 1000,
+      "method": "W+",
+      "order_indices": [
+        31988,
+        31996,
+        31984
+      ]
+    },
+    {
+      "m": 31999,
+      "alpha_denominator": 1000,
+      "method": "W−",
+      "order_indices": [
+        31996,
+        31988,
+        31984
+      ]
+    }
+  ],
+  "storage": {
+    "raw_bytes_per_replicate": 59349312,
+    "packed_bytes_per_replicate": 18480000,
+    "major_array_bytes_per_replicate": 77829312,
+    "major_array_bytes_total": 1945732800,
+    "replicates_per_zip": 1,
+    "planned_data_zips": 25,
+    "target_strict_bytes": 100000000,
+    "operational_strict_bytes": 128000000,
+    "project_strict_bytes": 1000000000,
+    "actual_zip_sizes_measured": false
+  },
+  "documentation_links": {
+    "all_local_targets_checked": 267,
+    "manifest_self_links_resolved": true,
+    "ledger_scope": "section 39; historical prefix preserved"
+  },
+  "not_performed": [
+    "PR-0007 scientific implementation",
+    "new scientific data generation",
+    "saved-data rescoring",
+    "Colab or Mac I/O test",
+    "whole-ZIP CRC rerun",
+    "manuscript edit",
+    "TeX/PDF build"
+  ],
+  "editor_event": "First navigation patch rejected on context mismatch before writes; reapplied with narrower context; no scientific result affected.",
+  "final_preservation": {
+    "unchanged_handoff_anchors": 9,
+    "unchanged_inherited_sources": 5,
+    "corpus": {
+      "path": "audits/fp_corpus.md",
+      "preserved_prefix_bytes": 13559,
+      "preserved_prefix_sha256": "0e6133e56ef2b0606d6f724897ad91eacb6f44e00d1bfbc06dc2cc89d2e86437",
+      "current_sha256": "29502e364442b227c180130578736f2656f6ad6d9e2d820583ce40836293c6f7",
+      "append": "QA-010 / CT-010"
+    },
+    "ledger_original_prefix_preserved": true,
+    "card_unchanged": true
+  },
+  "delivery_check_attempts": [
+    {
+      "result": "STOP_INSPECTION_KEYWORD",
+      "reason": "Expected 未実装 instead of actual explicit 未着手 declaration",
+      "science_affected": false
+    },
+    {
+      "result": "PASS_FINAL_DESIGN_DELIVERY",
+      "corrected_scope_declaration_check": true,
+      "positive_and_negative_control": true,
+      "all_local_links_checked": 267,
+      "implementation_absent": true
+    }
+  ]
+}

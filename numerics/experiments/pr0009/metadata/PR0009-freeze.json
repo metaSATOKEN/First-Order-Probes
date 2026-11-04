@@ -1,0 +1,38 @@
+{
+  "status": "FROZEN_BEFORE_PR0009_SCIENTIFIC_RUN",
+  "date": "2026-10-18",
+  "card": {
+    "path": "audits/prereg/PR-0009_two_axis_independent_confirmation.md",
+    "sha256": "bfe645d75be346a727de63f6fe4564360c2693be35fbd8e626179987e5c1ba23"
+  },
+  "design": {
+    "path": "numerics/design/POST_PR0008_TWO_AXIS_INDEPENDENT_CONFIRMATION_DESIGN_v1_JA.md",
+    "sha256": "cee23146416a66736be54802250aa6b1fafce1f9e0987e8a6b4a7421706903d9"
+  },
+  "inherited_sources": {
+    "numerics/scripts/probe_backend_check_v1.py": "aecd24fffdb04da40b9bcd630ae3cdcf68b41e9a598ad662d4f893447cf02adf",
+    "numerics/scripts/probe_check_io.py": "9798cfbdf0b6154310f12d7bd48f99a1b6cfb5c086b15cfca1200a6f23f67c84",
+    "numerics/scripts/probe_check_launcher.py": "5453feb894de0ccc56082948acbfadc9a808f16e16a4db4ef1902ebf1119f4f1",
+    "numerics/scripts/pr0004_spec.py": "6cc8f085df1962ee3e13707ed4359fe8e931de8e93e3f937d67dac1b801f98db",
+    "numerics/scripts/pr0004_methods.py": "4f1563c2b17d79783799f10a5294eca2543b181defd4a5839d6ce6d5078427bf",
+    "numerics/scripts/pr0006_spec.py": "6b01024b016b39877f8a41d20ce9ffc855a10bdefc9ad6c47e8c4387e734a06c",
+    "numerics/scripts/pr0006_methods.py": "157d7667d2d4ef904b8cbe989f21667dc1b004c1fb62309480bed27cebf165ab",
+    "numerics/scripts/pr0006_io.py": "025d0ddd871c05253bc8aa9c7fdf23446c394fd62f101d4c278df40ade6ced89",
+    "numerics/scripts/pr0006_runner.py": "779599b715da324ee80f846ca51827f23adc29b51f3ecf5fe62c2206607bc17b",
+    "numerics/scripts/pr0007_spec.py": "e828d4c08160c389da0d8be607b275895ad18dfa48dde128a3a0b2d891da72a1",
+    "numerics/scripts/pr0007_io.py": "90c9a5825a5b3a92daab14c37f9499d96fb399407cd12131070c3a9628b3847b",
+    "numerics/scripts/pr0007_launcher.py": "04aa587724230f11f3e316e800422108c3f8546bc8726e6c0f904a36c8cfeee8",
+    "numerics/scripts/pr0007_download.py": "ce2c40c780e1c79ccc39c653065cc4712e87855d4718633416e091ba758ab7a5",
+    "numerics/scripts/pr0008_shadow_methods.py": "3adc0fe83fd195e70677355fbf8d82f1af19071104759b78e2155cc291f34f9e"
+  },
+  "new_scientific_run": false,
+  "repeats": 50,
+  "cap_multiplier": 1.25,
+  "master": 2026101809,
+  "preflight_master": 2026101810,
+  "records": 31039200,
+  "ledger_prefix": {
+    "bytes": 208062,
+    "sha256": "1b6be3bec8cbc4656a4a85ae28f334d46fd5376dc5df5ebeae62b1b5b887455a"
+  }
+}

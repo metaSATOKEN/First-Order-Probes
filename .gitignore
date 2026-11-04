@@ -12,6 +12,10 @@ venv/
 .mypy_cache/
 .ruff_cache/
 .lake/
+*_one_cell.py
+*_one_cell.ipynb
+*onecell.py
+*onecell.ipynb
 build/
 dist/
 

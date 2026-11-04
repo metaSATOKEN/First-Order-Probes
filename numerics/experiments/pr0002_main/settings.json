@@ -1,0 +1,7 @@
+{
+  "MODE": "confirm",
+  "RESTORE_ZIP": "",
+  "PILOT_ZIP": "UPLOAD",
+  "CONFIRM_APPROVAL": "RUN PR-0002 CONFIRM",
+  "AUTO_DOWNLOAD": true
+}

@@ -1,0 +1,628 @@
+{
+  "anchors": 8,
+  "archive_sha256": "7f652e2356ab79c626d1a19ec012b7729da4a29dbc912aa5603d1b8ebcbd80f9",
+  "checks": [
+    {
+      "name": "protected:main_2ae37613a10478c8_COMPLETE_20261016T160008Z.zip",
+      "passed": true
+    },
+    {
+      "name": "protected:First-Order_Probe_Variance_Identity_v4.md",
+      "passed": true
+    },
+    {
+      "name": "protected:Noise_Branching_in_Multi-Recorder_Measurements_v3.md",
+      "passed": true
+    },
+    {
+      "name": "protected:figures/first_order_compatibility_u_curve.svg",
+      "passed": true
+    },
+    {
+      "name": "protected:figures/ou_finite_window_scaling.svg",
+      "passed": true
+    },
+    {
+      "name": "protected:figures/noise_branching_topologies.svg",
+      "passed": true
+    },
+    {
+      "name": "protected:.gitignore",
+      "passed": true
+    },
+    {
+      "name": "protected:requirements-dev.txt",
+      "passed": true
+    },
+    {
+      "name": "protected:Covariance_Consistency_Tests_for_First-Order_Probes_with_Shared_Measurement_Noise_v1.md",
+      "passed": true
+    },
+    {
+      "name": "protected:README.md",
+      "passed": true
+    },
+    {
+      "name": "protected:LICENSE-CC-BY-4.0.txt",
+      "passed": true
+    },
+    {
+      "name": "protected:LICENSE",
+      "passed": true
+    },
+    {
+      "name": "protected:requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/notebooks/first_order_probe_identity_colab_v2.ipynb",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/COLAB_EXPERIMENTS_JA.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/templates/fp-corpus-template.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/templates/ledger-template.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/templates/mini-requirements-template.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/templates/prereg-card-template.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/templates/handoff-example.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/SKILL.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/README.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/references/ladder.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/references/domain-map.md",
+      "passed": true
+    },
+    {
+      "name": "protected:throughline/references/principles.md",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/IMPLEMENTATION_VALIDATION.md",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/colab/covariance_consistency_one_cell.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/colab/covariance_consistency_one_cell.ipynb",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/first_order_probe/FirstOrderProbe.lean",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/first_order_probe/lakefile.toml",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/first_order_probe/README.md",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/first_order_probe/lean-toolchain",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/tests/test_covariance_suite.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/tests/test_fusion_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/tests/test_roc_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/colab/first_order_probe_lean_one_cell.py",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/colab/first_order_probe_lean_one_cell.ipynb",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/scripts/first_order_probe_identity_paste_ready_v2.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/scripts/analyze_covariance_roc.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/scripts/noise_branching_bias_demo.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/scripts/covariance_consistency_colab_v1.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/scripts/analyze_covariance_fusion.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/results/noise_branching_bias_demo.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/results/ou_finite_window_scaling.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/results/first_order_compatibility_u_curve.png",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/results/first_order_probe_identity_results.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/results/white_bandlimit_benchmark.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/README.md",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/tests/test_colab_bundle.py",
+      "passed": true
+    },
+    {
+      "name": "protected:latex/first_order_probe_variance_identity_v4.tex",
+      "passed": true
+    },
+    {
+      "name": "protected:latex/header.tex",
+      "passed": true
+    },
+    {
+      "name": "protected:latex/sync_manuscripts.py",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/tools/colab_runner.py",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/tools/build_colab_bundle.py",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/tools/build_supplement.py",
+      "passed": true
+    },
+    {
+      "name": "protected:latex/assets/first_order_compatibility_u_curve.png",
+      "passed": true
+    },
+    {
+      "name": "protected:latex/assets/noise_branching_topologies.png",
+      "passed": true
+    },
+    {
+      "name": "protected:latex/assets/ou_finite_window_scaling.png",
+      "passed": true
+    },
+    {
+      "name": "protected:latex/noise_branching_multi_recorder_v3.tex",
+      "passed": true
+    },
+    {
+      "name": "protected:latex/check_release.py",
+      "passed": true
+    },
+    {
+      "name": "protected:latex/README.md",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/tools/build_covariance_colab.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/tools/verify_covariance_fusion.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/tools/verify_covariance_roc.py",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/figures/gain_power_equal_fpr.svg",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/figures/roc_gain_by_window.png",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/figures/roc_complementary_cases.svg",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/figures/roc_complementary_cases.png",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/figures/roc_gain_by_window.svg",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/figures/gain_power_equal_fpr.png",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/plot_data.json",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/audit.json",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/tables/normal_thresholds.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/tables/paired_power_difference.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/tables/roc_grid.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/tables/holdout_false_alarm.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/tables/auc.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/tables/matched_fpr_power.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/tables/holdout_power.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/validation.json",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/figure_environment.json",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/ROC_AND_LONG_WINDOW_REPORT_JA.md",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/verification.json",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/validation.json",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/figure_environment.json",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/first_order_probe_lean_local_PASS.zip",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/README.md",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/SUPPLEMENT.md",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/README.md",
+      "passed": true
+    },
+    {
+      "name": "protected:output/supplements/First-Order_Probe_Lean_Supplement.zip",
+      "passed": true
+    },
+    {
+      "name": "protected:output/pdf/Noise_Branching_in_Multi-Recorder_Measurements_v3.pdf",
+      "passed": true
+    },
+    {
+      "name": "protected:output/pdf/First-Order_Probe_Variance_Identity_v4.pdf",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/models.json",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/audit.json",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/colab/first_order_probe_lean_PASS_20261015T035501Z.zip",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/colab/verification.json",
+      "passed": true
+    },
+    {
+      "name": "protected:output/pdf/build-logs/noise_branching_multi_recorder_v3.log",
+      "passed": true
+    },
+    {
+      "name": "protected:output/pdf/build-logs/first_order_probe_variance_identity_v4.log",
+      "passed": true
+    },
+    {
+      "name": "protected:output/pdf/build-logs/release_checks.json",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/split_indices.npz",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/pipeline_bootstrap.npz",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/FUSION_PRELIMINARY_REPORT_JA.md",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/logs/07_kernel_check.log",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/figures/fusion_rescue_loss.svg",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/figures/fusion_rescue_loss.png",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/figures/fusion_gain_by_window.png",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/figures/fusion_gain_by_window.svg",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/tables/calibration.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/tables/source_shift_tradeoffs.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/tables/source_shift.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/tables/normal_tradeoffs.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/tables/detection_tradeoffs.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/tables/normal_false_alarm.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/tables/union_accounting.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/tables/power.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/tables/detection_patterns.csv",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/colab/logs/06_download_mathlib_cache.log",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/colab/logs/01_download_elan.log",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/colab/logs/07_kernel_check.log",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/colab/logs/04_check_mathlib_commit.log",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/colab/logs/03_resolve_pinned_dependencies.log",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/colab/logs/02_install_private_elan.log",
+      "passed": true
+    },
+    {
+      "name": "protected:lean/verification/colab/logs/05_lean_version.log",
+      "passed": true
+    },
+    {
+      "name": "handoff:docs/THROUGHLINE.md",
+      "passed": true
+    },
+    {
+      "name": "handoff:AGENTS.md",
+      "passed": true
+    },
+    {
+      "name": "handoff:main_2ae37613a10478c8_COMPLETE_20261016T160008Z.zip",
+      "passed": true
+    },
+    {
+      "name": "handoff:Covariance_Consistency_Tests_for_First-Order_Probes_with_Shared_Measurement_Noise_v1.md",
+      "passed": true
+    },
+    {
+      "name": "handoff:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/FUSION_PRELIMINARY_REPORT_JA.md",
+      "passed": true
+    },
+    {
+      "name": "handoff:numerics/analysis/main_2ae37613a10478c8/fusion_preliminary_v1/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "handoff:numerics/scripts/analyze_covariance_fusion.py",
+      "passed": true
+    },
+    {
+      "name": "handoff:numerics/scripts/covariance_consistency_colab_v1.py",
+      "passed": true
+    },
+    {
+      "name": "frozen:numerics/scripts/probe_check_io.py",
+      "passed": true
+    },
+    {
+      "name": "frozen:numerics/scripts/probe_check_launcher.py",
+      "passed": true
+    },
+    {
+      "name": "frozen:numerics/scripts/probe_backend_check_v1.py",
+      "passed": true
+    },
+    {
+      "name": "frozen:audits/prereg/PR-0003_cpu_gpu_backend_pilot.md",
+      "passed": true
+    },
+    {
+      "name": "frozen:LICENSE",
+      "passed": true
+    },
+    {
+      "name": "frozen:LICENSE-CC-BY-4.0.txt",
+      "passed": true
+    },
+    {
+      "name": "frozen:numerics/colab/probe_cpu_gpu_check_one_cell.py",
+      "passed": true
+    },
+    {
+      "name": "frozen:numerics/colab/probe_cpu_gpu_check_one_cell.ipynb",
+      "passed": true
+    },
+    {
+      "name": "raw_zip_unchanged",
+      "passed": true
+    },
+    {
+      "name": "ledger_prefix",
+      "passed": true
+    },
+    {
+      "name": "corpus_prefix",
+      "passed": true
+    },
+    {
+      "name": "timing_table:B_S",
+      "passed": true
+    },
+    {
+      "name": "timing_table:B_M",
+      "passed": true
+    },
+    {
+      "name": "timing_table:B_L",
+      "passed": true
+    },
+    {
+      "name": "timing_table:B_R10",
+      "passed": true
+    },
+    {
+      "name": "timing_table:K2_L",
+      "passed": true
+    },
+    {
+      "name": "timing_table:K200_L",
+      "passed": true
+    },
+    {
+      "name": "timing_table:PRIVATE_M",
+      "passed": true
+    },
+    {
+      "name": "timing_table:DELAY_PLUS",
+      "passed": true
+    },
+    {
+      "name": "local_links",
+      "passed": true
+    },
+    {
+      "name": "asset_counts",
+      "passed": true
+    }
+  ],
+  "gpu_executed_locally": false,
+  "links": 168,
+  "new_simulation": false,
+  "protected_assets": 124,
+  "sources": {
+    "numerics/analysis/pr0003_cpu_gpu_23538c370862_v1/AUDIT_REPORT_JA.md": "aab4e411c8275de9077096753fd27722aded61c5df9746c285e090a4af1c7721",
+    "numerics/analysis/pr0003_cpu_gpu_23538c370862_v1/audit_results.json": "8571fcdae581c22467e5631eeac1356988b7a8143c397aa9db27a5207e75df7d",
+    "numerics/tools/audit_pr0003_result.py": "2fa092db0fd928478e1e047c5e2532f2a0f1d877254766512eaa56ef05df1bb9"
+  },
+  "status": "PASS"
+}

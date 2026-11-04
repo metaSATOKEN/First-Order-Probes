@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "payload_sha256": "c136eeba2cabe10588ac789afae6ac27435fdc9564b62f2dc725cae51da7d956",
+  "serialization": "direct",
+  "compact": false,
+  "original_source_sha256": "d6f342a72ccf3f87232a240d10da4037430f0d025a9332444d2e3c4526ed178f",
+  "cell_id": null,
+  "members": {
+    "covariance_consistency_colab_v1.py": {
+      "path": "sources/covariance_consistency_colab_v1.py",
+      "bytes": 52527,
+      "sha256": "0124e988e1a2927afd034ed5fbcc827f4eccb4653583c22d9c2066484836678c"
+    },
+    "LICENSE": {
+      "path": "metadata/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "LICENSE-CC-BY-4.0.txt": {
+      "path": "metadata/LICENSE-CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    }
+  }
+}

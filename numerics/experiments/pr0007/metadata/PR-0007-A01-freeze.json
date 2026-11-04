@@ -1,0 +1,78 @@
+{
+  "status": "PASS_DESIGN_AMENDMENT",
+  "date": "2026-10-18",
+  "amendment": {
+    "path": "audits/prereg/PR-0007_A01_five_replicates_per_zip.md",
+    "sha256": "8c87378bb87920c985f4e94477799cf382a2519c7db3678a85a63ebde05e4a7f"
+  },
+  "base_card": {
+    "path": "audits/prereg/PR-0007_lfdc_calibration_contamination.md",
+    "sha256": "8309b2143879fef69a5020fc2945fb2159786f3de7c1da62b787b6907d98be37"
+  },
+  "shard_replicates": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    [
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    [
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  ],
+  "normal_complete_data_zips": 5,
+  "final_index_zips": 1,
+  "partial_or_size_split_can_add_zips": true,
+  "storage": {
+    "replicates_per_zip": 5,
+    "raw_bytes": 296746560,
+    "packed_bytes": 92400000,
+    "major_array_bytes": 389146560,
+    "target_strict_bytes": 600000000,
+    "prepack_max_bytes": 800000000,
+    "complete_zip_strict_bytes": 1000000000,
+    "measured_archive_size": false
+  },
+  "scientific_conditions": "unchanged; inherit base card",
+  "ledger_preserved_prefix": {
+    "bytes": 174747,
+    "sha256": "47d6c37c44128d13ad88e26ac8c08687f786cee0eb736c3aa2fbfc2d01dea0b5"
+  },
+  "existing_local_links_checked_excluding_this_manifest": 244,
+  "implementation_created": false,
+  "scientific_execution": false,
+  "archive_or_browser_test": false,
+  "preserved_artifacts": {
+    "audits/prereg/PR-0007_lfdc_calibration_contamination.md": "8309b2143879fef69a5020fc2945fb2159786f3de7c1da62b787b6907d98be37",
+    "audits/verification/2026-10-18_PR-0007_design_freeze.md": "702a83d75923f1a7efd133bbfe991a7f05d1c4fe394e185455ed255521e81c7d",
+    "audits/verification/2026-10-18_PR-0007_design_freeze.json": "61efd8635dd0b66af16bb16d711a4e9fbe68bfe565e12777b6d8a585723a75cb",
+    "HANDOFF/2026-10-18_session-02.md": "0d514c2a8f828e396a2d353f43c93c40e21aa4af41823015d17f705ba8217e5b",
+    "audits/fp_corpus.md": "29502e364442b227c180130578736f2656f6ad6d9e2d820583ce40836293c6f7"
+  }
+}

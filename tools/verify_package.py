@@ -4,15 +4,35 @@
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import ast
+import base64
 import hashlib
 import json
 import re
 import sys
+import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
 LINK = re.compile(r'!?\[[^\]]*\]\(([^)]+)\)')
 EXCLUDED_DIRS = {'.venv', 'venv', '__pycache__', '.git', '.pytest_cache', '.lake'}
 MANUSCRIPT_PDF = 'Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf'
+ENCODED_TOKEN = re.compile(r'(?<![A-Za-z0-9+/])[A-Za-z0-9+/]{512,}={0,2}(?![A-Za-z0-9+/])')
+
+
+def compressed_code_bundles(text):
+    """Detect the historical source-capsule format; license text is allowed."""
+    count = 0
+    for token in ENCODED_TOKEN.findall(text):
+        try:
+            value = json.loads(zlib.decompress(base64.b64decode(token, validate=True)))
+        except (ValueError, zlib.error, UnicodeDecodeError):
+            continue
+        if isinstance(value, dict):
+            sources = value.get('sources', value)
+            if isinstance(sources, dict) and any(
+                    isinstance(name, str) and isinstance(body, str)
+                    and name.endswith(('.py', '.lean')) for name, body in sources.items()):
+                count += 1
+    return count
 
 
 def sha(path):
@@ -43,6 +63,8 @@ def main():
         name = str(p.relative_to(ROOT))
         if p.is_symlink():
             errors.append({'symlink': name})
+        if p.suffix in {'.py', '.ipynb'} and re.search(r'one[_-]?cell', p.name, re.I):
+            errors.append({'retired_onecell_artifact': name})
         if p.stat().st_size >= 100 * 1024**2:
             errors.append({'file_too_large': name})
         if (p.suffix.lower() in {'.zip', '.pyc'}
@@ -54,6 +76,8 @@ def main():
             text_files += 1
             if '/' + 'Users/' in text:
                 errors.append({'machine_local_home_path': name})
+            if compressed_code_bundles(text):
+                errors.append({'compressed_scientific_code_bundle': name})
         if p.suffix == '.md':
             text = p.read_text()
             # Fenced examples are not rendered links.

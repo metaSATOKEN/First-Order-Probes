@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "payload_sha256": "14c40f61942ee407ef417154b7cb0b8cfbc054788d2eae9b75a176b38b394c07",
+  "serialization": "direct",
+  "compact": false,
+  "original_source_sha256": "3ea56f86475dbdc9b623edf29e35942116b009ac197d37698927d670a2bc2aaa",
+  "cell_id": null,
+  "members": {
+    "FirstOrderProbe.lean": {
+      "path": "sources/FirstOrderProbe.lean",
+      "bytes": 7311,
+      "sha256": "6c88044eb777d6ac07cf8d467fc421ecec6fb30de6a88b80a2dc2d8432dd2e23"
+    },
+    "README.md": {
+      "path": "metadata/README.md.txt",
+      "bytes": 5198,
+      "sha256": "65f9ab663f18b13e8733f7eacccfe397ef229c1a0d0cc9e2b7fb66e065a52408"
+    },
+    "lakefile.toml": {
+      "path": "metadata/lakefile.toml",
+      "bytes": 261,
+      "sha256": "607fa4280ab73190679a7be6e33fd3ada0d366a111a45e02f8d1d365bd06ccae"
+    },
+    "lean-toolchain": {
+      "path": "metadata/lean-toolchain",
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "card": "audits/prereg/PR-0004_linear_fusion_source_shift_gpu.md",
+  "card_sha256": "740001976854b195ee831bec0026c7725feb9438372c736792289d9b0963d3a9",
+  "frozen_at_utc": "2026-10-17T08:06:56.698048+00:00",
+  "stage": "before new PR-0004 implementation",
+  "approved": ["GPU backend", "50-replicate design finalization", "implementation", "small local checks"],
+  "not_performed": ["main simulation", "GPU execution by agent", "manuscript revision"],
+  "records": 33499400,
+  "tasks": 3700,
+  "chunks": 10400,
+  "generation_proxy_seconds": 6087.566097547542,
+  "planning_hours": [2.5, 4],
+  "worker_active_limit_seconds": 21600,
+  "previous_ledger_bytes": 69982,
+  "previous_ledger_sha256": "b08151356974a89ab1dfc6cc1831f513a56f4f7d1d031e1306234279b0fa4e74",
+  "equipment_present": 5,
+  "handoff_anchors_verified": 8,
+  "protected_assets_verified": 124,
+  "pilot_sources_and_artifacts_verified": 8
+}

@@ -1,0 +1,306 @@
+{
+  "date": "2026-11-04",
+  "base_commit": "bf4e81e0fad57326f3e75f57be65bd28d55bd007",
+  "bundles": [
+    {
+      "original": "lean/colab/first_order_probe_lean_one_cell.py",
+      "directory": "lean/experiments/algebra",
+      "payload_sha256": "14c40f61942ee407ef417154b7cb0b8cfbc054788d2eae9b75a176b38b394c07",
+      "members": 4,
+      "cell_id": null
+    },
+    {
+      "original": "numerics/colab/covariance_consistency_one_cell.py",
+      "directory": "numerics/experiments/covariance",
+      "payload_sha256": "c136eeba2cabe10588ac789afae6ac27435fdc9564b62f2dc725cae51da7d956",
+      "members": 3,
+      "cell_id": null
+    },
+    {
+      "original": "numerics/colab/pr0002_confirmation_one_cell.py",
+      "directory": "numerics/experiments/pr0002_pilot",
+      "payload_sha256": "3f8eaf10ccbc0a961d32c6173ac39173ced377e9a128fdc90f9b1445e24a90bb",
+      "members": 6,
+      "cell_id": "568b5189bb5d58d5b1f4ba6f7497ebf234783d01e3bd3ebc90c543ca7ebcf80c"
+    },
+    {
+      "original": "numerics/colab/pr0002_main_one_cell.py",
+      "directory": "numerics/experiments/pr0002_main",
+      "payload_sha256": "3f8eaf10ccbc0a961d32c6173ac39173ced377e9a128fdc90f9b1445e24a90bb",
+      "members": 6,
+      "cell_id": "568b5189bb5d58d5b1f4ba6f7497ebf234783d01e3bd3ebc90c543ca7ebcf80c"
+    },
+    {
+      "original": "numerics/colab/probe_cpu_gpu_check_one_cell.py",
+      "directory": "numerics/experiments/backend_check",
+      "payload_sha256": "bb41051d0de3710bd8a4f6a85a53b2388a6d3456a9ddc7d8901ebf2b4c3a442b",
+      "members": 6,
+      "cell_id": "8178b6de2ae1584b"
+    },
+    {
+      "original": "numerics/colab/pr0004_gpu_main_one_cell.py",
+      "directory": "numerics/experiments/pr0004",
+      "payload_sha256": "e79e19c73a3ae0c83d5a6434d2f7f60d78074c792a17a608590b47a31a85eb56",
+      "members": 13,
+      "cell_id": "0e4b2ef31e02eacd"
+    },
+    {
+      "original": "numerics/colab/pr0006_lfdc_budget_b25_one_cell.py",
+      "directory": "numerics/experiments/pr0006",
+      "payload_sha256": "6704f9d502fd5bb0f1978303b23f7c8c7cdcca097a5734465ca37bb1901f9c18",
+      "members": 14,
+      "cell_id": "f98f8d0167e97f69"
+    },
+    {
+      "original": "numerics/colab/pr0007_lfdc_calibration_a25_one_cell.py",
+      "directory": "numerics/experiments/pr0007",
+      "payload_sha256": "eaa2dd2e093c16e05ae1623d5aec13c76002fb643c211fd73243eddb56dbcd17",
+      "members": 22,
+      "cell_id": "af385f6b95739a08"
+    },
+    {
+      "original": "numerics/colab/pr0009_two_axis_a50_one_cell.py",
+      "directory": "numerics/experiments/pr0009",
+      "payload_sha256": "92810c7853eab2d733bf49c9f3c3e753c6c42f65990e8b52dac4a8617c56d16f",
+      "members": 26,
+      "cell_id": "51187a0316767e6a"
+    },
+    {
+      "original": "numerics/colab/pr0012_mixture_recovery_b50_fix1_one_cell.py",
+      "directory": "numerics/experiments/pr0012_fix1",
+      "existing_readable": true,
+      "payload_sha256": "4045cf2857875c9d0978a19961e3daea38a382303418f2267572023eb1c3789f",
+      "cell_id": "d41a11833edd6d21"
+    }
+  ],
+  "omitted_distribution_files": [
+    {
+      "path": "lean/colab/first_order_probe_lean_one_cell.ipynb",
+      "sha256": "8dc0462c8b13c0fcfb0da0d2fa48331677c9c4bf9351d3c220d87a5379b0f0b9",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "lean/colab/first_order_probe_lean_one_cell.py",
+      "sha256": "3ea56f86475dbdc9b623edf29e35942116b009ac197d37698927d670a2bc2aaa",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "lean/tools/build_colab_bundle.py",
+      "sha256": "5b72d057ce3283dcbd822d9dee5d561eaa6612abbd63b5495292c33a327e159d",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "lean/tools/build_supplement.py",
+      "sha256": "969a05c689e57446b9368c94581d8069363949af0932be59c27cccaa2d547ac3",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "lean/tools/colab_runner.py",
+      "sha256": "15fe89809acb718bb16cc3ca279b93230105cb2d0745caf16f0f55d770e38e79",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/covariance_consistency_one_cell.ipynb",
+      "sha256": "4e9cc382484081e91089ebc6779d20b7f8b3c50c73e15e9d3b979e5a835bd057",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/covariance_consistency_one_cell.py",
+      "sha256": "d6f342a72ccf3f87232a240d10da4037430f0d025a9332444d2e3c4526ed178f",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0002_confirmation_one_cell.ipynb",
+      "sha256": "d1e84f5404872820f4740ffebc13861cd0e937d65c250dbd86b744a5751340bf",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0002_confirmation_one_cell.py",
+      "sha256": "be2891ea5b241bd00d5919415293acde47a86d5c24808b768753b4db76129cfb",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0002_main_one_cell.ipynb",
+      "sha256": "4367baee24b732f93bfa735d2ab4f20fb3150a99fceaf0c70e1c88ca3b01c4f9",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0002_main_one_cell.py",
+      "sha256": "6e9de869e8a34478f7dec47303ae95849357e9d9517bdd2153b17383624e68be",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0004_gpu_main_one_cell.ipynb",
+      "sha256": "41449e7de2dfc1f5e21a6940c9a063785b9b4bc844f65ff82a32f1ec9e4cc36f",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0004_gpu_main_one_cell.py",
+      "sha256": "ef3263367e6fdf379ec7f6d05900a7a11ebfc303973ca909df7303213a472677",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0006_lfdc_budget_b25_one_cell.ipynb",
+      "sha256": "372f80fdacf10351e2769103c5d6acedd920f308cd3edf77ff45c6e5cde2d06a",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0006_lfdc_budget_b25_one_cell.py",
+      "sha256": "b9074599301da0e335778693eee882ca6f118f221bdd28bef6c1506804c4f955",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0007_lfdc_calibration_a25_one_cell.ipynb",
+      "sha256": "913288106efe19e4bc81a8a18dc1a0a3b8c50307649b4983fce8878eeb6ffe89",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0007_lfdc_calibration_a25_one_cell.py",
+      "sha256": "e7402119132eeb9746eb66602cdf4eb8f1b178ed890cfb1e896d001e7ebe5274",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0009_two_axis_a50_one_cell.ipynb",
+      "sha256": "27f18cb5529a0a5b0d0b5e1839d6a0539da433406a29bc983c8e4813e1b27eac",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0009_two_axis_a50_one_cell.py",
+      "sha256": "99012a20f9786968b8b56e43826cac975eaef0183ce7343a145934fb6873daec",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0012_mixture_recovery_b50_fix1_one_cell.ipynb",
+      "sha256": "4c33f1a24bd034b2d469870e7376d027c08b038214022a6f9d23bed9ff55bd2d",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/pr0012_mixture_recovery_b50_fix1_one_cell.py",
+      "sha256": "8006c9a7e5941070fa99fc23ef08ca5fa6c11175f3c4c0efa01b8c2e2c5cb326",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/probe_cpu_gpu_check_one_cell.ipynb",
+      "sha256": "9108fb00ce2badae38e2118f346865be50804ccb5a856ef68e9c056bc5ac9c25",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/colab/probe_cpu_gpu_check_one_cell.py",
+      "sha256": "20a5ebdb8a04e493e1aff196272483586b0fbe03ad76a3e86d28dc81bdb613c1",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_covariance_colab.py",
+      "sha256": "b239acf609b31936aab3e0748efb32ee73eb46e2c25f551953d158a83dcbfe98",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_pr0002_colab.py",
+      "sha256": "b253d7e187c29a10606259460727b56487bab51b9df54f9a6b99501590962ed7",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_pr0002_main_colab.py",
+      "sha256": "0564254d2210a88468bcc9049677e0fca969e34073ab61f8581608336cc3c121",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_pr0004_colab.py",
+      "sha256": "1a2b3cbb6f539004f9350024b0dbb35eb8e1daa0e3c2f0e5dbf2a7780e7b9155",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_pr0006_colab.py",
+      "sha256": "69467b489e5d02a5cd7a433c33256c00e5175b6759e5c904617dbd6148b17d31",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_pr0007_colab.py",
+      "sha256": "1d63a7621c5604bc8f41f764c52378c2ebb05bbbcde20bf6efdf6764badc9c55",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_pr0009_colab.py",
+      "sha256": "3a2322c4e6dc1603eadfab482c3048581a0b6e1ccc627dc332fbda85cc18f394",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_pr0012_colab.py",
+      "sha256": "49593fed95b01f96ecf3fe43a76bd72b694400381c04e5ff13059c1d51f54d7b",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_pr0012_fix1_colab.py",
+      "sha256": "fa482061ae47b40420a96d5c7ea5656e36dae389cadc2e2699742b4b97363036",
+      "reason": "retired self-contained distribution format"
+    },
+    {
+      "path": "numerics/tools/build_probe_backend_check.py",
+      "sha256": "27400396d8be109dd0aeb902467d5d70245a938ac7debc26fe166b65f2153936",
+      "reason": "retired self-contained distribution format"
+    }
+  ],
+  "archival_test_sources": [
+    {
+      "old": "lean/tests/test_colab_bundle.py",
+      "new": "lean/tests/test_colab_bundle.py.txt",
+      "sha256": "c070962e60ef1490eec3e8511db91d48de18d852dcc98043bbbb1adfee274b5e"
+    },
+    {
+      "old": "numerics/tests/test_covariance_suite.py",
+      "new": "numerics/tests/test_covariance_suite.py.txt",
+      "sha256": "22846e2100cdea6fce4e364df188bc11f264c20e36956c1642ef201e5699a89c"
+    },
+    {
+      "old": "numerics/tests/test_probe_backend_check.py",
+      "new": "numerics/tests/test_probe_backend_check.py.txt",
+      "sha256": "5e70a0f2bd6fce5572d7717426122e0bdab0ef8e970455eb95528671636af813"
+    },
+    {
+      "old": "numerics/tools/test_pr0006.py",
+      "new": "numerics/tools/test_pr0006.py.txt",
+      "sha256": "2fca97b65372db1ad320b5ed50a8ef6df8497fc068fc5d46f1bbc9b9b1adb123"
+    },
+    {
+      "old": "numerics/tools/test_pr0007.py",
+      "new": "numerics/tools/test_pr0007.py.txt",
+      "sha256": "fdd8fa8e7bf8a30939bd0df1189216d5b220bc38ecfdcf5598cc82f7880156f7"
+    },
+    {
+      "old": "numerics/tools/test_pr0009.py",
+      "new": "numerics/tools/test_pr0009.py.txt",
+      "sha256": "0d4fecda8e731726321e6a7dc574d4f44601e373c1c878dd85f0c9493fc04e38"
+    },
+    {
+      "old": "numerics/tools/test_pr0012.py",
+      "new": "numerics/tools/test_pr0012.py.txt",
+      "sha256": "08811ff16a845df94071cc75887aa3976094caf9205f152446a68b3510b60cda"
+    },
+    {
+      "old": "numerics/tools/test_pr0012_fix1.py",
+      "new": "numerics/tools/test_pr0012_fix1.py.txt",
+      "sha256": "4b4057fe25e0c1077f096a69b574177ea33e8ab0f353fcbfc6bb3f726646a5a7"
+    },
+    {
+      "old": "numerics/tools/verify_pr0002.py",
+      "new": "numerics/tools/verify_pr0002.py.txt",
+      "sha256": "e45ffc6eb11011a3b391fc3129829ea29c0555aacb75c8e9dd27df6a77f96a9d"
+    },
+    {
+      "old": "numerics/tools/verify_pr0002_main.py",
+      "new": "numerics/tools/verify_pr0002_main.py.txt",
+      "sha256": "716d907847958b817c741f00da1b333f9efc907c890d31bd290037db873f5110"
+    },
+    {
+      "old": "numerics/tools/verify_pr0004_delivery.py",
+      "new": "numerics/tools/verify_pr0004_delivery.py.txt",
+      "sha256": "6a6a627a12227e286f0d18224438445167beb660058ae7151aa54dda30368851"
+    },
+    {
+      "old": "numerics/tools/verify_pr0007_delivery.py",
+      "new": "numerics/tools/verify_pr0007_delivery.py.txt",
+      "sha256": "52fab8fc9a0306d3691f3c0380b30a52473bee117f74b2a85e160de9d536d05e"
+    }
+  ],
+  "scientific_run_performed": false
+}

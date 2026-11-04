@@ -1,31 +1,12 @@
-# PR-0012 FIX1：起動点検を修正したColabセル
+# 可読ソース版の実行案内：pr0012_fix1
 
-2026-10-18。cell `d41a11833edd6d21`。科学条件は元[PR-0012](../audits/prereg/PR-0012_mixture_recovery_confirmation.md)のまま。[技術追補A01](../audits/prereg/PR-0012_A01_preflight_boundary_fix.md)に修正範囲を記録した。
+公開用の入口は[実験フォルダ](experiments/pr0012_fix1/README.md)、[検査付きPython](experiments/pr0012_fix1/run_colab.py)、[Notebook](experiments/pr0012_fix1/run_colab.ipynb)です。ソースを圧縮したOnecellは配布しません。
 
-## 今回の再RUN
+1. リポジトリ全体をColabのランタイムへ展開し、実験フォルダのREADMEと設定を読む。
+2. Notebookの`EXPERIMENT_DIR`を指定して検査セルを実行する。この段階では実験もインストールも開始しない。
+3. 元のCPU/GPU条件を確認し、実行するときだけ`START_FULL_RUN = True`へ変更する。Driveは接続しない。
+4. 復元設定と自動DLは実験フォルダの案内に従う。過去の安全停止時間・容量上限・環境条件は実験ごとに異なる。ブラウザの転送要求と手元の保存完了は別に確認する。
 
-1. GPUランタイムで、[修正版Python](colab/pr0012_mixture_recovery_b50_fix1_one_cell.py)の**全文を1セルにコピーしてRUN**する。または[修正版Notebook](colab/pr0012_mixture_recovery_b50_fix1_one_cell.ipynb)を開く。
-2. `RESTORE_ZIPS = ""`、`AUTO_DOWNLOAD = True`のままでよい。**今のランタイムを切る必要も、失敗ZIPを選択する必要もない。** 旧セルは再RUNしない。
-3. 起動点検が通れば、そのまま50反復へ進む。`PASS_WITH_BOUNDARY_AMBIGUITY`は、数値許容幅内の境界差を別分類して記録したという意味で、エラーではない。境界差の件数はGPU・数値環境に依存する。
-4. 通常は5反復ごとの非累積SHARD 10個とCOMPLETE_INDEXが自動DLされる。各ZIPは十進1 GB未満。複数ダウンロードを許可し、全ファイルの手元到着までランタイムを切らない。15分ごとの途中PARTIAL／容量分割partが加わることがある。
+科学コード・条件・元checkpoint識別子は保持しています。今回の変更では実際のColab本番・ブラウザDL・ランタイム消失を再試験していません。
 
-失敗run `606fc449db00`は**科学データ0件・完了反復0**で、起動点検中の停止だった。従って科学反復のやり直し損失はない。修正版は同じ科学seed・条件で反復0から開始し、旧runへソースを継ぎ足さない。新しい保存先は`/content/mixture_recovery_pr0012_v1_preflightfix1`。旧フォルダと手元の失敗ZIPはそのまま保持する。
-
-所要時間の計画は引き続き通常2〜3時間、余裕枠4時間。今回の失敗ZIPには本番の計時はないため、この予測を実測済みとは扱わない。Drive接続なし、45分での計画停止なし。
-
-## 修正版で開始した後の再開
-
-- ランタイムが生きている：**同じ修正版セル**をそのままRUN。保存状態を確認して自動再開する。
-- ランタイムが消えた：修正版の`RESTORE_ZIPS = "UPLOAD"`で、**修正版runのZIP**を選ぶ。途中反復の全PARTIAL依存を含める。
-- 返却済み旧失敗ZIPは修正版の復元対象ではない。`/content`に置かれていた場合、照合済みのその1ファイルだけを自動検出時にスキップし保持する。明示復元・未知の別版ZIP・破損ZIPは拒否し、黙って新規RUNへ切り替えない。
-- 完了後の再RUNは検証NOOP。計算・再梱包を行わず、未受領ダウンロードだけ再キューする。保存要求とPCへの保存完了は別に確認する。
-
-## 何を直したか
-
-CPU/GPUのraw統計量は最大差8.88e-16で元の許容幅内だったが、技術点検でCPU参照記録自身を評価したため、LF0の順位境界にある2件が丸め差で反転した。元点検はそれも完全bit一致を要求して止まった。
-
-FIX1は元の数値許容幅を固定LF射影へ伝播し、境界付近の差だけを明記する。境界から離れた判定差、raw数値誤差、非有限値、rankと半平面の実装不一致は停止する。**科学用のstrict比較、閾値、警報予算、校正／評価分離にはepsilonを加えていない。** 科学処理の関数は旧版と不変。
-
-保存済み1,088件の再生と人工fixtureを含む40技術試験はPASS。修正版での新しい実GPU実行・実ブラウザ転送はまだで、次のColab RUNが実機確認になる。[原因・修正・点検記録](../docs/OMITTED_MATERIALS.md#item-d32a1ff8b579)。
-
-旧[配布手順](../docs/OMITTED_MATERIALS.md#item-b09be0927560)と旧セルは履歴として保持し、今回はこちらのFIX1を使用する。論文・科学カード本体は変更していない。
+当時の運転案内は[履歴テキスト](PR0012_MIXTURE_RECOVERY_FIX1_COLAB_JA.md.txt)として保持しています。履歴中のOnecell取得先・全文貼付指示は現在の公開入口ではありません。科学的な条件や失敗・修正経緯の参照用です。

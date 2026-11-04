@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "payload_sha256": "3f8eaf10ccbc0a961d32c6173ac39173ced377e9a128fdc90f9b1445e24a90bb",
+  "serialization": "direct",
+  "compact": true,
+  "original_source_sha256": "be2891ea5b241bd00d5919415293acde47a86d5c24808b768753b4db76129cfb",
+  "cell_id": "568b5189bb5d58d5b1f4ba6f7497ebf234783d01e3bd3ebc90c543ca7ebcf80c",
+  "members": {
+    "LICENSE": {
+      "path": "metadata/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "LICENSE-CC-BY-4.0.txt": {
+      "path": "metadata/LICENSE-CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    "PR-0002.md": {
+      "path": "metadata/PR-0002.md.txt",
+      "bytes": 24193,
+      "sha256": "ac2725d797cb6cdfe85bc0a3f389fa3dbf2bd8a9cd303acafe95a63a381e3e07"
+    },
+    "covariance_consistency_colab_v1.py": {
+      "path": "sources/covariance_consistency_colab_v1.py",
+      "bytes": 52527,
+      "sha256": "0124e988e1a2927afd034ed5fbcc827f4eccb4653583c22d9c2066484836678c"
+    },
+    "fusion_confirmation_pr0002_v1.py": {
+      "path": "sources/fusion_confirmation_pr0002_v1.py",
+      "bytes": 34712,
+      "sha256": "0cd62bcd077905cb14a9c22fc9b2391b2ee5b193d2c845886b30a944528a0706"
+    },
+    "pr0002_checks.py": {
+      "path": "sources/pr0002_checks.py",
+      "bytes": 4862,
+      "sha256": "113b4d6a73080faa229ebf501fd2a489c18541fc4524678ff8a6d0c052b25212"
+    }
+  }
+}
