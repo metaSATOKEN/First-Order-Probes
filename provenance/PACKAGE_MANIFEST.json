@@ -1,26 +1,26 @@
 {
   "format_version": 2,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "files": {
     ".gitignore": {
       "bytes": 477,
       "sha256": "9e84e7e5d801f702dadf9668cc9028fc51421d6edd28a96805718c6a1e686f67"
     },
     "CITATION.cff": {
-      "bytes": 845,
-      "sha256": "875ae83c04af3273beb6d8b0f841f26f6216d99bc0f82e8404e2e9963ed47c77"
+      "bytes": 937,
+      "sha256": "f2346329db001d05f9fe4973555e04eb7d20aaa5c4b368ddc4ebac513593c2ba"
     },
     "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.md": {
       "bytes": 83880,
       "sha256": "78f4383d8a307a03d40a34e736af2541ff6f2ed45f7c71f796cde371cfa9a5c5"
     },
     "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.pdf": {
-      "bytes": 1385573,
-      "sha256": "d925e7c449a066547b594f6cadbd2ea993bfd8033f9aa78ad5acb0245d72db45"
+      "bytes": 1385694,
+      "sha256": "2d8ab716ea04e66c94a7c9b906ca269507cb325498a2ce7af9b9c4480dd8262d"
     },
     "Calibration_Update_Audits_for_First_Order_Probes_EN_v1.0.tex": {
-      "bytes": 100652,
-      "sha256": "43d6db6b75317748ceba65f185c696e434fe69d998b3977bde695e5ea5988320"
+      "bytes": 100758,
+      "sha256": "15156766ab06163ea4ec5de7e6625377356d2df5c25212b5ea9744c37a06960d"
     },
     "Calibration_Update_Audits_for_First_Order_Probes_JA_v1.0.md": {
       "bytes": 80660,
@@ -39,8 +39,8 @@
       "sha256": "e877f29718d0ac21e23337a10c966c8306ca01e56f36624f7cb719d09b885537"
     },
     "README.md": {
-      "bytes": 25260,
-      "sha256": "7c05f732b6ce4231e1ffbbc78c90fb043a7b38e623a1b48b18aa82a3b5c8107f"
+      "bytes": 25418,
+      "sha256": "ae12e8c8f41464b166a4398bac9aa704d5fc6073ebe17b070c1da14c178284aa"
     },
     "audits/prereg/PR-0002_fusion_independent_confirmation.md": {
       "bytes": 24406,
@@ -95,8 +95,8 @@
       "sha256": "b770d772941c1a55ab3cf670996784cabda30b50dbc1f5016e1c8025bbc57ee9"
     },
     "docs/DATA_AVAILABILITY.md": {
-      "bytes": 5070,
-      "sha256": "514f45cd05a953f2606dfc7611c251da3504f46cf9b7d39a846420eaa9c1b3f2"
+      "bytes": 5180,
+      "sha256": "f58ea2d6cd2bf6bc40c89c7c3413c9d7d01c71cb5f94bacebcf14f68679909ee"
     },
     "docs/OMITTED_MATERIALS.md": {
       "bytes": 16234,
@@ -5579,8 +5579,8 @@
       "sha256": "2a465e5e97216797e3856ccff6b1ec8c3b2a86627096797047e1bfb78a941f51"
     },
     "provenance/source_manifest.json": {
-      "bytes": 604046,
-      "sha256": "65c5d943fed4f2a374ec03b106a10037399d0fa7c3779f895c357d247185e8ae"
+      "bytes": 604682,
+      "sha256": "60aa0a158f39e7ec8110a6b642f29617842e5f695ea309228401a0d70a5bf8fa"
     },
     "requirements.txt": {
       "bytes": 215,

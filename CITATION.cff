@@ -16,4 +16,5 @@ preferred-citation:
       given-names: Kentaro
   year: 2026
   version: "1.0"
-  notes: "Unpublished manuscript, English and Japanese V1.0, 30 October 2026. No DOI or journal acceptance is assigned."
+  doi: "10.5281/zenodo.23972640"
+  notes: "English manuscript V1.0, 30 October 2026; DOI reserved for the Zenodo preprint. The DOI is registered on publication. Japanese V1.0 is also available in the repository."

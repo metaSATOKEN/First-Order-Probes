@@ -228,7 +228,7 @@ If you use this work, please cite the manuscript and identify the manuscript/cod
 
 > Sato, Kentaro. *Readout and Calibration-Update Audits for First-Order Probes: False Alarms, Detection Sensitivity, and Decision Coverage under Source Shifts and Calibration Contamination*. Unpublished manuscript, V1.0 (English and Japanese), 30 October 2026.
 
-Machine-readable metadata are provided in [CITATION.cff](CITATION.cff). Add a persistent archive identifier to your citation when one becomes available.
+English manuscript V1.0: [10.5281/zenodo.23972640](https://doi.org/10.5281/zenodo.23972640). This DOI is reserved for the Zenodo preprint and becomes active upon publication. It identifies the manuscript, not the software or raw archives. Machine-readable metadata are provided in [CITATION.cff](CITATION.cff).
 
 - Original manuscripts, explanatory documents, and figures: [CC BY 4.0](LICENSE-CC-BY-4.0.txt).
 - Original software, including Python, notebook code, and Lean sources: [Apache License 2.0](LICENSE).

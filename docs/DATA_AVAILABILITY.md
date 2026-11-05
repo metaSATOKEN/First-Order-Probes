@@ -42,4 +42,4 @@ The larger working archive also holds earlier manuscripts, older analysis versio
 
 ## Access and citation
 
-Access follows repository visibility. **While the repository is private, authorized GitHub access is required** to view or download its Release assets. No DOI has been assigned. Cite the manuscript, Release `v1.0`, and the experiment/run identifiers used. Original numerical data and explanatory documents are under [CC BY 4.0](../LICENSE-CC-BY-4.0.txt) to the extent copyright applies; original code is under [Apache-2.0](../LICENSE), with third-party notices preserved.
+Access follows repository visibility. **While the repository is private, authorized GitHub access is required** to view or download its Release assets. The raw archives have no separate DOI. Cite the English manuscript (reserved Zenodo DOI [10.5281/zenodo.23972640](https://doi.org/10.5281/zenodo.23972640)), Release `v1.0`, and the experiment/run identifiers used. Original numerical data and explanatory documents are under [CC BY 4.0](../LICENSE-CC-BY-4.0.txt) to the extent copyright applies; original code is under [Apache-2.0](../LICENSE), with third-party notices preserved.
